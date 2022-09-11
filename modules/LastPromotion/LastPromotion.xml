@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="customised-LastPromotion">
+  <metadata>
+    <displayName>Promotion Information</displayName>
+    <className>iHRIS_Module_LastPromotion</className>
+    <category>CUSTOMISED Modules</category>
+    <description>Records details of employee promotion information</description>
+    <creator>iHRIS Tanzania</creator>
+    <email>support@zalongwa.com</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.1.5</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="ihris-common">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="Person">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="customised-LastPromotion" path="/modules/customised-LastPromotion">
+		<status>overwrite:true</status>
+    <displayName>Promotion Information</displayName>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_lastpromotion" locale="en_US">
+        <version>4.1.0</version>
+        <value>Can view last promotion child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_lastpromotion" locale="en_US">
+        <version>4.1.0</version>
+        <value>Can edit last promotion child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_lastpromotion" values="many">
+        <version>4.1.0</version>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_lastpromotion" values="many">
+        <version>4.1.0</version>
+        <value>person_can_view_child_form_lastpromotion</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <version>4.1.0</version>
+        <value>person_can_view_child_form_lastpromotion</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <version>4.1.0</version>
+        <value>person_can_edit_child_form_lastpromotion</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <displayName>Forms</displayName>
+      <description>Information about the forms made available by Promotion Information</description>
+      <configurationGroup name="forms" path="/modules/forms/forms">
+        <displayName>Forms available to the form factory</displayName>
+        <status>advanced:true</status>
+        <!-- <status>required:true</status> -->
+        <status>required:false</status>
+        <configurationGroup name="lastpromotion" path="/modules/forms/forms/lastpromotion">
+          <displayName>Promotion Information</displayName>
+          <description>The Promotion Information Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>CUSTOMIZED_LastPromotion</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Promotion Information</value>
+          </configuration>
+        </configurationGroup>
+        <!-- lastpromotion -->
+        <configurationGroup name="person">
+          <configurationGroup name="meta">
+            <configuration name="child_forms" values="many">
+              <displayName>Child Forms</displayName>
+              <version>4.1.0</version>
+              <value>lastpromotion</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- End /modules/forms/forms-->
+      <configurationGroup name="formClasses" path="/modules/forms/formClasses">
+        <displayName>Form Class Configuration</displayName>
+        <configurationGroup name="CUSTOMISED_LastPromotion" path="/modules/forms/formClasses/CUSTOMIZED_LastPromotion">
+          <displayName>Configuration for the class 'CUSTOMIZED_LastPromotion'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>I2CE_Form</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <configurationGroup name="job">
+              <displayName>The field 'job'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.0</version>
+                <value>default:Promoted to: (Title)</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>false</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <displayName>Meta</displayName>
+                 <configurationGroup name="form">
+                  <displayName>Form</displayName>
+                  <configuration name="0">
+                    <displayName>0</displayName>
+                    <value>job</value>
+                  </configuration>
+                 </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+            <!--
+            <configurationGroup name="titlecode">
+              <displayName>The field 'titlecode'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.0</version>
+                <value>default:Title Code</value>
+              </configuration>
+            </configurationGroup>
+            -->
+	   <!-- persontoholdergrade-->
+            <configurationGroup name="persontoholdergrade">
+              <displayName>The field 'persontoholdergrade'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.0</version>
+                <value>default:Personal-to-Holder Grade</value>
+              </configuration>
+            </configurationGroup>
+	  <!-- -->
+	   <!-- salaryperannum-->
+            <configurationGroup name="salaryperannum">
+              <displayName>The field 'salaryperannum'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.0</version>
+                <value>default:Salary per Annum</value>
+              </configuration>
+            </configurationGroup>
+	  <!-- -->
+            <configurationGroup name="promotionletter">
+              <displayName>The field 'promotionletter'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DOCUMENT</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.0</version>
+                <value>default:Letter of Promotion</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="promotiondate">
+              <displayName>The field 'promotiondate'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>DATE_YMD</value>
+              </configuration>
+              <configuration name="default_eval">
+                <displayName>The default Value as an eval string</displayName>
+                <value>I2CE_Date::blank()</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <value>default:Date of Promotion</value>
+              </configuration>
+            </configurationGroup>
+	   <!-- Confirmed in appointment-->
+            <configurationGroup name="confirmedinappointment">
+              <displayName>The field 'confirmedinappointment'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>YESNO</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.0</version>
+                <value>default:Confirmed in Appointment</value>
+              </configuration>
+            </configurationGroup>
+	  <!-- -->
+          </configurationGroup>
+        </configurationGroup>
+        <!-- CUSTOMISED_LastPromotion -->
+      </configurationGroup>
+      <!-- End /modules/forms/formClasses -->
+    </configurationGroup>
+    <!-- End /modules/forms -->
+    <configurationGroup name="page" path="/I2CE/page">
+      <displayName>Pages</displayName>
+      <description>Information about various pages made available by the system</description>
+      <status>required:true</status>
+      <configurationGroup name="lastpromotion" path="/I2CE/page/lastpromotion">
+        <displayName>Promotion Information Page</displayName>
+        <description>The page 'lastpromotion' which has the action of: Add/Update Promotion Information</description>
+        
+        <configuration name="style" values="single">
+          <displayName>Page Style</displayName>
+          <description>The Page Style</description>
+          <value>ihris_common_page_form_parent_person</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>Add/Update Promotion Information</value>
+          </configuration>
+          <configuration name="page_form" values="single">
+            <displayName>Form</displayName>
+            <description>The form this page is using</description>
+            <status>required:true</status>
+            <value>lastpromotion</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- lastpromotion -->
+    </configurationGroup>
+    <!-- page -->
+  </configurationGroup>
+  <!-- Last Promotion -->
+</I2CEConfiguration>

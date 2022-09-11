@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ActingPosition">
+  <metadata>
+    <displayName>Acting Position Details</displayName>
+    <className>iHRIS_Module_ActingPosition</className>
+    <category>CUSTOMISED Modules</category>
+    <description>Records details of employee acting position information</description>
+    <creator>iHRIS Tanzania</creator>
+    <email>support@zalongwa.com</email>    
+    <version>4.1.6.1</version>
+    <requirement name="ihris-common">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="Person">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>    
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+ <configurationGroup name="ActingPosition" path="/modules/ActingPosition">
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+     <configuration name="person_can_view_child_form_actingPosition" locale="en_US">
+       <version>4.1.0</version>
+       <value>Can view acting position child form of a person</value>
+     </configuration>
+     <configuration name="person_can_edit_child_form_actingPosition" locale="en_US">
+       <version>4.1.0</version>
+       <value>Can edit acting position child forms of a person</value>
+     </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <configuration name="person_can_view_child_form_actingPosition" values="many">
+        <version>4.1.0</version>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_actingPosition" values="many">
+        <version>4.1.0</version>
+        <value>person_can_view_child_form_actingPosition</value>
+        <value>person_can_view</value>
+      </configuration>
+      <configuration name="person_can_view_child_forms" values="many">
+        <version>4.1.0</version>
+        <value>person_can_view_child_form_actingPosition</value>
+      </configuration>
+      <configuration name="person_can_edit_child_forms" values="many">
+        <version>4.1.0</version>
+        <value>person_can_edit_child_form_actingPosition</value>
+      </configuration>
+    </configurationGroup>
+	 
+  <configurationGroup name="ActingPosition_formClass" path="/modules/forms/formClasses/ActingPosition">
+    <displayName>Export</displayName>
+    <version>4.1.6</version>
+    <configuration name="extends">
+      <displayName>Extends</displayName>
+      <value>I2CE_Form</value>
+    </configuration>
+    <configurationGroup name="fields">
+      <displayName>Fields</displayName>
+      <configurationGroup name="actingGrade">
+        <displayName>Acting Grade</displayName>
+        <configuration name="formfield">
+          <displayName>Formfield</displayName>
+          <value>MAP</value>
+        </configuration>
+        <configurationGroup name="headers">
+          <displayName>Headers</displayName>
+          <configuration name="default">
+            <displayName>Default</displayName>
+            <value>Acting Grade</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="meta">
+         <configurationGroup name="form">
+          <displayName>Form</displayName>
+           <configuration name="0">
+             <displayName>0</displayName>
+             <value>jobgrade</value>
+           </configuration>
+         </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="substantiveGrade">
+        <displayName>Substantive Grade</displayName>
+        <configuration name="formfield">
+          <displayName>Formfield</displayName>
+          <value>MAP</value>
+        </configuration>
+        <configurationGroup name="headers">
+          <displayName>Headers</displayName>
+          <configuration name="default">
+            <displayName>Default</displayName>
+            <value>Substantive Grade</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="required">
+          <displayName>Required</displayName>
+          <value>0</value>
+        </configuration>
+        <configurationGroup name="meta">
+         <configurationGroup name="form">
+          <displayName>Form</displayName>
+           <configuration name="0">
+             <displayName>0</displayName>
+             <value>jobgrade</value>
+           </configuration>
+         </configurationGroup>
+        </configurationGroup>        
+      </configurationGroup>
+      <configurationGroup name="reason4Acting">
+        <displayName>Reasons for Acting</displayName>
+        <configuration name="formfield">
+          <displayName>Formfield</displayName>
+          <value>STRING_LINE</value>
+        </configuration>
+        <configurationGroup name="headers">
+          <displayName>Headers</displayName>
+          <configuration name="default">
+            <displayName>Default</displayName>
+            <value>Reasons for Acting</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="required">
+          <displayName>Required</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="duration">
+        <displayName>Duration</displayName>
+        <configuration name="formfield">
+          <displayName>Formfield</displayName>
+          <value>STRING_LINE</value>
+        </configuration>
+        <configurationGroup name="headers">
+          <displayName>Headers</displayName>
+          <configuration name="default">
+            <displayName>Default</displayName>
+            <value>Duration</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="required">
+          <displayName>Required</displayName>
+          <value>0</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+  <configurationGroup name="actingPosition" path="/modules/forms/forms/actingPosition">
+    <displayName>Acting Position</displayName>
+    <version>4.1.6</version>
+    <configuration name="class">
+      <displayName>Class</displayName>
+      <value>ActingPosition</value>
+    </configuration>
+    <configuration name="display">
+      <displayName>Display</displayName>
+      <value>Acting Position</value>
+    </configuration>
+  </configurationGroup>
+  <configurationGroup name="person" path="/modules/forms/forms/person">
+     <configurationGroup name="meta">
+        <configuration name="child_forms" values="many">
+            <displayName>Child Forms</displayName>
+            <version>4.1.1</version>
+            <value>actingPosition</value>
+        </configuration>
+     </configurationGroup>
+  </configurationGroup>  
+  <configurationGroup name="actingPosition" path="/I2CE/page/actingPosition">
+    <displayName>Acting Position</displayName>
+    <version>4.1.6</version>
+    <configurationGroup name="args">
+      <displayName>Args</displayName>
+      <configuration name="page_form">
+        <displayName>Page Form</displayName>
+        <value>actingPosition</value>
+      </configuration>
+      <configuration name="title">
+        <displayName>Title</displayName>
+        <value>Edit Acting Position</value>
+      </configuration>
+    </configurationGroup>
+    <configuration name="style">
+      <displayName>Style</displayName>
+      <value>ihris_manage_page_form_parent_person</value>
+    </configuration>
+  </configurationGroup>
+ </configurationGroup> 
+</I2CEConfiguration>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="academic-Qualifications">
+  <metadata>
+    <displayName>Academic Qualifications</displayName>
+    <description>Common name titles</description>
+    <category>LOCALISED Modules</category>
+    <version>4.1.1</version>
+    <creator>iHRIS Tanzania</creator>
+    <email>support@zalongwa.com</email>
+  </metadata>
+  <configurationGroup name="academic-Qualifications" path="/modules/forms/forms/degree">
+    <displayName>Export</displayName>
+    <version>4.1.0</version>
+    <configuration name="class">
+      <displayName>Class</displayName>
+      <value>I2CE_SimpleList</value>
+    </configuration>
+    <configuration name="display">
+      <displayName>Display</displayName>
+      <value>Academic Qualifications</value>
+    </configuration>
+    <configuration name="read_only">
+      <displayName>Read Only</displayName>
+      <value>0</value>
+    </configuration>
+    <configuration name="storage">
+      <displayName>Storage</displayName>
+      <value>magicdata</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

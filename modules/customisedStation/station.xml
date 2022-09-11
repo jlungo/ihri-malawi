@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="customised-station">
+  <metadata>
+    <displayName>Station</displayName>
+    <category>Customised Modules</category>
+    <description>Makes Station information available to the system</description>
+    <creator>UDSM-THRP</creator>
+    <email>support@zalongwa.com</email>
+    <version>4.1.6</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="station">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>300</priority>
+  </metadata>
+  <configurationGroup name="customised-station" path="/I2CE">
+    <displayName>Station</displayName>
+    <configurationGroup name="forms" path="/modules/forms">
+      <displayName>Forms</displayName>
+      <description>Information about the forms made available by cust-Station</description>
+      <configurationGroup name="forms">
+        <displayName>Forms available to the form factory</displayName>
+        <status>advanced:true</status>
+        <status>required:true</status>
+
+        <configurationGroup name="station">
+          <displayName>Station</displayName>
+          <description>The Station Form</description>
+          <version>3.2.4</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>customisedStation</value>
+          </configuration>
+          <configuration name="display" values="single">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Working Station</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Mechanism</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <displayName>Meta information aboout this form</displayName>
+            <configuration name="description" locale="en_US">
+              <displayName>A description of the form</displayName>
+              <value>This form is used to descibe basic information about a station</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- station -->
+      </configurationGroup>
+
+      <!-- End /modules/forms/forms-->
+      <configurationGroup name="formClasses">
+        <displayName>Form Class Configuration</displayName>
+        <configurationGroup name="customisedStation">
+          <displayName>Configuration for the class 'customisedStation'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>iHRIS_Facility</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <version>3.2.3</version>
+            <configurationGroup name="StationCode">
+              <displayName>The field 'StationCode'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:Station Code</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="latitude">
+              <displayName>The field 'latitude'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:Latitude</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="longitude">
+              <displayName>The field 'longitude'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>STRING_LINE</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:Longitude</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>false</value>
+              </configuration>
+            </configurationGroup>                        
+          </configurationGroup>
+        </configurationGroup>
+        <!-- customisedStation -->
+      </configurationGroup>
+      <!-- End /modules/forms/formClasses -->
+    </configurationGroup>
+    <!-- End /modules/forms -->
+  </configurationGroup>
+  <!-- Station -->
+</I2CEConfiguration>

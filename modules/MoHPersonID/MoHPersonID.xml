@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHPersonID">
+  <metadata>
+    <displayName>MoH Person ID</displayName>
+    <category>MoH Modules</category>
+    <description>Customizes the PersonID module for MoH purposes</description>
+    <creator>iHRIS Malawi</creator>
+    <email>ihrismalawi@gmail.com</email>
+    <version>4.0.0.14</version>
+    <requirement name="PersonID">
+      <atLeast version="4.0"/>
+      <lessThan version="4.2"/>
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="MoHPersonID" path="/">
+    <status>overwrite:true</status>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="person_id">
+          <version>4.1.0.3</version>
+          <displayName>Person Identification</displayName>
+        <description>The Person Identification Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>MoH_PersonID</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- end of /modules/forms/forms -->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="MoH_PersonID">
+          <displayName>Configuration for the class 'MoH_PersonID'</displayName>
+          <version>4.1.0.1</version>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>iHRIS_PersonID</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

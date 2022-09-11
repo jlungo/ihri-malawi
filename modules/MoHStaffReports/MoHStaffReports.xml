@@ -1,0 +1,638 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHStaffReports">
+	<metadata>
+		<displayName>MoH Staff Reports</displayName>
+		<category>MoH Reporting</category>
+		<description>Customizes the "staff reports" custom reports for MoH
+			purposes</description>
+		<creator>iHRIS Malawi</creator>
+		<email>ihrismalawi@gmail.com</email>
+		<version>4.0.0.32</version>
+		<requirement name="ihris-manage-CustomReports-staff-reports">
+			<atLeast version="4.1" />
+			<lessThan version="4.2" />
+		</requirement>
+	</metadata>
+	<configurationGroup name="MoHStaffReports" path="/">
+		<status>overwrite:true</status>
+		<configurationGroup name="ihris-manage-CustomReports-staff-reports"
+			path="/modules/CustomReports">
+			<erase path="/modules/CustomReports/reports/salary_list" />
+			<erase path="/modules/CustomReports/reportViews/salary_list" />
+			<erase path="/modules/CustomReports/reportViews/position_open_duration" />
+			<erase path="/modules/CustomReports/reportViews/classification_breakdown" />
+			<erase path="/modules/CustomReports/reportViews/emergency_contact_list" />
+			<erase path="/modules/CustomReports/reportViews/home_contact" />
+			<erase path="/modules/CustomReports/reportViews/staff_directory" /> 
+			<configurationGroup name="relationships"
+				config="CustomReports_Relationships">
+				<configurationGroup name="staff"
+					config="CustomReports_Relationship">
+					<configurationGroup name="joins"
+						config="CustomReports_Relationship_Joins">
+						<configurationGroup name="position"
+							config="CustomReports_Relationship_Join">
+							<displayName>Job</displayName>
+							<configuration name="display_name" locale="en_US">
+								<displayName>Display Name</displayName>
+								<value>Job</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The job held by this person.</value>
+							</configuration>
+							<configurationGroup name="joins"
+								config="CustomReports_Relationship_Joins">
+								<configurationGroup name="facility"
+									config="CustomReports_Relationship_Join">
+									<displayName>Cost Centre</displayName>
+									<configuration name="display_name" locale="en_US">
+										<displayName>Display Name</displayName>
+										<value>Cost Centre (Working)</value>
+									</configuration>
+									<configuration name="description" locale="en_US">
+										<displayName>Description</displayName>
+										<value>The Cost Centre for this job.</value>
+									</configuration>
+								</configurationGroup>
+								<configurationGroup name="station"
+									config="CustomReports_Relationship_Join">
+									<displayName>Station</displayName>
+									<configuration name="join_style">
+										<displayName>Join Style</displayName>
+										<value>parent_field</value>
+									</configuration>
+									<configurationGroup name="join_data">
+										<displayName>Join Data</displayName>
+										<configuration name="field">
+											<displayName>Field</displayName>
+											<value>station</value>
+										</configuration>
+									</configurationGroup>
+									<configuration name="form">
+										<displayName>Form</displayName>
+										<value>station</value>
+									</configuration>
+									<configuration name="display_name" locale="en_US">
+										<displayName>Display Name</displayName>
+										<value>Station</value>
+									</configuration>
+									<configuration name="description" locale="en_US">
+										<displayName>Description</displayName>
+										<value>The Station for this job.</value>
+									</configuration>
+								</configurationGroup>
+								<configurationGroup name="job"
+									config="CustomReports_Relationship_Join">
+									<displayName>Position</displayName>
+									<configuration name="display_name" locale="en_US">
+										<displayName>Display Name</displayName>
+										<value>Position</value>
+									</configuration>
+									<configuration name="description" locale="en_US">
+										<displayName>Description</displayName>
+										<value>The position associated with this job.</value>
+									</configuration>
+									<configurationGroup name="joins"
+										config="CustomReports_Relationship_Joins">
+										<configurationGroup name="classification"
+											config="CustomReports_Relationship_Join">
+											<configuration name="description" locale="en_US">
+												<displayName>Description</displayName>
+												<value>The position classification for this job.</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+					<configurationGroup name="reporting_functions"
+						config="CustomReports_Relationship_ReportingFunctions">
+						<configurationGroup name="age60"
+							config="CustomReports_Relationship_ReportingFunction">
+							<displayName>Age60</displayName>
+							<configuration name="qry">
+								<displayName>Qry</displayName>
+								<value>YEAR(DATE_ADD(`person+birth_date`, INTERVAL 60
+									YEAR))</value>
+							</configuration>
+							<configuration name="formfield">
+								<displayName>Return Type</displayName>
+								<version>4.0.4</version>
+								<value>INT</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The year this person turns 60.</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="year60"
+							config="CustomReports_Relationship_ReportingFunction">
+							<displayName>Age60</displayName>
+							<configuration name="qry">
+								<displayName>Qry</displayName>
+								<value>DATE_ADD(`person+birth_date`, INTERVAL 60 YEAR)</value>
+							</configuration>
+							<configuration name="formfield">
+								<displayName>Return Type</displayName>
+								<version>4.0.7</version>
+								<value>DATE_Y</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The year this person turns 60.</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="age_range"
+							config="CustomReports_Relationship_ReportingFunction">
+							<displayName>Age Range</displayName>
+							<configuration name="qry">
+								<displayName>Qry</displayName>
+								<value>CASE WHEN `person+birth_date` IS NULL THEN '?' WHEN
+									DATE_ADD( `person+birth_date`, INTERVAL 17 YEAR ) > NOW() THEN
+									'-18' WHEN DATE_ADD( `person+birth_date`, INTERVAL 23 YEAR ) >
+									NOW() THEN '18-23' WHEN DATE_ADD( `person+birth_date`, INTERVAL
+									29 YEAR ) > NOW() THEN '24-29' WHEN DATE_ADD(
+									`person+birth_date`, INTERVAL 34 YEAR ) > NOW() THEN '30-34'
+									WHEN DATE_ADD( `person+birth_date`, INTERVAL 39 YEAR ) > NOW()
+									THEN '35-39' WHEN DATE_ADD( `person+birth_date`, INTERVAL 44
+									YEAR ) > NOW() THEN '40-44' WHEN DATE_ADD( `person+birth_date`,
+									INTERVAL 49 YEAR ) > NOW() THEN '45-49' WHEN DATE_ADD(
+									`person+birth_date`, INTERVAL 54 YEAR ) > NOW() THEN '50-54'
+									WHEN DATE_ADD( `person+birth_date`, INTERVAL 59 YEAR ) > NOW()
+									THEN '55-59' WHEN DATE_ADD( `person+birth_date`, INTERVAL 64
+									YEAR ) > NOW() THEN '60-64' ELSE '65+' END</value>
+							</configuration>
+							<configuration name="formfield">
+								<displayName>Return Type</displayName>
+								<version>4.0.7</version>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The persons age range</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+			<configurationGroup name="reports" config="CustomReports_Reports">
+				<configurationGroup name="staff_list" config="CustomReports_Report">
+					<configurationGroup name="reporting_forms"
+						config="CustomReports_Report_ReportingForms">
+						<configurationGroup name="position"
+							config="CustomReports_Report_ReportingForm">
+							<displayName>Job</displayName>
+							<configurationGroup name="fields"
+								config="CustomReports_Report_ReportingForm_Fields">
+								<configurationGroup name="title"
+									config="CustomReports_Report_ReportingForm_Field">
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Job</value>
+									</configuration>
+								</configurationGroup>
+								<configurationGroup name="facility"
+									config="CustomReports_Report_ReportingForm_Field">
+									<displayName>Cost Centre (Working)</displayName>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Cost Centre (Working)</value>
+									</configuration>
+									<configurationGroup name="limits">
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Cost Centre (Working)</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="station"
+									config="CustomReports_Report_ReportingForm_Field">
+									<displayName>Station</displayName>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Station</value>
+									</configuration>
+									<configuration name="enabled">
+										<displayName>Enabled</displayName>
+										<value>1</value>
+									</configuration>
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="equals">
+											<displayName>Equals</displayName>
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Station</value>
+											</configuration>
+											<configuration name="enabled">
+												<displayName>Enabled</displayName>
+												<value>1</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="facility"
+							config="CustomReports_Report_ReportingForm">
+							<displayName>Cost Centre (Working)</displayName>
+							<configurationGroup name="fields"
+								config="CustomReports_Report_ReportingForm_Fields">
+								<configurationGroup name="name"
+									config="CustomReports_Report_ReportingForm_Field">
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Cost Centre (Working)</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="station"
+							config="CustomReports_Report_ReportingForm">
+							<displayName>Station</displayName>
+							<configurationGroup name="fields"
+								config="CustomReports_Report_ReportingForm_Fields">
+								<displayName>Fields</displayName>
+								<configurationGroup name="name"
+									config="CustomReports_Report_ReportingForm_Field">
+									<displayName>Name</displayName>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Station</value>
+									</configuration>
+									<configuration name="enabled">
+										<displayName>Enabled</displayName>
+										<value>1</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+				<configurationGroup name="staff_chart" config="CustomReports_Report">
+					<configurationGroup name="reporting_forms">
+						<configurationGroup name="person">
+							<configurationGroup name="fields">
+								<configurationGroup name="birth_date">
+									<displayName>Birth Date</displayName>
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="greaterthan_equals">
+											<displayName>Greaterthan Equals</displayName>
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Birth Date After</value>
+											</configuration>
+											<configuration name="enabled">
+												<displayName>Enabled</displayName>
+												<value>1</value>
+											</configuration>
+										</configurationGroup>
+										<configurationGroup name="lessthan_equals">
+											<displayName>Lessthan Equals</displayName>
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Birth Date Before</value>
+											</configuration>
+											<configuration name="enabled">
+												<displayName>Enabled</displayName>
+												<value>1</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Birth Date</value>
+									</configuration>
+									<configuration name="enabled">
+										<displayName>Enabled</displayName>
+										<value>1</value>
+									</configuration>
+								</configurationGroup>
+								<configurationGroup name="gender">
+									<configuration name="enabled">
+										<displayName>Enabled</displayName>
+										<value>1</value>
+									</configuration>
+									<configurationGroup name="limits">
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Gender</value>
+											</configuration>
+											<configuration name="enabled">
+                      							<displayName>Enabled</displayName>
+                      							<value>1</value>
+                    						</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="demographic">
+							<configurationGroup name="fields">
+								<configurationGroup name="birth_date">
+									<configurationGroup name="limits">
+										<configurationGroup name="greaterthan_equals">
+											<configuration name="enabled">
+                      							<displayName>Enabled</displayName>
+                      							<value>0</value>
+                    						</configuration>
+										</configurationGroup>
+										<configurationGroup name="lessthan_equals">
+											<configuration name="enabled">
+                      							<displayName>Enabled</displayName>
+                      							<value>0</value>
+                    						</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="gender">
+									<configuration name="enabled">
+										<displayName>Enabled</displayName>
+										<value>0</value>
+									</configuration>
+									<configurationGroup name="limits">
+										<configurationGroup name="equals">
+											<configuration name="enabled">
+                      							<displayName>Enabled</displayName>
+                      							<value>0</value>
+                    						</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="position">
+							<displayName>Job</displayName>
+							<configurationGroup name="fields">
+								<configurationGroup name="facility">
+									<displayName>Cost Centre (Working)</displayName>
+									<configurationGroup name="limits">
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Cost Centre (Working)</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Cost Centre ID</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="facility">
+							<displayName>Cost Centre (Working)</displayName>
+							<configurationGroup name="fields">
+								<configurationGroup name="facility_type">
+									<displayName>Cost Centre (Working)</displayName>
+									<configurationGroup name="limits">
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Cost Centre (Working)</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Cost Centre (Working)</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="job">
+							<displayName>Position</displayName>
+							<configurationGroup name="fields">
+								<configurationGroup name="title">
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Position Title</value>
+									</configuration>
+									<configurationGroup name="limits">
+										<configurationGroup name="contains">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Position Title (e.g. dent for all Dental positions)</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+					<configurationGroup name="reporting_functions">
+						<configurationGroup name="age65">
+							<configuration name="enabled">
+								<displayName>Enabled</displayName>
+								<value>0</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="age60">
+							<displayName>Age60</displayName>
+							<configuration name="header" locale="en_US">
+								<displayName>Header</displayName>
+								<value>Retirement Year</value>
+							</configuration>
+							<configuration name="enabled">
+								<displayName>Enabled</displayName>
+								<value>1</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+			<configurationGroup name="reportViews"
+				config="CustomReports_ReportViews">
+				<configurationGroup name="retirement_planning"
+					config="CustomReports_ReportView">
+					<configurationGroup name="fields">
+						<configurationGroup name="+age65">
+							<configuration name="enabled">
+								<displayName>Enabled</displayName>
+								<value>0</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="+age60">
+							<displayName>+age60</displayName>
+							<configuration name="aggregate">
+								<displayName>Aggregate</displayName>
+								<value>none</value>
+							</configuration>
+							<configuration name="enabled">
+								<displayName>Enabled</displayName>
+								<value>1</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+					<configurationGroup name="display_options">
+						<configurationGroup name="PieChart">
+							<configurationGroup name="displayFieldsTypes">
+								<configurationGroup name="one_row_total">
+									<configurationGroup name="0">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="one_row_count">
+									<configurationGroup name="0">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="1">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="one_row_numeric">
+									<configurationGroup name="0">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="1">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="multi_row_total">
+									<configurationGroup name="0">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="1">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="multi_row_count">
+									<configurationGroup name="0">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="1">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="2">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="multi_row_numeric">
+									<configurationGroup name="0">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="1">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="2">
+										<configuration name="formfield">
+											<value>+age60</value>
+										</configuration>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+							<configurationGroup name="displayFields">
+								<configurationGroup name="0">
+									<configuration name="formfield">
+										<value>+age60</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+				<configurationGroup name="staff_directory"
+					config="CustomReports_ReportView">
+					<configurationGroup name="fields">
+						<configurationGroup name="position+title">
+							<displayName>Job Title</displayName>
+						</configurationGroup>
+						<configurationGroup name="station+name">
+							<displayName>Station Name</displayName>
+						</configurationGroup>
+						<configurationGroup name="facility+name">
+							<displayName>Cost Centre (Working)</displayName>
+							<configuration name="aggregate">
+								<displayName>Aggregate</displayName>
+								<value>none</value>
+							</configuration>
+							<configuration name="enabled">
+								<displayName>Enabled</displayName>
+								<value>1</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+					<configuration name="display_order">
+						<displayName>Display Order</displayName>
+						<value>primary_form+start_date,person+surname,person+firstname,person+othername,person+nationality,demographic+birth_date,demographic+gender,emergency+address,emergency+telephone,emergency+email,home+address,home+telephone,home+email,position+title,department+name,facility+name,station+name,work+telephone,work+email,position+facility,position+department,current_salary+salary,start_salary+salary</value>
+					</configuration>
+				</configurationGroup>
+				<configurationGroup name="home_contact"
+					config="CustomReports_ReportView">
+					<configurationGroup name="fields">
+						<configurationGroup name="position+title">
+							<displayName>Job Title</displayName>
+						</configurationGroup>
+						<configurationGroup name="facility+name">
+							<displayName>Cost Centre (Working)</displayName>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+				<configurationGroup name="emergency_contact_list"
+					config="CustomReports_ReportView">
+					<configurationGroup name="fields">
+						<configurationGroup name="position+title">
+							<displayName>Job Title</displayName>
+						</configurationGroup>
+						<configurationGroup name="facility+name">
+							<displayName>Cost Centre (Working)</displayName>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+				<configurationGroup name="job_breakdown"
+					config="CustomReports_ReportView">
+					<displayName>Position Breakdown</displayName>
+					<configurationGroup name="fields">
+						<configurationGroup name="job+title">
+							<displayName>Position Title</displayName>
+						</configurationGroup>
+					</configurationGroup>
+					<configuration name="display_name" locale="en_US">
+						<displayName>Display Name</displayName>
+						<value>Position Breakdown</value>
+					</configuration>
+					<configuration name="description" locale="en_US">
+						<displayName>Description</displayName>
+						<value>Total staff by position.</value>
+					</configuration>
+					<configuration name="default_display">
+						<displayName>Default Display</displayName>
+						<value>Table</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+	</configurationGroup>
+</I2CEConfiguration>

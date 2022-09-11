@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd"[]>
+<I2CEConfiguration name="MoHPositionReports">
+	<metadata>
+		<displayName>MoH Position Reports</displayName>
+		<category>MoH Reporting</category>
+		<description>Customizes the "position reports" custom reports for MoH
+			purposes</description>
+		<creator>iHRIS Malawi</creator>
+		<email>ihrismalawi@gmail.com</email>
+		<version>4.0.0.19</version>
+		<requirement name="ihris-manage-CustomReports-position-reports">
+			<atLeast version="4.0" />
+			<lessThan version="4.2" />
+		</requirement>
+	</metadata>
+	<configurationGroup name="MoHPositionReports" path="/">
+		<status>overwrite:true</status>
+		<configurationGroup name="ihris-manage-CustomReports-position-reports" path="/modules/CustomReports">
+			<configurationGroup name="relationships">
+				<configurationGroup name="position" config="CustomReports_Relationship">
+					<configurationGroup name="joins">
+						<configurationGroup name="job">
+							<displayName>Position</displayName>
+							<configuration name="display_name" locale="en_US">
+								<displayName>Display Name</displayName>
+								<value>Position</value>
+							</configuration>
+							<configurationGroup name="joins">
+								<configurationGroup name="grade">
+									<displayName>Grade</displayName>
+                					<configurationGroup name="join_data">
+                  						<displayName>Join Data</displayName>
+                  						<configuration name="field">
+                    						<displayName>Field</displayName>
+                    						<value>grade</value>
+                  						</configuration>
+                					</configurationGroup>
+                					<configuration name="join_style">
+                  						<displayName>Join Style</displayName>
+                  						<value>parent_field</value>
+                					</configuration>
+                					<configuration name="form">
+                  						<displayName>Form</displayName>
+                  						<value>grade</value>
+                					</configuration>
+                					<configuration name="display_name" locale="en_US">
+                  						<displayName>Display Name</displayName>
+                  						<value>Grade</value>
+                					</configuration>
+                					<configuration name="description" locale="en_US">
+                  						<displayName>Description</displayName>
+                  						<value>The grade associated with this job.</value>
+                					</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="facility">
+							<displayName>Cost Centre (Working)</displayName>
+							<configuration name="display_name" locale="en_US">
+								<displayName>Display Name</displayName>
+								<value>Cost Centre (Working)</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The Cost Centre for this job.</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="station">
+							<displayName>Station</displayName>
+							<configurationGroup name="join_data">
+								<displayName>Join Data</displayName>
+								<configuration name="field">
+									<displayName>Field</displayName>
+									<value>station</value>
+								</configuration>
+							</configurationGroup>
+							<configuration name="join_style">
+								<displayName>Join Style</displayName>
+								<value>parent_field</value>
+							</configuration>
+							<configuration name="form">
+								<displayName>Form</displayName>
+								<value>station</value>
+							</configuration>
+							<configuration name="display_name" locale="en_US">
+								<displayName>Display Name</displayName>
+								<value>Station</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The Station for this job.</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="last">
+							<configuration name="display_name" locale="en_US">
+								<displayName>Display Name</displayName>
+								<value>Last Job</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The last person that filled this job.</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="current">
+							<configuration name="display_name" locale="en_US">
+								<displayName>Display Name</displayName>
+								<value>Current Job</value>
+							</configuration>
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The current person filling this job.</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+					<configurationGroup name="reporting_functions">
+						<configurationGroup name="days_open">
+							<configuration name="description" locale="en_US">
+								<displayName>Description</displayName>
+								<value>The number of days this job was open before being filled.</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+					<configuration name="display_name" locale="en_US">
+						<displayName>Display Name</displayName>
+						<value>Jobs</value>
+					</configuration>
+					<configuration name="description" locale="en_US">
+						<displayName>Description</displayName>
+						<value>All information related to a job.</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+			<configurationGroup name="reports">
+				<configurationGroup name="position_list" config="CustomReports_Report">
+					<displayName>Job List</displayName>
+					<configurationGroup name="meta" config="CustomReports_Report_Meta">
+						<displayName>Meta</displayName>
+						<configuration name="display_name" locale="en_US">
+							<displayName>Display Name</displayName>
+							<value>Job List</value>
+						</configuration>
+						<configuration name="description" locale="en_US">
+							<displayName>Description</displayName>
+							<value>Details for all jobs.</value>
+						</configuration>
+						<configuration name="category" locale="en_US">
+							<displayName>Category</displayName>
+							<value>Job Reports</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="reporting_forms" config="CustomReports_Report_ReportingForms">
+						<configurationGroup name="primary_form" config="CustomReports_Report_ReportingForm">
+							<configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+								<configurationGroup name="job" config="CustomReports_Report_ReportingForm_Field">
+									<displayName>Position</displayName>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Job Position</value>
+									</configuration>
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="equals">
+											<configuration name="enabled">
+                      							<displayName>Enabled</displayName>
+                      							<value>0</value>
+                    						</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="facility" config="CustomReports_Report_ReportingForm_Field">
+									<displayName>Cost Centre (Working)</displayName>
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Cost Centre (Working)</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Cost Centre (Working) ID</value>
+									</configuration>
+								</configurationGroup>
+								<configurationGroup name="station" config="CustomReports_Report_ReportingForm_Field">
+									<displayName>Station</displayName>
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Station</value>
+											</configuration>
+											<configuration name="enabled">
+												<displayName>Enabled</displayName>
+												<value>1</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+									<configuration name="enabled">
+										<displayName>Enabled</displayName>
+										<value>1</value>
+									</configuration>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Station ID</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="grade" config="CustomReports_Report_ReportingForm">
+							<displayName>Grade</displayName>
+							<configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+								<configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Grade</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="job" config="CustomReports_Report_ReportingForm">
+							<displayName>Position</displayName>
+							<configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+								<configurationGroup name="title" config="CustomReports_Report_ReportingForm_Field">
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Position Title</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="facility" config="CustomReports_Report_ReportingForm">
+							<displayName>Cost Centre (Working)</displayName>
+							<configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+								<configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Cost Centre (Working)</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="station" config="CustomReports_Report_ReportingForm">
+							<displayName>Station</displayName>
+							<configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+								<displayName>Fields</displayName>
+								<configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+									<displayName>Name</displayName>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Station</value>
+									</configuration>
+									<configuration name="enabled">
+										<displayName>Enabled</displayName>
+										<value>1</value>
+									</configuration>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+			<configurationGroup name="reportViews" config="CustomReports_ReportView">
+				<configurationGroup name="position_list" config="CustomReports_ReportView">
+					<displayName>Job List</displayName>
+					<configurationGroup name="fields">
+						<configurationGroup name="job+title">
+							<displayName>Position Title</displayName>
+						</configurationGroup>
+						<configurationGroup name="grade+name">
+							<displayName>Grade</displayName>
+						</configurationGroup>
+						<configurationGroup name="facility+name">
+							<displayName>Cost Centre (Working)</displayName>
+						</configurationGroup>
+						<configurationGroup name="station+name">
+							<displayName>Station Name</displayName>
+							<configuration name="aggregate">
+								<displayName>Aggregate</displayName>
+								<value>none</value>
+							</configuration>
+							<configuration name="enabled">
+								<displayName>Enabled</displayName>
+								<value>1</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+					<configuration name="display_order">
+						<displayName>Display Order</displayName>
+						<value>primary_form+title,primary_form+code,primary_form+status,job+title,grade+name,classification+name,cadre+name,primary_form+facility,station+name,primary_form+department,primary_form+posted_date,job+cadre,job+classification,facility+name,department+name,last+end_date,current+start_date,+days_open</value>
+					</configuration>
+					<configuration name="display_name" locale="en_US">
+						<displayName>Display Name</displayName>
+						<value>Job List</value>
+					</configuration>
+					<configuration name="description" locale="en_US">
+						<displayName>Description</displayName>
+						<value>A list of all jobs.</value>
+					</configuration>
+				</configurationGroup>
+				<configurationGroup name="position_open_duration" config="CustomReports_ReportView">
+					<displayName>Job Open Duration</displayName>
+					<configuration name="display_name" locale="en_US">
+						<displayName>Display Name</displayName>
+						<value>Job Open Duration</value>
+					</configuration>
+					<configuration name="description" locale="en_US">
+						<displayName>Description</displayName>
+						<value>The length in days each job was open before being filled.</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+	</configurationGroup>
+</I2CEConfiguration>

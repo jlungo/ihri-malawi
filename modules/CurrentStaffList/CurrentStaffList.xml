@@ -1,0 +1,2583 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="current_staff_list">
+  <metadata>
+    <displayName>Relationship: staff</displayName>
+    <description>Relationship 'staff' and all reports and report views.</description>
+     <creator>UDSM-THRP</creator>
+    <email>support@zalongwa.com</email>
+    <version>4.1.1</version>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/staff">
+    <lessThan version="4.1.0" />
+  </erase>
+  <erase path="/modules/CustomReports/reports/current_staff">
+    <lessThan version="4.1.0" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/currentStaffView">
+    <lessThan version="4.1.0" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/staffRetirementView">
+    <lessThan version="4.1.0" />
+  </erase>
+  <configurationGroup name="current_staff_list" path="/modules/CustomReports">
+    <configurationGroup name="staff" path="//modules/CustomReports/relationships/staff">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Current Staff Information</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Current Staff</value>
+      </configuration>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>person_position</value>
+      </configuration>
+      <configurationGroup name="joins">
+        <displayName>Joins</displayName>
+        <configurationGroup name="position">
+          <displayName>Position</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Position Information</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Position</value>
+          </configuration>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>position</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <displayName>Joins</displayName>
+            <configurationGroup name="costcentre">
+              <displayName>Costcentre</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Cost centre information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Costcentre</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>facility</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>facility</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="global">
+              <displayName>Global</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Global centre information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Global centre</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>globalcostcentre</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>globalcostcentre</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <displayName>Job</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Job Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Job</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>job</value>
+              </configuration>
+              <configurationGroup name="joins">
+                <displayName>Joins</displayName>
+                <configurationGroup name="grade">
+                  <displayName>Grade</displayName>
+                  <configuration name="description" locale="en_US">
+                    <displayName>Description</displayName>
+                    <value>Grade Information</value>
+                  </configuration>
+                  <configuration name="display_name" locale="en_US">
+                    <displayName>Display Name</displayName>
+                    <value>Grade</value>
+                  </configuration>
+                  <configuration name="drop_empty">
+                    <displayName>Drop Empty</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="form">
+                    <displayName>Form</displayName>
+                    <value>Grade</value>
+                  </configuration>
+                  <configurationGroup name="join_data">
+                    <displayName>Join Data</displayName>
+                    <configuration name="field">
+                      <displayName>Field</displayName>
+                      <value>Grade</value>
+                    </configuration>
+                    <configuration name="displaystyle">
+                      <displayName>Displaystyle</displayName>
+                      <value>default</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configuration name="join_style">
+                    <displayName>Join Style</displayName>
+                    <value>parent_field</value>
+                  </configuration>
+                  <configuration name="limit_one">
+                    <displayName>Limit One</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>job</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="station">
+              <displayName>Station</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Station Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Station</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>station</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>station</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="displaystyle">
+              <displayName>Displaystyle</displayName>
+              <value>default</value>
+            </configuration>
+            <configuration name="field">
+              <displayName>Field</displayName>
+              <value>position</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent_field</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <displayName>Person</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Person Information</value>
+          </configuration>
+          <configuration name="display_name" locale="en_US">
+            <displayName>Display Name</displayName>
+            <value>Person</value>
+          </configuration>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configuration name="form">
+            <displayName>Form</displayName>
+            <value>person</value>
+          </configuration>
+          <configurationGroup name="joins">
+            <displayName>Joins</displayName>
+            <configurationGroup name="academic">
+              <displayName>Academic</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Academic Qualifications</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Academic Qualification</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>degree</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>academic_edu_lev</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="demographic">
+              <displayName>Demographic</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Demographic Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Demographic</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>demographic</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="emergency">
+              <displayName>Emergency</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Emergency Contact</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Emergency Contacts</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>person_contact_emergency</value>
+              </configuration>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>1</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="employmenttype">
+              <displayName>Employmenttype</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Employment Type Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Employment Type</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>Employmenttype</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>Employmenttype</value>
+                </configuration>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="person_contact_person">
+              <displayName>Person Contact Person</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Personal Contact Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Personal_Contact</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>person_contact_personal</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>child</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="prefix">
+              <displayName>Prefix</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Prefix Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Prefix</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>Prefix</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>Prefix</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="profession">
+              <displayName>Profession</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Profession Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Profession</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>profession</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>prof_qualification</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="residence">
+              <displayName>Residence</displayName>
+              <configuration name="description" locale="en_US">
+                <displayName>Description</displayName>
+                <value>Residence Information</value>
+              </configuration>
+              <configuration name="display_name" locale="en_US">
+                <displayName>Display Name</displayName>
+                <value>Residence</value>
+              </configuration>
+              <configuration name="drop_empty">
+                <displayName>Drop Empty</displayName>
+                <value>0</value>
+              </configuration>
+              <configuration name="form">
+                <displayName>Form</displayName>
+                <value>county</value>
+              </configuration>
+              <configurationGroup name="join_data">
+                <displayName>Join Data</displayName>
+                <configuration name="field">
+                  <displayName>Field</displayName>
+                  <value>residence</value>
+                </configuration>
+                <configuration name="displaystyle">
+                  <displayName>Displaystyle</displayName>
+                  <value>default</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="join_style">
+                <displayName>Join Style</displayName>
+                <value>parent_field</value>
+              </configuration>
+              <configuration name="limit_one">
+                <displayName>Limit One</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="join_data">
+            <displayName>Join Data</displayName>
+            <configuration name="displaystyle">
+              <displayName>Displaystyle</displayName>
+              <value>default</value>
+            </configuration>
+          </configurationGroup>
+          <configuration name="join_style">
+            <displayName>Join Style</displayName>
+            <value>parent</value>
+          </configuration>
+          <configuration name="limit_one">
+            <displayName>Limit One</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="Age65">
+          <displayName>Age65</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The year this person turns 60</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>YEAR(DATE_ADD(`person+birth_date`, INTERVAL 60 YEAR))</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="AgeRange">
+          <displayName>Age Range</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The age range for the person</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>STRING_LINE</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>CASE WHEN `person+birth_date` IS NULL THEN '?' WHEN DATE_ADD( `person+birth_date`, INTERVAL 17 YEAR ) &gt; NOW() THEN '-18' WHEN DATE_ADD( `person+birth_date`, INTERVAL 23 YEAR ) &gt; NOW() THEN '18-23' WHEN DATE_ADD( `person+birth_date`, INTERVAL 29 YEAR ) &gt; NOW() THEN '24-29' WHEN DATE_ADD( `person+birth_date`, INTERVAL 34 YEAR ) &gt; NOW() THEN '30-34' WHEN DATE_ADD( `person+birth_date`, INTERVAL 39 YEAR ) &gt; NOW() THEN '35-39' WHEN DATE_ADD( `person+birth_date`, INTERVAL 44 YEAR ) &gt; NOW() THEN '40-44' WHEN DATE_ADD( `person+birth_date`, INTERVAL 49 YEAR ) &gt; NOW() THEN '45-49' WHEN DATE_ADD( `person+birth_date`, INTERVAL 54 YEAR ) &gt; NOW() THEN '50-54' WHEN DATE_ADD( `person+birth_date`, INTERVAL 59 YEAR ) &gt; NOW() THEN '55-59' WHEN DATE_ADD( `person+birth_date`, INTERVAL 64 YEAR ) &gt; NOW() THEN '60-64' ELSE '65+' END</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="Year65">
+          <displayName>Year65</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>The year this person turns 60</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>DATE_YMD</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>DATE_ADD(`person+birth_date`, INTERVAL 60 YEAR)</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="YearHire">
+          <displayName>Year Hire</displayName>
+          <configuration name="description" locale="en_US">
+            <displayName>Description</displayName>
+            <value>Year Hire Information</value>
+          </configuration>
+          <configuration name="formfield">
+            <displayName>Formfield</displayName>
+            <value>INT</value>
+          </configuration>
+          <configuration name="qry">
+            <displayName>Qry</displayName>
+            <value>YEAR(`person+FirstAppointmentDate`)</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="where">
+        <displayName>Where</displayName>
+        <configuration name="field">
+          <displayName>Field</displayName>
+          <value>end_date</value>
+        </configuration>
+        <configuration name="operator">
+          <displayName>Operator</displayName>
+          <value>FIELD_LIMIT</value>
+        </configuration>
+        <configuration name="style">
+          <displayName>Style</displayName>
+          <value>null</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="current_staff" path="//modules/CustomReports/reports/current_staff">
+      <displayName>Export</displayName>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>MoH Reports</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>A list of all current staff</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Current Staff Report</value>
+        </configuration>
+      </configurationGroup>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>staff</value>
+      </configuration>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="academic">
+          <displayName>Academic</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Degree Name</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Degree Name</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="costcentre">
+          <displayName>Costcentre</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="demographic">
+          <displayName>Demographic</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="emergency">
+          <displayName>Emergency</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="employmenttype">
+          <displayName>Employmenttype</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Employment Type</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="global">
+          <displayName>Global</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade">
+          <displayName>Grade</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Grade</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="job">
+          <displayName>Job</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="cadre">
+              <displayName>Cadre</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Position Cadre (Health Professionals Only)</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="hrhcadre">
+              <displayName>Hrhcadre</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Cadre (HRH)</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Cadre (HRH)</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="jobgrade">
+              <displayName>Jobgrade</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Grade</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="salary_grade">
+              <displayName>Salary Grade</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Position Salary Grade</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person">
+          <displayName>Person</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="birthnationality">
+              <displayName>Birthnationality</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Person Country of birth</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="between">
+                  <displayName>Between</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="contains">
+                  <displayName>Contains</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="greaterthan">
+                  <displayName>Greaterthan</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="greaterthan_equals">
+                  <displayName>Greaterthan Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="in">
+                  <displayName>In</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="lessthan">
+                  <displayName>Lessthan</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="lessthan_equals">
+                  <displayName>Lessthan Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="like">
+                  <displayName>Like</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="lowerequals">
+                  <displayName>Lowerequals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="lowerlike">
+                  <displayName>Lowerlike</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="null_not_null">
+                  <displayName>Null Not Null</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="startswith">
+                  <displayName>Startswith</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+                <configurationGroup name="within">
+                  <displayName>Within</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="birth_date">
+              <displayName>Birth Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Date of Birth</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="between">
+                  <displayName>Between</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Date of Birth Between</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="ConfirmDate">
+              <displayName>Confirm Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Person Confirmation into Service</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Employmenttype">
+              <displayName>Employmenttype</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Employment Type</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Employment Type</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="FirstAppointmentDate">
+              <displayName>First Appointment Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Date of first appointment</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="between">
+                  <displayName>Between</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Date of 1st Appointment Between</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="firstname">
+              <displayName>Firstname</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>First Name</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>First Name</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link">
+                <displayName>Link</displayName>
+                <value>view?id=</value>
+              </configuration>
+              <configuration name="link_append">
+                <displayName>Link Append</displayName>
+                <value>person+id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="gender">
+              <displayName>Gender</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Gender</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Gender</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="Grade">
+              <displayName>Grade</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Personal to Holder Grade (if any)</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Grade</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="isretired">
+              <displayName>Isretired</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Is Retired</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="MaidenName">
+              <displayName>Maiden Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Maiden Name</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="marital_status">
+              <displayName>Marital Status</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Marital Status</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="nationality">
+              <displayName>Nationality</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Nationality</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="othername">
+              <displayName>Othername</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Initals/Other Names</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="surname">
+              <displayName>Surname</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Surname</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="contains">
+                  <displayName>Contains</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Surname</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link">
+                <displayName>Link</displayName>
+                <value>view?id=</value>
+              </configuration>
+              <configuration name="link_append">
+                <displayName>Link Append</displayName>
+                <value>person+id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_contact_person">
+          <displayName>Person Contact Person</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="address">
+              <displayName>Address</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Contact Address</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="alt_telephone">
+              <displayName>Alt Telephone</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Alternate Telephone Number</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="email">
+              <displayName>Email</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Email Address</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="mobile_phone">
+              <displayName>Mobile Phone</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Mobile Phone Number</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="telephone">
+              <displayName>Telephone</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Telephone Number</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <displayName>Position</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="department">
+              <displayName>Department</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Department</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility">
+              <displayName>Facility</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Working Cost Centre</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Working Cost Centre</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <displayName>Job</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Job Position</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Position</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link">
+                <displayName>Link</displayName>
+                <value>view?id=</value>
+              </configuration>
+              <configuration name="link_append">
+                <displayName>Link Append</displayName>
+                <value>position+id</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="station">
+              <displayName>Station</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Station</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Station</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="title">
+              <displayName>Title</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Position Title</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="prefix">
+          <displayName>Prefix</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Prefix</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="start_date">
+              <displayName>Start Date</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Ist Appointment Date</value>
+              </configuration>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="profession">
+          <displayName>Profession</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Professional Qualifications Name</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Professional Qualifications</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="residence">
+          <displayName>Residence</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Traditional Authority Name</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Traditional Authority Name</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="district">
+              <displayName>District</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Traditional Authority District</value>
+              </configuration>
+              <configurationGroup name="limits">
+                <displayName>Limits</displayName>
+                <configurationGroup name="equals">
+                  <displayName>Equals</displayName>
+                  <configuration name="allow_pivot">
+                    <displayName>Allow Pivot</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="enabled">
+                    <displayName>Enabled</displayName>
+                    <value>1</value>
+                  </configuration>
+                  <configuration name="header" locale="en_US">
+                    <displayName>Header</displayName>
+                    <value>Traditional Authority District</value>
+                  </configuration>
+                  <configuration name="pivot">
+                    <displayName>Pivot</displayName>
+                    <value>0</value>
+                  </configuration>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="link_type">
+                <displayName>Link Type</displayName>
+                <value>link</value>
+              </configuration>
+              <configuration name="target">
+                <displayName>Target</displayName>
+                <value>_blank</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="station">
+          <displayName>Station</displayName>
+          <configuration name="drop_empty">
+            <displayName>Drop Empty</displayName>
+            <value>0</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="reporting_functions">
+        <displayName>Reporting Functions</displayName>
+        <configurationGroup name="Age65">
+          <displayName>Age65</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Retirement Year</value>
+          </configuration>
+          <configurationGroup name="limits">
+            <displayName>Limits</displayName>
+            <configurationGroup name="equals">
+              <displayName>Equals</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Retirement Year</value>
+              </configuration>
+              <configuration name="pivot">
+                <displayName>Pivot</displayName>
+                <value>0</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="AgeRange">
+          <displayName>Age Range</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="Year65">
+          <displayName>Year65</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Retirement Date</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="YearHire">
+          <displayName>Year Hire</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="header" locale="en_US">
+            <displayName>Header</displayName>
+            <value>Hire Year</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="currentStaffView" path="//modules/CustomReports/reportViews/currentStaffView">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>A list of all current staff</value>
+      </configuration>
+      <configuration name="disable">
+        <displayName>Disable</displayName>
+        <value>0</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Current Staff Report</value>
+      </configuration>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>prefix+name,person+firstname,person+surname,person+gender,person+birth_date,position+facility,position+station,job+hrhcadre,position+title,grade+name,primary_form+start_date,person+nationality,person+marital_status,+YearHire,+Age65,+Year65,person_contact_person+mobile_phone,person_contact_person+address,employmenttype+name,person+MaidenName,person+othername,job+cadre,job+salary_grade,person+birthnationality,person+Grade,+AgeRange,position+department,person+ConfirmDate,person+FirstAppointmentDate,person+isretired,academic+name,person_contact_person+alt_telephone,person_contact_person+email,profession+name,person_contact_person+telephone,position+job,residence+name,residence+district</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+Age65">
+          <displayName>+Age65</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+Year65">
+          <displayName>+Year65</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+YearHire">
+          <displayName>+Year Hire</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="academic+name">
+          <displayName>Academic Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="district+name">
+          <displayName>District Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="employmenttype+name">
+          <displayName>Employmenttype Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade+name">
+          <displayName>Grade Name</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="job+hrhcadre">
+          <displayName>Job Hrhcadre</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+birth_date">
+          <displayName>Person Birth Date</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+firstname">
+          <displayName>Person Firstname</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+gender">
+          <displayName>Person Gender</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+marital_status">
+          <displayName>Person Marital Status</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+nationality">
+          <displayName>Person Nationality</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+Prefix">
+          <displayName>Person Prefix</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+surname">
+          <displayName>Person Surname</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_contact_person+address">
+          <displayName>Person Contact Person Address</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_contact_person+mobile_phone">
+          <displayName>Person Contact Person Mobile Phone</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position+facility">
+          <displayName>Position Facility</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position+posted_date">
+          <displayName>Position Posted Date</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position+station">
+          <displayName>Position Station</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position+title">
+          <displayName>Position Title</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="prefix+name">
+          <displayName>Prefix Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="primary_form+start_date">
+          <displayName>Primary Form Start Date</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="profession+name">
+          <displayName>Profession Name</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="residence+district">
+          <displayName>Residence District</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="residence+name">
+          <displayName>Residence Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="traditionaauthoity+name">
+          <displayName>Traditionaauthoity Name</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>current_staff</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="staffRetirementView" path="//modules/CustomReports/reportViews/staffRetirementView">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>A list of retiring staff</value>
+      </configuration>
+      <configuration name="disable">
+        <displayName>Disable</displayName>
+        <value>0</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Staff Retirement Planning</value>
+      </configuration>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>prefix+name,person+firstname,person+surname,person+gender,person+birth_date,job+hrhcadre,grade+name,+AgeRange,+YearHire,+Age65,+Year65,employmenttype+name,position+station,position+facility,position+title,person_contact_person+address,person_contact_person+mobile_phone,primary_form+start_date,position+department,job+cadre,job+salary_grade,person+nationality,person+othername,person+birthnationality,person+ConfirmDate,person+FirstAppointmentDate,person+Grade,person+isretired,person+MaidenName,person+marital_status,person_contact_person+alt_telephone,person_contact_person+email,person_contact_person+telephone,position+job,academic+name,person+Employmenttype,profession+name,residence+district,residence+name</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="+Age65">
+          <displayName>+Age65</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+AgeRange">
+          <displayName>+Age Range</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+Year65">
+          <displayName>+Year65</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="+YearHire">
+          <displayName>+Year Hire</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="employmenttype+name">
+          <displayName>Employmenttype Name</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="grade+name">
+          <displayName>Grade Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="job+hrhcadre">
+          <displayName>Job Hrhcadre</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+birth_date">
+          <displayName>Person Birth Date</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+firstname">
+          <displayName>Person Firstname</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+gender">
+          <displayName>Person Gender</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person+surname">
+          <displayName>Person Surname</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_contact_person+address">
+          <displayName>Person Contact Person Address</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="person_contact_person+mobile_phone">
+          <displayName>Person Contact Person Mobile Phone</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position+facility">
+          <displayName>Position Facility</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position+station">
+          <displayName>Position Station</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position+title">
+          <displayName>Position Title</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="prefix+name">
+          <displayName>Prefix Name</displayName>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>current_staff</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

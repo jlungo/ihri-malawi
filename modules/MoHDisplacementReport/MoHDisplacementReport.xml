@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHDisplacementReport">
+	<metadata>
+		<displayName>MoH Displacement Report</displayName>
+		<category>MoH Reporting</category>
+		<description>Creates the cost centre displacement report for MoH</description>
+		<creator>iHRIS Malawi</creator>
+		<email>ihrismalawi@gmail.com</email>
+		<version>4.0.0.32</version>
+	</metadata>
+	<configurationGroup name="MoHDisplacementReport" path="/">
+		<status>overwrite:true</status>
+		<configurationGroup name="relationships" path="/modules/CustomReports/relationships">
+			<configurationGroup name="displacement_report">
+				<configuration name="form">
+					<displayName>Form</displayName>
+					<value>person</value>
+				</configuration>
+				<configuration name="display_name" locale="en_US">
+					<displayName>Display Name</displayName>
+					<value>Displacement Report</value>
+				</configuration>
+				<configuration name="description" locale="en_US">
+					<displayName>Description</displayName>
+					<value>People whos global and working cost centres are different</value>
+				</configuration>
+				<configurationGroup name="reporting_functions">
+					<displayName>Reporting Functions</displayName>
+					<configurationGroup name="displaced">
+						<displayName>Displaced</displayName>
+						<configuration name="qry">
+							<displayName>Qry</displayName>
+							<value>IF(`working_costcentre+name` = `global_costcentre+name`, 0, 1)</value>
+						</configuration>
+						<configuration name="formfield">
+							<displayName>Formfield</displayName>
+							<value>BOOL</value>
+						</configuration>
+					</configurationGroup>
+				</configurationGroup>
+				<configurationGroup name="joins">
+					<displayName>Joins</displayName>
+					<configurationGroup name="person_position">
+						<displayName>Person Position</displayName>
+						<configuration name="limit_one">
+							<displayName>Limit One</displayName>
+							<value>0</value>
+						</configuration>
+						<configuration name="form">
+							<displayName>Form</displayName>
+							<value>person_position</value>
+						</configuration>
+						<configuration name="display_name" locale="en_US">
+							<displayName>Display Name</displayName>
+							<value>Person Position</value>
+						</configuration>
+						<configuration name="join_style">
+							<displayName>Join Style</displayName>
+							<value>child</value>
+						</configuration>
+						<configurationGroup name="where">
+							<displayName>Where</displayName>
+							<configuration name="operator">
+								<displayName>Operator</displayName>
+								<value>FIELD_LIMIT</value>
+							</configuration>
+							<configuration name="style">
+								<displayName>Style</displayName>
+								<value>max_parent</value>
+							</configuration>
+							<configuration name="field">
+								<displayName>Field</displayName>
+								<value>start_date</value>
+							</configuration>
+							<configurationGroup name="data">
+								<displayName>Data</displayName>
+								<configuration name="linked_field">
+									<displayName>Linked Field</displayName>
+									<value>parent</value>
+								</configuration>
+								<configuration name="offset">
+									<displayName>Offset</displayName>
+									<value>0</value>
+								</configuration>
+								<configuration name="allow_null">
+									<displayName>Allow Null</displayName>
+									<value>0</value>
+								</configuration>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="joins">
+							<displayName>Joins</displayName>
+							<configurationGroup name="position">
+								<displayName>Position</displayName>
+								<configuration name="limit_one">
+									<displayName>Limit One</displayName>
+									<value>1</value>
+								</configuration>
+								<configuration name="form">
+									<displayName>Form</displayName>
+									<value>position</value>
+								</configuration>
+								<configuration name="display_name" locale="en_US">
+									<displayName>Display Name</displayName>
+									<value>Position</value>
+								</configuration>
+								<configurationGroup name="join_data">
+									<displayName>Join Data</displayName>
+									<configuration name="field">
+										<displayName>Field</displayName>
+										<value>position</value>
+									</configuration>
+								</configurationGroup>
+								<configuration name="join_style">
+									<displayName>Join Style</displayName>
+									<value>parent_field</value>
+								</configuration>
+								<configurationGroup name="joins">
+									<displayName>Joins</displayName>
+									<configurationGroup name="working_costcentre">
+										<displayName>Working Costcentre</displayName>
+										<configuration name="limit_one">
+											<displayName>Limit One</displayName>
+											<value>1</value>
+										</configuration>
+										<configuration name="form">
+											<displayName>Form</displayName>
+											<value>facility</value>
+										</configuration>
+										<configuration name="display_name" locale="en_US">
+											<displayName>Display Name</displayName>
+											<value>Working Cost Centre</value>
+										</configuration>
+										<configurationGroup name="join_data">
+											<displayName>Join Data</displayName>
+											<configuration name="field">
+												<displayName>Field</displayName>
+												<value>facility</value>
+											</configuration>
+										</configurationGroup>
+										<configuration name="join_style">
+											<displayName>Join Style</displayName>
+											<value>parent_field</value>
+										</configuration>
+									</configurationGroup>
+									<configurationGroup name="global_costcentre">
+										<displayName>Global Costcentre</displayName>
+										<configuration name="limit_one">
+											<displayName>Limit One</displayName>
+											<value>1</value>
+										</configuration>
+										<configuration name="form">
+											<displayName>Form</displayName>
+											<value>facility</value>
+										</configuration>
+										<configuration name="display_name" locale="en_US">
+											<displayName>Display Name</displayName>
+											<value>Global Cost Centre</value>
+										</configuration>
+										<configurationGroup name="join_data">
+											<displayName>Join Data</displayName>
+											<configuration name="field">
+												<displayName>Field</displayName>
+												<value>globalcostcentre</value>
+											</configuration>
+										</configurationGroup>
+										<configuration name="join_style">
+											<displayName>Join Style</displayName>
+											<value>parent_field</value>
+										</configuration>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="join_data">
+							<displayName>Join Data</displayName>
+							<configuration name="displaystyle">
+								<displayName>Displaystyle</displayName>
+								<value>default</value>
+							</configuration>
+						</configurationGroup>
+						<configuration name="drop_empty">
+							<displayName>Drop Empty</displayName>
+							<value>0</value>
+						</configuration>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+		<configurationGroup name="reports" path="/modules/CustomReports/reports">
+			<configurationGroup name="displacement_report">
+				<configuration name="relationship">
+					<displayName>Relationship</displayName>
+					<value>displacement_report</value>
+				</configuration>
+				<configurationGroup name="meta">
+					<displayName>Meta</displayName>
+					<configuration name="display_name" locale="en_US">
+						<displayName>Display Name</displayName>
+						<value>Displacement Report</value>
+					</configuration>
+					<configuration name="description" locale="en_US">
+						<displayName>Description</displayName>
+						<value>People whos working and global cost centres are different</value>
+					</configuration>
+					<configuration name="category">
+						<displayName>Category</displayName>
+						<value>MoH Reports</value>
+					</configuration>
+				</configurationGroup>
+				<configurationGroup name="reporting_forms">
+					<displayName>Reporting Forms</displayName>
+					<configurationGroup name="primary_form">
+						<displayName>Primary Form</displayName>
+						<configurationGroup name="fields">
+							<displayName>Fields</displayName>
+							<configurationGroup name="firstname">
+								<displayName>Firstname</displayName>
+								<configuration name="enabled">
+									<displayName>Enabled</displayName>
+									<value>1</value>
+								</configuration>
+								<configuration name="header" locale="en_US">
+									<displayName>Header</displayName>
+									<value>First Name</value>
+								</configuration>
+								<configuration name="link_type">
+									<displayName>Link Type</displayName>
+									<value>link</value>
+								</configuration>
+							</configurationGroup>
+							<configurationGroup name="surname">
+								<displayName>Surname</displayName>
+								<configuration name="enabled">
+									<displayName>Enabled</displayName>
+									<value>1</value>
+								</configuration>
+								<configuration name="header" locale="en_US">
+									<displayName>Header</displayName>
+									<value>Surname</value>
+								</configuration>
+								<configuration name="link_type">
+									<displayName>Link Type</displayName>
+									<value>link</value>
+								</configuration>
+							</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+					<configurationGroup name="person_position">
+						<displayName>Person Position</displayName>
+						<configuration name="drop_empty">
+							<displayName>Drop Empty</displayName>
+							<value>0</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="position">
+						<displayName>Position</displayName>
+						<configurationGroup name="fields">
+							<displayName>Fields</displayName>
+							<configurationGroup name="title">
+								<displayName>Title</displayName>
+								<configuration name="enabled">
+									<displayName>Enabled</displayName>
+									<value>1</value>
+								</configuration>
+								<configuration name="header" locale="en_US">
+									<displayName>Header</displayName>
+									<value>Job Title</value>
+								</configuration>
+								<configuration name="link_type">
+									<displayName>Link Type</displayName>
+									<value>link</value>
+								</configuration>
+							</configurationGroup>
+						</configurationGroup>
+						<configuration name="drop_empty">
+							<displayName>Drop Empty</displayName>
+							<value>0</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="global_costcentre">
+						<displayName>Global Costcentre</displayName>
+						<configurationGroup name="fields">
+							<displayName>Fields</displayName>
+							<configurationGroup name="name">
+								<displayName>Name</displayName>
+								<configuration name="enabled">
+									<displayName>Enabled</displayName>
+									<value>1</value>
+								</configuration>
+								<configuration name="header" locale="en_US">
+									<displayName>Header</displayName>
+									<value>Global Cost Centre</value>
+								</configuration>
+								<configuration name="link_type">
+									<displayName>Link Type</displayName>
+									<value>link</value>
+								</configuration>
+							</configurationGroup>
+						</configurationGroup>
+						<configuration name="drop_empty">
+							<displayName>Drop Empty</displayName>
+							<value>0</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="working_costcentre">
+						<displayName>Working Costcentre</displayName>
+						<configurationGroup name="fields">
+							<displayName>Fields</displayName>
+							<configurationGroup name="name">
+								<displayName>Name</displayName>
+								<configuration name="enabled">
+									<displayName>Enabled</displayName>
+									<value>1</value>
+								</configuration>
+								<configuration name="header" locale="en_US">
+									<displayName>Header</displayName>
+									<value>Working Cost Centre</value>
+								</configuration>
+								<configuration name="link_type">
+									<displayName>Link Type</displayName>
+									<value>link</value>
+								</configuration>
+							</configurationGroup>
+						</configurationGroup>
+						<configuration name="drop_empty">
+							<displayName>Drop Empty</displayName>
+							<value>0</value>
+						</configuration>
+					</configurationGroup>
+				</configurationGroup>
+				<configurationGroup name="reporting_functions">
+					<displayName>Reporting Functions</displayName>
+					<configurationGroup name="displaced">
+						<displayName>Displaced</displayName>
+						<configurationGroup name="limits">
+							<displayName>Limits</displayName>
+							<configurationGroup name="truefalse">
+								<displayName>Truefalse</displayName>
+								<configuration name="enabled">
+									<displayName>Enabled</displayName>
+									<value>1</value>
+								</configuration>
+								<configuration name="pivot">
+									<displayName>Pivot</displayName>
+									<value>0</value>
+								</configuration>
+								<configuration name="header" locale="en_US">
+									<displayName>Header</displayName>
+									<value>Displaced</value>
+								</configuration>
+							</configurationGroup>
+						</configurationGroup>
+						<configuration name="enabled">
+							<displayName>Enabled</displayName>
+							<value>1</value>
+						</configuration>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+		<configurationGroup name="reportViews" path="/modules/CustomReports/reportViews">
+			<configurationGroup name="displacement_report">
+				<configuration name="report">
+					<displayName>Report</displayName>
+					<value>displacement_report</value>
+				</configuration>
+				<configuration name="description" locale="en_US">
+					<displayName>Description</displayName>
+					<value>People whos working and global cost centres are different</value>
+				</configuration>
+				<configuration name="display_name" locale="en_US">
+					<displayName>Display Name</displayName>
+					<value>Displacement Report</value>
+				</configuration>
+				<configurationGroup name="fields">
+					<displayName>Fields</displayName>
+					<configurationGroup name="primary_form+firstname">
+						<displayName>Primary Form Firstname</displayName>
+						<configuration name="enabled">
+							<displayName>Enabled</displayName>
+							<value>1</value>
+						</configuration>
+						<configuration name="aggregate">
+							<displayName>Aggregate</displayName>
+							<value>none</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="primary_form+surname">
+						<displayName>Primary Form Surname</displayName>
+						<configuration name="enabled">
+							<displayName>Enabled</displayName>
+							<value>1</value>
+						</configuration>
+						<configuration name="aggregate">
+							<displayName>Aggregate</displayName>
+							<value>none</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="position+title">
+						<displayName>Position Title</displayName>
+						<configuration name="enabled">
+							<displayName>Enabled</displayName>
+							<value>1</value>
+						</configuration>
+						<configuration name="aggregate">
+							<displayName>Aggregate</displayName>
+							<value>none</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="global_costcentre+name">
+						<displayName>Global Costcentre Name</displayName>
+						<configuration name="enabled">
+							<displayName>Enabled</displayName>
+							<value>1</value>
+						</configuration>
+						<configuration name="aggregate">
+							<displayName>Aggregate</displayName>
+							<value>none</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="working_costcentre+name">
+						<displayName>Working Costcentre Name</displayName>
+						<configuration name="enabled">
+							<displayName>Enabled</displayName>
+							<value>1</value>
+						</configuration>
+						<configuration name="aggregate">
+							<displayName>Aggregate</displayName>
+							<value>none</value>
+						</configuration>
+					</configurationGroup>
+				</configurationGroup>
+				<configuration name="display_order">
+					<displayName>Display Order</displayName>
+					<value>primary_form+firstname,primary_form+surname,position+title,global_costcentre+name,working_costcentre+name,+displaced</value>
+				</configuration>
+				<configuration name="total">
+					<displayName>Total</displayName>
+					<value>0</value>
+				</configuration>
+				<configuration name="disable">
+					<displayName>Disable</displayName>
+					<value>0</value>
+				</configuration>
+			</configurationGroup>
+		</configurationGroup>
+	</configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHCostCentreAccess">
+
+  <metadata>
+    <displayName>MoH Cost Centre Access</displayName>
+    <className>MoH_Module_CostCentreAccess</className>
+    <category>MoH Modules</category>
+	<description>Enables cost centre specific permissioning for MoH roles</description>
+	<creator>iHRIS Malawi</creator>
+	<email>ihrismalawi@gmail.com</email>
+	<version>4.0.0.2</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <requirement name="form-relationship-based-permission">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="forms">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="Geography">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="ManageAccessFacility">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+  </metadata>
+  
+  <configurationGroup name="MoHCostCentreAccess" path="/I2CE">
+  	<configurationGroup name="tasks" path="/I2CE/tasks">
+  	  <configurationGroup name="alt_satisfaction">
+        <configuration name="person_can_edit" values="many">
+          <version>4.1.0.22</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
+        </configuration>
+        <configuration name="person_can_view_child_forms" values="many">
+          <version>4.1.0.10</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
+        </configuration>
+        <configuration name="person_can_edit_child_forms" values="many">
+          <version>4.1.0.16</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
+        </configuration>
+        <configuration name="person_can_view_child_form_salary" values="many">
+          <version>4.1.0.17</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
+        </configuration>
+        <configuration name="person_can_edit_child_form_salary" values="many">
+          <version>4.1.0.17</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
+        </configuration>
+        <configuration name="person_can_change_child_form_salary" values="many">
+          <version>4.1.0.18</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
+        </configuration>
+        <configuration name="can_edit_database_list_position" values="many">
+          <version>4.1.0.13</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
+        </configuration>
+        <configuration name="can_view_database_list_position" values="many">
+          <version>4.1.0.14</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
+        </configuration>
+        <configuration name="can_edit_database_list_facility" values="many">
+          <version>4.1.0.15</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
+        </configuration>
+        <configuration name="can_view_database_list_facility" values="many">
+          <version>4.1.0.15</version>
+          <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
+        </configuration>
+      </configurationGroup>
+  	</configurationGroup> 	  	
+  </configurationGroup>
+  
+  <configurationGroup name="forms" path="/modules/forms">
+    <configurationGroup name="forms">
+    	<configurationGroup name="access_facility">
+        	<displayName>Access Cost Centre</displayName>
+        	<description>The Access Cost Centre form that links a user to a cost centre to restrict access.</description>
+        	<configuration name="class" values="single">
+          		<value>MoH_UserAccessCostCentre</value>
+        	</configuration>
+        	<configuration name="display" values="single" locale="en_US">
+          		<value>User Access Cost Centre</value>
+        	</configuration>
+        </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="formClasses">
+    	<configurationGroup name="MoH_UserAccessCostCentre">
+        	<configuration name="extends">
+          		<value>iHRIS_UserAccessFacility</value>
+        	</configuration>
+        	<configurationGroup name="fields">
+          		<configurationGroup name="location">
+            		<configuration name="headers" type="delimited" locale="en_US">
+              			<value>default:Cost Centre</value>
+           			</configuration>
+           			<configurationGroup name="meta">
+              			<configuration name="form" values="many">
+               				<value>facility</value>
+              			</configuration>
+              			<configurationGroup name="display">
+                			<configurationGroup name="default">
+                  				<configuration name="fields">
+                    				<version>4.1.0.6</version>
+                    				<value>facility</value>
+                  				</configuration>
+                			</configurationGroup>
+             	 		</configurationGroup>
+            		</configurationGroup>
+           		</configurationGroup>
+           	</configurationGroup>
+      	</configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+  
+</I2CEConfiguration>

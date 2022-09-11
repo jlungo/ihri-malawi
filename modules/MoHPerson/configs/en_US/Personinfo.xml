@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHPerson" path="/I2CE">
+  <metadata>
+    <version>4.1.2</version>
+  </metadata>
+  <configurationGroup name="MoHPerson" path="/I2CE" locale="en_US">
+    <version>4.1.0</version>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="formClasses">
+        <configurationGroup name="MoHPerson">
+          <configurationGroup name="fields">
+            <configurationGroup name="residence">
+              <configuration name="headers" type="delimited" values="many" locale="en_US">
+                <value>default:Place of Domicile</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="academic_edu_lev">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Academic Qualification</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="prof_qualification">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Professional Qualification</value>
+              </configuration>
+            </configurationGroup>
+             <configurationGroup name="Prefix">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Prefix name</value>
+              </configuration>
+            </configurationGroup>
+             <configurationGroup name="FirstAppointmentDate">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Date of First Appointment</value>
+              </configuration>
+            </configurationGroup>
+             <configurationGroup name="MaidenName">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Maiden Name</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

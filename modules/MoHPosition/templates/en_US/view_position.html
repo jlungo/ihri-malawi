@@ -1,0 +1,52 @@
+ <div id="siteContent">
+    <h1>View Job: <span type="form" name="position:code" /> - <span type="form" name="position:title" /></h1>
+
+	<div class="recordsData">
+	<h3>Job Information</h3>
+	<p class="editRecordsData"><a href="" class="hide" title="Hide" onclick="return hideDiv('position', this );">Hide</a>
+		</p>
+	
+	<div id="position">
+	
+	<div class="editRecord">
+	<p>Edit This Information</p>
+		<ul id="edit_links">
+            <li task='can_edit_database_list_position'><span type="form" name="position:id" href="lists?type=position&amp;id=" >Update this Information</span></li>
+            <li task='can_edit_database_list_position'><span type="form" name="position:facility" href="lists?type=position&amp;field=facility&amp;forms[position][0][0][fields][facility]=" >Select another Job</span></li>
+		</ul>
+	</div> <!-- editRecord -->
+	
+	<div class="dataTable">
+	<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<th colspan="2">Job</th>
+		</tr>
+		
+	   	<span type="form" name="position:job" showhead="default"></span>
+	   	<span type="form" name="position:description" showhead="default" mline="true"></span>
+	   	<span type="form" name="position:end_date" showhead="default"></span>
+	   	<span type="form" name="position:estab" showhead="default" class="even"></span>
+	   	<span type="form" name="position:code" showhead="default" ></span>
+	   	<span type="form" name="position:Programme" showhead="default" class="even"></span>
+	   	<span type="form" name="position:SubProgramme" showhead="default" ></span>
+	   	<span type="form" name="position:SubSubProgramme" showhead="default" class="even"></span>
+	   	<span type="form" name="position:Section" showhead="default" ></span>
+	   	<span type="form" name="position:supervisor" showhead="default" class="even"></span>
+	   	<span type="form" name="position:globalcostcentre" showhead="default" ></span>
+	   	<span type="form" name="position:facility" showhead="default" class="even"></span>
+	   	<span type="form" name="position:station" showhead="default" ></span>
+	   	<span type="form" name="position:department" showhead="default" class="even"></span>
+	   	<span type="form" name="position:status" showhead="default" noedit="true" class="even"></span>
+
+	</table>
+	</div> <!-- dataTable -->
+	
+	</div> <!-- position -->
+	
+	<br style="clear: both;" />
+	
+	
+	</div> <!-- recordsData -->
+
+    <!--<a href="construction.php">Print</a>-->
+</div>

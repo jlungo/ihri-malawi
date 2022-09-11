@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="station">
+  <metadata>
+    <displayName>Station</displayName>
+    <className>iHRIS_Module_Station</className>
+    <category>Application Component</category>
+    <description>Makes Station information available to the system</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.1.4</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="Geography">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>150</priority>
+  </metadata>
+  <configurationGroup name="station" path="/I2CE">
+    <displayName>Station</displayName>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <configuration name="can_edit_database_list_station" locale="en_US">
+        <version>3.2.2</version>
+        <value>Edit the station list</value>
+      </configuration>
+      <configuration name="can_view_database_list_station" locale="en_US">
+        <version>3.2.2</version>
+        <value>View the station list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_station_type" locale="en_US">
+        <version>3.2.2</version>
+        <value>Edit the station type list</value>
+      </configuration>
+      <configuration name="can_view_database_list_station_type" locale="en_US">
+        <version>3.2.2</version>
+        <value>View the station type list</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
+      <version>3.2.5</version>
+      <configuration name="can_edit_database_list_station" values="many">
+        <value>can_edit_organization_database_lists</value>
+        <value>can_view_database_list_station</value>
+      </configuration>
+      <configuration name="can_edit_database_list_station_type" values="many">
+        <value>can_edit_organization_database_lists</value>
+        <value>can_view_database_list_station_type</value>
+      </configuration>
+      <configuration name="can_edit_all_organization_database_lists" values="many">
+        <value>can_edit_database_list_station</value>
+        <value>can_edit_database_list_station_type</value>
+      </configuration>
+      <configuration name="can_view_all_organization_database_lists" values="many">
+        <value>can_view_database_list_station</value>
+        <value>can_view_database_list_station_type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <displayName>Forms</displayName>
+      <description>Information about the forms made available by iHRIS-Common station</description>
+      <configurationGroup name="forms">
+        <displayName>Forms available to the form factory</displayName>
+        <status>advanced:true</status>
+        <status>required:true</status>
+        <configurationGroup name="station">
+          <displayName>Station</displayName>
+          <description>The Station Form</description>
+          <version>3.2.4</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>iHRIS_Facility</value>
+          </configuration>
+          <configuration name="display" values="single">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Office/Station</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Mechanism</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <displayName>Meta information aboout this form</displayName>
+            <configuration name="description" locale="en_US">
+              <displayName>A description of the form</displayName>
+              <value>This form is used to descibe basic information about a station</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- station -->
+        <configurationGroup name="station_type">
+          <displayName>Station Type</displayName>
+          <description>The Station Type Form</description>
+          <version>3.2.3</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>I2CE_SimpleList</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Station Type</value>
+          </configuration>
+          <configuration name="storage" values="single">
+            <displayName>Storage Mechanism</displayName>
+            <description>The storage mechanism for this form</description>
+            <value>magicdata</value>
+          </configuration>
+        </configurationGroup>
+        <!-- end of station_type -->
+      </configurationGroup>
+      <!-- End /modules/forms/forms-->
+      <configurationGroup name="formClasses">
+        <displayName>Form Class Configuration</displayName>
+        <configurationGroup name="iHRIS_Facility">
+          <displayName>Configuration for the class 'iHRIS_Facility'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>iHRIS_ListByCountry</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <version>3.2.3</version>
+            <configurationGroup name="station_type">
+              <displayName>The field 'station_type'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.1</version>
+                <value>default:Station Type</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <!-- iHRIS_Facility -->
+      </configurationGroup>
+      <!-- End /modules/forms/formClasses -->
+    </configurationGroup>
+    <!-- End /modules/forms -->
+  </configurationGroup>
+  <!-- Station -->
+</I2CEConfiguration>

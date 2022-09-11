@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Prefix">
+  <metadata>
+    <displayName>Prefix</displayName>
+    <description>Common name prefix</description>
+    <category>MoH Modules</category>
+    <version>4.1.7</version>
+    <creator>iHRIS Malawi</creator>
+    <email>ihrismalawi@gmail.com</email>
+  </metadata>
+  <configurationGroup name="Prefix" path="/modules/forms/forms/Prefix">
+    <displayName>Prefix</displayName>
+    <version>4.1.6</version>
+    <configuration name="class">
+      <displayName>Class</displayName>
+      <value>I2CE_SimpleList</value>
+    </configuration>
+    <configuration name="display">
+      <displayName>Display</displayName>
+      <value>Prefix Name</value>
+    </configuration>
+    <configuration name="read_only">
+      <displayName>Read Only</displayName>
+      <value>0</value>
+    </configuration>
+    <configuration name="storage">
+      <displayName>Storage</displayName>
+      <value>magicdata</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

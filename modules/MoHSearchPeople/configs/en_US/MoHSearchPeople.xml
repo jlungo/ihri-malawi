@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHSearchPeople">
+	<metadata>
+		<version>4.1.1.5</version>
+	</metadata>
+	<configurationGroup name="MoHSearchPeople" locale="en_US">
+		<version>4.1.1.5</version>
+		<configurationGroup name="relationships">
+			<configurationGroup name="search_people">
+				<configuration name="display_name" locale="en_US">
+					<value>People List</value>
+				</configuration>
+			</configurationGroup>
+		</configurationGroup>
+		<configurationGroup name="reports">
+			<status>overwrite:true</status>
+			<configurationGroup name="search_people">
+				<configurationGroup name="meta">
+					<configuration name="display_name" locale="en_US">
+						<value>People List</value>
+					</configuration>
+					<configuration name="description" locale="en_US">
+						<value>Search all people records.</value>
+					</configuration>
+					<configuration name="category" locale="en_US">
+						<value>Staff Reports</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+	<configurationGroup name="reportViews">
+		<configurationGroup name="search_people">
+			<configuration name="description" locale="en_US">
+				<value>Search all person records in the system.</value>
+			</configuration>
+			<configuration name="display_name" locale="en_US">
+				<value>People List</value>
+			</configuration>
+		</configurationGroup>
+	</configurationGroup>
+	</configurationGroup>
+</I2CEConfiguration>

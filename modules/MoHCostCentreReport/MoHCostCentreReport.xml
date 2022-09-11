@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHCostCentreReport">
+  <metadata>
+    <displayName>Cost Centre List</displayName>
+    <description>List of Cost Centres</description>
+    <version>4.1.0.0</version>
+  </metadata>
+  <erase path="/modules/CustomReports/relationships/facility">
+    <lessThan version="4.1.0.0" />
+  </erase>
+  <erase path="/modules/CustomReports/reports/facility_list">
+    <lessThan version="4.1.0.0" />
+  </erase>
+  <erase path="/modules/CustomReports/reportViews/facility_list">
+    <lessThan version="4.1.0.0" />
+  </erase>
+  <configurationGroup name="MoHCostCentreReport" path="/modules/CustomReports">
+    <configurationGroup name="facility" path="//modules/CustomReports/relationships/facility">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>Cost Centre information</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Cost Centre List</value>
+      </configuration>
+      <configuration name="form">
+        <displayName>Form</displayName>
+        <value>facility</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="facility_list" path="//modules/CustomReports/reports/facility_list">
+      <displayName>Export</displayName>
+      <configurationGroup name="meta">
+        <displayName>Meta</displayName>
+        <configuration name="category">
+          <displayName>Category</displayName>
+          <value>Cost Centre Report</value>
+        </configuration>
+        <configuration name="description" locale="en_US">
+          <displayName>Description</displayName>
+          <value>Cost Centre information.</value>
+        </configuration>
+        <configuration name="display_name" locale="en_US">
+          <displayName>Display Name</displayName>
+          <value>Cost Centre List</value>
+        </configuration>
+      </configurationGroup>
+      <configuration name="relationship">
+        <displayName>Relationship</displayName>
+        <value>facility</value>
+      </configuration>
+      <configurationGroup name="reporting_forms">
+        <displayName>Reporting Forms</displayName>
+        <configurationGroup name="primary_form">
+          <displayName>Primary Form</displayName>
+          <configurationGroup name="fields">
+            <displayName>Fields</displayName>
+            <configurationGroup name="name">
+              <displayName>Name</displayName>
+              <configuration name="enabled">
+                <displayName>Enabled</displayName>
+                <value>1</value>
+              </configuration>
+              <configuration name="header" locale="en_US">
+                <displayName>Header</displayName>
+                <value>Facility Name</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="facility_list" path="//modules/CustomReports/reportViews/facility_list">
+      <displayName>Export</displayName>
+      <configuration name="description" locale="en_US">
+        <displayName>Description</displayName>
+        <value>A list of all Cost Centres.</value>
+      </configuration>
+      <configuration name="display_name" locale="en_US">
+        <displayName>Display Name</displayName>
+        <value>Cost Centre List</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <displayName>Fields</displayName>
+        <configurationGroup name="primary_form+name">
+          <displayName>Primary Form Name</displayName>
+          <configuration name="aggregate">
+            <displayName>Aggregate</displayName>
+            <value>none</value>
+          </configuration>
+          <configuration name="enabled">
+            <displayName>Enabled</displayName>
+            <value>1</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configuration name="related_views">
+        <displayName>Related Views</displayName>
+        <value>job_breakdown,position_list,staff_directory</value>
+      </configuration>
+      <configuration name="report">
+        <displayName>Report</displayName>
+        <value>facility_list</value>
+      </configuration>
+      <configuration name="total">
+        <displayName>Total</displayName>
+        <value>0</value>
+      </configuration>
+      <configuration name="display_order">
+        <displayName>Display Order</displayName>
+        <value>primary_form+name</value>
+      </configuration>
+      <configuration name="disable">
+        <displayName>Disable</displayName>
+        <value>0</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

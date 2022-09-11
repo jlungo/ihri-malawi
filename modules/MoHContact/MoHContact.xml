@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name='MoHContact'>
+	<metadata>
+		<displayName>MoH Contact</displayName>
+		<className>MoH_Contact</className>
+		<category>MoH Modules</category>
+		<description>Allows employees to have any number of contacts</description>
+		<creator>iHRIS Malawi</creator>
+		<email>ihrismalawi@gmail.com</email>
+		<version>4.1.0.6</version>
+		<path name='classes'>
+			<value>./lib</value>
+		</path>
+		<path name="configs">
+			<value>./configs</value>
+		</path>
+		<path name='templates'>
+			<value>./templates</value>
+		</path>
+		<priority>350</priority>
+	</metadata>
+	<configurationGroup name='MoHContact' path='/I2CE'>
+		<status>overwrite:true</status>
+		<configurationGroup name='forms' path='/modules/forms'>
+			<configurationGroup name='forms'>
+				<status>advanced:true</status>
+				<status>required:true</status>
+				<configurationGroup name='MoHContact'>
+					<displayName>Contact</displayName>
+					<configuration name='class' values='single'>
+						<displayName>Class Name</displayName>
+						<value>MoH_ContactFormClass</value>
+					</configuration>
+					<configuration name='display' values='single'>
+						<displayName>Display name</displayName>
+						<value>Contact</value>
+					</configuration>
+				</configurationGroup>
+				<configurationGroup name="MoHContactType">
+					<displayName>Contact Type</displayName>
+					<configuration name="class" values="single">
+						<displayName>Class Name</displayName>
+						<value>I2CE_SimpleList</value>
+					</configuration>
+					<configuration name="display" values="single" locale="en_US">
+						<displayName>Display name</displayName>
+						<value>Contact Type</value>
+					</configuration>
+					<configuration name="storage" values="single">
+						<displayName>Storage Details</displayName>
+						<description>The storage mechanism for this form.</description>
+						<value>magicdata</value>
+					</configuration>
+				</configurationGroup>
+
+				<configurationGroup name='person_meta'
+					path='/modules/forms/forms/person/meta'>
+					<displayName>MetaData on the form</displayName>
+					<configuration name='child_forms' values='many'>
+						<status>uniquemerge:true</status>
+						<displayName>Child Forms</displayName>
+						<value>MoHContact</value>
+					</configuration>
+				</configurationGroup>
+
+			</configurationGroup>
+
+
+			<configurationGroup name="formClasses">
+				<configurationGroup name="MoH_ContactFormClass">
+					<configuration name="extends">
+						<displayName>The class this form extends</displayName>
+						<value>I2CE_Form</value>
+					</configuration>
+					<configurationGroup name="fields">
+						<configurationGroup name="ContactType">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>MAP</value>
+							</configuration>
+							<configurationGroup name="meta">
+								<configuration name="form" values="many">
+									<value>MoHContactType</value>
+								</configuration>
+							</configurationGroup>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Contact Type</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="Prefix">
+							<configuration name="formfield">
+								<value>MAP</value>
+							</configuration>
+							<configurationGroup name="meta">
+								<configuration name="form" values="many">
+									<value>Prefix</value>
+								</configuration>
+							</configurationGroup>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<displayName>The headers for this field.</displayName>
+								<version>3.2.5</version>
+								<value>default:Prefix name</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="Firstname">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:First Name</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="Surname">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Surname</value>
+							</configuration>
+							<configurationGroup name="othername">
+								<configuration name="formfield">
+									<displayName>The form field type</displayName>
+									<value>STRING_LINE</value>
+								</configuration>
+								<configuration name="headers" type="delimited"
+									locale="en_US">
+									<displayName>The headers for this field.</displayName>
+									<version>3.2.1</version>
+									<value>default:Initals/Other Names</value>
+								</configuration>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="Relationship">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Relationship (if applicable)</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="ResAddress">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Residential Address</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="WorkAddress">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Work Address</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="ResPhone">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Residential Phone Number</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="WorkPhone">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Work Phone Number</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="CellPhone">
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited">
+								<displayName>The headers for this field.</displayName>
+								<value>default:Cell Phone Number</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+
+
+			</configurationGroup>
+
+		</configurationGroup>
+
+
+		<configurationGroup name='page'>
+			<status>required:true</status>
+			<configurationGroup name='MoHContact'>
+				<configuration name='class' values='single'>
+					<status>required:true</status>
+					<value>iHRIS_PageFormParentPerson</value>
+				</configuration>
+				<configuration name='style' values='single'>
+					<value>ihris_common_page_form_parent_person</value>
+				</configuration>
+				<configurationGroup name='args'>
+					<displayName>Page Options</displayName>
+					<description>The options that control the access and display of all
+						pages</description>
+					<configuration name='title' values='single'>
+						<displayName>Page Title</displayName>
+						<description>Page Title</description>
+						<status>required:true</status>
+						<value>Add/Update Contact</value>
+					</configuration>
+					<configuration name='page_form' values='single'>
+						<displayName>Form</displayName>
+						<description>The form this page is using</description>
+						<status>required:true</status>
+						<value>MoHContact</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+
+
+		</configurationGroup>
+
+
+	</configurationGroup>
+</I2CEConfiguration>

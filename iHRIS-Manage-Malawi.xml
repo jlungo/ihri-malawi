@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-site">
+	<metadata>
+		<displayName>iHRIS Manage</displayName>
+		<category>Site</category>
+		<description>the iHRIS Manage Site</description>
+		<creator>Intrahealth Informatics</creator>
+		<email>hris@capacityproject.org</email>
+		<link>https://launchpad.net/ihris-manage</link>
+		<version>4.1.6.35</version>
+		<path name="configs">
+			<value>./configs</value>
+		</path>
+		<requirement name="ihris-manage">
+			<atLeast version="4.1" />
+			<lessThan version="4.2" />
+		</requirement>
+		<requirement name="UserAccess">
+			<atLeast version="4.1" />
+		<lessThan version="4.2" />
+		</requirement>
+	    <requirement name="ManageDashboard">
+	      <atLeast version="4.1"/>
+	      <lessThan version="4.2"/>
+	    </requirement>
+		<disable name="ManageAccessFacility" />
+		<enable name="TrainingCourse" />
+		<enable name="Bond" />
+        <enable name="CustomReports-full-Workers"/>
+		<enable name="customised-LastPromotion"/>
+		<enable name="training-course"/>
+		<enable name="current_staff_list"/>
+		<enable name="manage-training-institution" />
+		<enable name="CEUs" />
+		<enable name="customised-Disability"/>
+		<enable name="customised-Zone"/>
+		<enable name="career-paths"/>
+		<enable name="Advances" />
+		<enable name="custom_establishment"/> 
+		<enable name="customised-Import" /> 
+		<enable name="establishment-report" /> 
+		<!--<enable name="CustomReports-full-stafft" />-->
+		<enable name="PersonContact" />
+		<enable name="name-Titles" />
+		<enable name="ihris-common-Cadre" />
+		<enable name="academic-Qualifications" />
+		<enable name="professional-Qualifications" />
+		<enable name="marital-status" />
+		<enable name="disciplinary_action" />
+		<enable name="accident" />
+		<enable name="customised-DutyPost" />
+		<enable name="training-course" />
+		<enable name="work-Area" />
+		<enable name="dependents" />
+		<enable name="professions" />
+		<enable name="career-paths" />
+		<!-- <enable name="customised-Job" /> -->
+		<enable name="customised-Import" />
+		<enable name="customised-dependents" />
+		<enable name="hrpolicyandmanagement7" />
+		<enable name="hrpolicyandmanagement1" />
+		<enable name="hrpolicyandmanagement2" />
+		<enable name="ActingPosition" /> 
+		<enable name="default-locales" />
+		<enable name="PersonContact" />
+		<enable name="ihris-manage-PersonDemographic" />
+		<enable name="PersonEducation" />
+		<enable name="PersonNotes" />
+		<enable name="PersonEmployment" />
+		<enable name="PersonID" />
+		<enable name="PersonLanguage" />
+		<enable name="stub" />
+		<enable name="messageBox" />
+		<enable name="messageNotice" />
+		<enable name="messageHandler" />
+		<enable name="station" />
+		<enable name="customised-station" />
+		<enable name="globalcostcentre" />
+		<enable name="MoHDisplacementReport" />
+		<enable name="MoHUnassignedPeopleReport" />
+		<enable name="Grade" />
+		<enable name="hrhcadre" />
+		<enable name="Programme" />
+		<enable name="SubProgramme" />
+		<enable name="SubSubProgramme" />
+		<enable name="Section" />
+		<enable name="facilitytype" />
+		<enable name="station_type" />
+		<enable name="MoHContact" />
+		<enable name="MoHCostCentre" />
+		<enable name="MoHCostCentreAccess" />
+		<enable name="MoHCostCentreReport" />
+		<enable name="MoHGeography" />
+		<enable name="MoHSearchPeople" />
+		<enable name="MoHPositionReports" />
+		<enable name="MoHStaffReport" />
+		<enable name="MoHStaffReports" />
+		<enable name="MoHJob" />
+		<enable name="MoHPosition" />
+		<enable name="MoHPerson" />
+		<enable name="MoHPersonID" />
+		<enable name="MoHEducation" />
+		<enable name="MoHPersonPosition" />
+		<enable name="MoHVacancyReport" />
+		<enable name="MoHSalary" />
+		<enable name="EducationType" />
+		<enable name="Leave" />
+		<enable name="Prefix" />
+		<enable name="Employmenttype" />
+		<enable name="deleteRecord" />
+		<enable name="ihris-common-MassDeletePerson" />
+		<enable name="EstablishmentPlan" />
+		<enable name="magicDataBrowser" />
+		<enable name="tasks-roles" />
+		<enable name="exportReport" />
+		<enable name="formDocumentor" />
+		<enable name="HRPM-Reports" />
+		<path name="classes">
+			<value>./lib</value>
+		</path>
+		<path name="templates">
+			<value>./templates</value>
+		</path>
+		<path name="css">
+			<value>./css</value>
+		</path>
+		<path name="scripts">
+			<value>./scripts</value>
+		</path>
+		<path name="modules">
+			<value>./modules</value>
+		</path>
+		<path name="images">
+			<value>./images</value>
+		</path>
+		<priority>400</priority>
+	</metadata>
+	<configurationGroup name="ihris-manage-site" path="/I2CE">
+		<displayName>iHRIS Manage Site</displayName>
+		<status>advanced:false</status>
+		<configurationGroup name="feedback">
+			<displayName>Feedback Information</displayName>
+			<status>required:false</status>
+			<configuration name="email" path="to" values="single">
+				<displayName>Email Address</displayName>
+				<value>ihrismalawi@gmail.com</value>
+			</configuration>
+			<configuration name="subject" values="single" locale="en_US">
+				<displayName>Subject Line</displayName>
+				<value>iHRIS Manage</value>
+			</configuration>
+		</configurationGroup>
+		<configurationGroup name='maani-charts'>
+			<displayName>Chart Configuration</displayName>
+			<description>configuration options for charts using the maani flash
+				charts.</description>
+
+			<configuration name='license' values='single'
+				path='/modules/maani-charts/license'>
+				<displayName>Maani License</displayName>
+				<description>Enter a license to enable full charting capability</description>
+				<status>overwrite:true</status>
+				<value>ITA9XPNAUMVSTQH5CWK-2XOI1X0-7L</value>
+			</configuration>
+		</configurationGroup>
+		<configurationGroup name="cache_times">
+			<displayName>Cache Times</displayName>
+			<description>Override caching times for this site.</description>
+			<status>advanced:true</status>
+			<configuration name="stale" path="/I2CE/update/times/stale">
+				<displayName>Stale Time</displayName>
+				<description>The time in seconds we wait until we check that the
+					configuration files for the system and the modules are up to date.
+					Defaults to 10. If negative, we check the system files on each page
+					request</description>
+				<status>required:true</status>
+				<value>600</value>
+			</configuration>
+			<configuration name="stale_time" path="/I2CE/fileSearch/stale_time">
+				<displayName>Stale Time</displayName>
+				<description>The time in seconds until a file found in the file
+					search utility is considered stale. If stale, it will search for
+					the file, if not stale, it will use the previously found location
+					of the file (it will cache the file location). If negative, then we
+					do not cache the file location.</description>
+				<status>required:true</status>
+				<value>1800</value>
+			</configuration>
+			<configuration name="cache_time" path="/modules/FileDump/cache_time">
+				<displayName>Cache Time</displayName>
+				<description>The time (in minutes) to cache content</description>
+				<status>required:true</status>
+				<value>60</value>
+			</configuration>
+		</configurationGroup>
+		<configurationGroup name="template">
+			<displayName>Template Information</displayName>
+			<description>Various Default Information About The Templating System</description>
+			<status>advanced:false</status>
+			<status>required:true</status>
+			<configuration name="prefix_title" values="single"
+				locale="en_US">
+				<displayName>Page title prefix</displayName>
+				<description>Page titile prefix</description>
+				<value>iHRIS Manage</value>
+			</configuration>
+		</configurationGroup>
+		<configurationGroup name="pdf_options"
+			path="/modules/report-pdf/PDF/display-options">
+			<displayName>PDF Options</displayName>
+			<status>visible:false</status>
+			<configurationGroup name="header">
+				<displayName>Header Options</displayName>
+				<configuration name="text" locale="en_US">
+					<displayName>Header Text</displayName>
+					<value>iHRIS Manage</value>
+				</configuration>
+			</configurationGroup>
+		</configurationGroup>
+		<configurationGroup name="search_reports"
+			path="/modules/CustomReports/search_reports">
+			<status>overwrite:true</status>
+			<configuration name="search_people" values="many" type="delimited"
+				locale="en_US">
+				<value>name:Search People</value>
+				<value>description:Locate any person's record in the system to
+					review, print or update.</value>
+			</configuration>
+			<configuration name="position_list" values="many" type="delimited"
+				locale="en_US">
+				<value>name:Search Jobs</value>
+				<value>description:Locate any job in the system to review, print or
+					update.</value>
+			</configuration>
+		</configurationGroup>
+	</configurationGroup>
+<!-- Disable unused default roles 
+	<configurationGroup name="roles"
+		path="/I2CE/formsData/forms/role">
+		<version>3.2.15</version>
+		<status>overwrite:true</status>
+		<erase path="/I2CE/formsData/forms/role/hr_staff" />
+		<erase path="/I2CE/formsData/forms/role/hr_manager" />
+		<erase path="/I2CE/formsData/forms/role/training_manager" />
+	</configurationGroup>
+-->
+</I2CEConfiguration>

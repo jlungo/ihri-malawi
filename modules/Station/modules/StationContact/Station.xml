@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="StationContact">
+  <metadata>
+    <displayName>Station Contact</displayName>
+    <className>iHRIS_Module_StationContact</className>
+    <category>Application Component</category>
+    <description>Adds contact information to a station</description>
+    <creator>Intrahealth Informatics</creator>
+    <email>hris@capacityproject.org</email>
+    <link>https://launchpad.net/ihris-common</link>
+    <version>4.1.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="station">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="Contact">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <priority>350</priority>
+  </metadata>
+  <configurationGroup name="StationContact" path="/I2CE">
+    <configurationGroup name="forms" path="/modules/forms/forms/">
+      <configurationGroup name="station_contact">
+        <version>3.2.6</version>
+        <configuration name="class" values="single">
+          <value>iHRIS_Contact</value>
+        </configuration>
+        <configuration name="display" values="single" locale="en_US">
+          <displayName>Display name</displayName>
+          <description>The display name for this form.</description>
+          <value>Station Contact</value>
+        </configuration>
+        <configuration name="storage" values="single">
+          <displayName>Storage Mechanism</displayName>
+          <description>The storage mechanism for this form</description>
+          <value>magicdata</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="station">
+        <displayName>Station</displayName>
+        <description>The Station Form</description>
+        <configurationGroup name="meta">
+          <displayName>Meta information aboout this form</displayName>
+          <configuration name="child_forms" values="many">
+            <displayName>Child Forms</displayName>
+            <value>station_contact</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

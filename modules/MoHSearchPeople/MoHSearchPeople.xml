@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHSearchPeople">
+	<metadata>
+		<displayName>MoH Search People</displayName>
+		<category>MoH Reporting</category>
+		<description>Customizes the "search people" custom report for MoH
+			purposes</description>
+		<creator>iHRIS Malawi</creator>
+		<email>ihrismalawi@gmail.com</email>
+		<version>4.0.0.27</version>
+		<path name="configs">
+			<value>./configs</value>
+		</path>
+		<requirement name="ihris-manage-CustomReports-search-people">
+			<atLeast version="4.0" />
+			<lessThan version="4.2" />
+		</requirement>
+	</metadata>
+	<configurationGroup name="MoHSearchPeople" path="/">
+		<status>overwrite:true</status>
+		<configurationGroup name="ihris-manage-CustomReports-search-people"
+			path="/modules/CustomReports">
+			<configurationGroup name="formsData_employee_status"
+				path="/I2CE/formsData/forms/employee_status">
+				<erase path="/I2CE/formsData/forms/employee_status/old_employee" />
+				<erase path="/I2CE/formsData/forms/employee_status/applicant" />
+				<erase path="/I2CE/formsData/forms/employee_status/old_applicant" />
+				<configurationGroup name="employee">
+					<configuration name="last_modified">
+						<value>2009-06-29 16:16:00</value>
+					</configuration>
+					<configuration name="fields" value="many" type="delimited">
+						<value>name:Employee</value>
+					</configuration>
+				</configurationGroup>
+				<configurationGroup name="ex_employee">
+					<configuration name="last_modified">
+						<value>2009-06-29 16:16:00</value>
+					</configuration>
+					<configuration name="fields" value="many" type="delimited">
+						<value>name:Ex-Employee</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+			<configurationGroup name="relationships">
+				<configurationGroup name="search_people">
+					<configuration name="display_name" locale="en_US">
+						<displayName>Display Name</displayName>
+						<value>People List</value>
+					</configuration>
+					<configurationGroup name="reporting_functions">
+						<configurationGroup name="employee_status">
+							<configuration name="qry">
+								<value>CASE WHEN `last_person_position+end_date` IS NOT NULL AND
+									`last_person_position+end_date` != '0000-00-00 00:00:00'
+									THEN
+									'employee_status|ex_employee' ELSE 'employee_status|employee'
+									END</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+					<configurationGroup name="joins">
+						<configurationGroup name="last_person_position">
+							<configurationGroup name="joins">
+								<configurationGroup name="last_position">
+									<configurationGroup name="joins">
+										<configurationGroup name="last_job">
+											<displayName>Last Position</displayName>
+											<configuration name="display_name" locale="en_US">
+												<displayName>Display Name</displayName>
+												<value>Last Position</value>
+											</configuration>
+										</configurationGroup>
+										<configurationGroup name="last_facility">
+											<displayName>Last Cost Centre</displayName>
+											<configuration name="description" locale="en_US">
+												<displayName>Description</displayName>
+												<value>The last Cost Centre where this person worked.</value>
+											</configuration>
+											<configuration name="display_name" locale="en_US">
+												<displayName>Display Name</displayName>
+												<value>Last Cost Centre</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="personal_identifiers">
+							<displayName>Personal Indentifiers</displayName>
+							<configuration name="display_name" locale="en_US">
+              					<displayName>Display Name</displayName>
+              					<value>Personal Identifiers</value>
+            				</configuration>
+            				<configuration name="drop_empty">
+              					<displayName>Drop Empty</displayName>
+              					<value>0</value>
+            				</configuration>
+							<configuration name="form">
+              					<displayName>Form</displayName>
+              					<value>person_id</value>
+            				</configuration>
+            				<configuration name="join_style">
+              					<displayName>Join Style</displayName>
+              					<value>child</value>
+            				</configuration>
+            				<configurationGroup name="where">
+              					<displayName>Where</displayName>
+              					<configuration name="operator">
+                					<displayName>Operator</displayName>
+                					<value>FIELD_LIMIT</value>
+              					</configuration>
+              					<configuration name="style">
+                					<displayName>Style</displayName>
+                					<value>equals</value>
+              					</configuration>
+              					<configuration name="field">
+                					<displayName>Field</displayName>
+                					<value>id_type</value>
+              					</configuration>
+              					<configurationGroup name="data">
+             						<displayName>Data</displayName>
+              						<configuration name="value">
+                						<displayName>Value</displayName>
+                						<value>id_type|1</value>
+              						</configuration>
+            					</configurationGroup>
+            				</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+			<configurationGroup name="reports">
+				<configurationGroup name="search_people">
+					<configurationGroup name="meta">
+						<configuration name="display_name" locale="en_US">
+							<displayName>Display Name</displayName>
+							<value>People List</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="meta">
+						<configuration name="display_name" locale="en_US">
+							<displayName>Display Name</displayName>
+							<value>People List</value>
+						</configuration>
+						<configuration name="category" locale="en_US">
+							<displayName>Category</displayName>
+							<value>Staff Reports</value>
+						</configuration>
+					</configurationGroup>
+					<configurationGroup name="reporting_forms">
+						<configurationGroup name="personal_identifiers">
+							<configurationGroup name="fields">
+								<configurationGroup name="id_num">
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="contains">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Employee Number</value>
+											</configuration>
+											<configuration name="enabled">
+                      							<displayName>Enabled</displayName>
+                      							<value>1</value>
+                    						</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+						<configurationGroup name="last_position">
+							<configurationGroup name="fields">
+								<configurationGroup name="job">
+									<displayName>Position</displayName>
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Position</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="facility">
+									<displayName>Cost Centre</displayName>
+									<configurationGroup name="limits">
+										<displayName>Limits</displayName>
+										<configurationGroup name="equals">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Cost Centre</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+									<configuration name="header" locale="en_US">
+										<displayName>Header</displayName>
+										<value>Cost Centre ID</value>
+									</configuration>
+								</configurationGroup>
+								<configurationGroup name="last_facility">
+									<displayName>Last Cost Centre</displayName>
+									<configurationGroup name="fields">
+										<configurationGroup name="name">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Cost Centre (Working)</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+								<configurationGroup name="last_job">
+									<displayName>Last Position</displayName>
+									<configurationGroup name="fields">
+										<configurationGroup name="title">
+											<configuration name="header" locale="en_US">
+												<displayName>Header</displayName>
+												<value>Position Title</value>
+											</configuration>
+										</configurationGroup>
+									</configurationGroup>
+								</configurationGroup>
+							</configurationGroup>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+			<configurationGroup name="reportViews">
+				<configurationGroup name="search_people">
+					<configuration name="display_name" locale="en_US">
+						<displayName>Display Name</displayName>
+						<value>People List</value>
+					</configuration>
+					<configurationGroup name="fields">
+						<configurationGroup name="last_facility+name">
+							<displayName>Last Cost Centre Name</displayName>
+						</configurationGroup>
+						<configuration name="display_name" locale="en_US">
+							<displayName>Display Name</displayName>
+							<value>People List</value>
+						</configuration>
+						<configurationGroup name="last_job+title">
+							<displayName>Last Position Title</displayName>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+	</configurationGroup>
+</I2CEConfiguration>

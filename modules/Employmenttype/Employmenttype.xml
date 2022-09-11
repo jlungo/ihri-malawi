@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Employmenttype">
+  <metadata>
+    <displayName>Employment Type</displayName>
+    <description>Common name employment type</description>
+    <category>MoH Modules</category>
+    <version>4.1.10</version>
+    <creator>iHRIS Malawi</creator>
+    <email>ihrismalawi@gmail.com</email>
+  </metadata>
+  <configurationGroup name="Employmenttype" 
+  path="/modules/forms/forms/Employmenttype">
+    <displayName>Employment Type</displayName>
+    <configuration name="class" values='single'>
+      <displayName>Class</displayName>
+      <value>I2CE_SimpleList</value>
+    </configuration>
+    <configuration name="display" values='single'>
+      <displayName>Display</displayName>
+      <value>Employment Type</value>
+    </configuration>
+		<configuration name='storage' values='single'>
+			<displayName>Storage</displayName>
+			<value>magicdata</value>
+		</configuration>
+  </configurationGroup>
+</I2CEConfiguration>

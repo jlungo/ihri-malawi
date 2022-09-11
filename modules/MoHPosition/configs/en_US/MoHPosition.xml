@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHPosition" >
+  <metadata>
+    <version>4.1.6.0</version>
+  </metadata>
+  <configurationGroup name="MoHPosition" path="/">
+    <version>4.1.3.0</version>
+    <configurationGroup name="page">
+      <configurationGroup name="make_offer">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Job Allocation</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

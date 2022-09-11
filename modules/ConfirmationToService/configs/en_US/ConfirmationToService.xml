@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="customised-ConfirmationToService" path="/I2CE">
+  <metadata>
+    <version>4.1.0</version>
+  </metadata>
+  <configurationGroup name="customised-ConfirmationToService" path="/I2CE" locale="en_US">
+    <version>4.1.0</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_confirmationtoservice" locale="en_US">
+        <value>Can view confirmationtoservice child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_confirmationtoservice" locale="en_US">
+        <value>Can edit confirmationtoservice child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="confirmationtoservice">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Last Promotion</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="PMORALG_ConfirmationToService">
+          <configurationGroup name="fields">
+            <configurationGroup name="confirmationletter">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Letter of Confirmation into Service</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="confirmationdate">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Date of Confirmation into Service</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="confirmationtoservice">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Add/Update Date of Confirmation into Service</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

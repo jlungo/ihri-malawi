@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="customised-Job">
+  <metadata>
+    <displayName>Custom Job Module</displayName>
+    <category>CUSTOMISED Modules</category>
+    <description>The Custom Job Module</description>
+    <creator>Hilal S. Mohamed</creator>
+    <email>abusalha@gmail.com</email>
+    <link>https://launchpad.net/ihris-manage-malawi</link>
+    <version>4.1.7</version>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="modules">
+      <value>./modules</value>
+    </path>
+    <requirement name="ihris-manage-Job">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="customised-Job" path="/I2CE">
+  <status>overwrite:true</status>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="job">
+          <displayName>Job</displayName>
+          <description>The Job Form</description>
+          <version>3.2.6</version>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <version>4.0.6.5</version>
+            <value>customised_Job</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- end of /modules/forms/forms-->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="customised_Job">
+          <displayName>Configuration for the class 'customised_Job'</displayName>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <version>4.0.6.2</version>
+            <value>iHRIS_ManageJob</value>
+          </configuration>
+          <configurationGroup name="fields">
+            <displayName>The fields defined for this form</displayName>
+            <!--adding field careerpath -->
+            <configurationGroup name="careerpath">
+              <displayName>The field 'careerpath'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Career Path</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end careearpath -->
+            <!--adding Vote Code -->
+            <configurationGroup name="votecode">
+              <displayName>The field 'vote code'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Vote Code</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end careearpath -->
+            <!--adding Vote name -->
+            <configurationGroup name="votename">
+              <displayName>The field 'vote name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Cost Center Name</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end vote name -->
+            <!--adding gratuity -->
+            <configurationGroup name="gratuity">
+              <displayName>The field 'gratuity'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Rate of Gratuity (%)</value>
+              </configuration>
+            </configurationGroup>
+            <!-- adding common service field -->
+            <configurationGroup name="commonservice">
+              <displayName>The field 'commonservice'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Common Service (e.g. Personnel, etc)</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end commonservice -->
+            <!-- adding department field -->
+            <configurationGroup name="department">
+              <displayName>The field 'Department'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Department</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end department --> <!-- adding department field -->
+            <!-- Adding Job Grade -->
+            <configurationGroup name="jobgrade">
+              <displayName>The field 'jobgrade'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Job Grade</value>
+              </configuration>
+            </configurationGroup>        
+            <!-- end Job Grade --> 
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- end of /modules/formClasses-->
+    </configurationGroup>
+    <!-- end of /modules/forms-->
+  </configurationGroup>
+</I2CEConfiguration>

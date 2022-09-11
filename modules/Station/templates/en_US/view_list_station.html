@@ -1,0 +1,29 @@
+<div id="list_display" task='can_view_database_list_station'>
+  
+  <div class="editRecord">
+    <p>Edit This Information</p>
+    <ul>
+      <li task='can_edit_database_list_station'><span type="form" name="station:id" href="lists?type=station&amp;id=" >Update this Information </span></li>
+      <li><a href="lists?type=station&amp;field=location" >Select another Office/station</a></li>
+    </ul>
+  </div> <!-- editRecord -->
+  
+  <div class="dataTable">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	<th colspan="2">Office/station</th>
+      </tr>
+      <span type="form" name="station:name" showhead="default"></span>
+      <span type="form" name="station:station_type" showhead="default" addlink="lists?add=1&amp;type=station_type" class="even"></span>
+      <span type="form" name="station:location" showhead="default" addlink="lists?add=1&amp;type=country">
+      </span>
+      <span type='module' ifenabled='true' name='DHIS_FacilityMap' ifset='true'>
+	<span type="form" name="station:dhis_orgunit" showhead="default" />
+      </span>
+      
+      <tbody id="station_contact" />
+
+    </table>
+  </div> <!-- dataTable -->
+  
+</div> <!-- list_display -->

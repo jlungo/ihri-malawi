@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name='Section'>
+	<metadata>
+		<displayName>Section</displayName>
+		<category>MoH Modules</category>
+		<description>Categorization of position discipline</description>
+		<creator>iHRIS Malawi</creator>
+   		<email>ihrismalawi@gmail.com</email>
+		<version>4.0.0.4</version>
+		<priority>300</priority>
+	</metadata>
+	<configurationGroup name='Section'
+		path='/modules/forms/forms/Section'>
+		<displayName>Section</displayName>
+		<configuration name='class' values='single'>
+			<displayName>Class</displayName>
+			<value>I2CE_SimpleList</value>
+		</configuration>
+		<configuration name='display' values='single'>
+			<displayName>Display</displayName>
+			<value>Section</value>
+		</configuration>
+		<configuration name='storage' values='single'>
+			<displayName>Storage</displayName>
+			<value>magicdata</value>
+		</configuration>
+	</configurationGroup>
+</I2CEConfiguration>

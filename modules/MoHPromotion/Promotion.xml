@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="PromotionDate">
+  <metadata>
+    <displayName>Promotion Date</displayName>
+    <description>Common name prefix</description>
+    <category>MoH Modules</category>
+    <version>4.1.7</version>
+    <creator>iHRIS Malawi</creator>
+    <email>ihrismalawi@gmail.com</email>
+  </metadata>
+  <configurationGroup name="PromotionDate">
+							<displayName>The field 'PromotionDate'</displayName>
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>DATE_YMD</value>
+							</configuration>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<displayName>The headers for this field.</displayName>
+								<version></version>
+								<value>default:Date of Promotion</value>
+							</configuration>
+							<configuration name="default_eval">
+								<displayName>The default Value as an eval string</displayName>
+								<version></version>
+								<value>I2CE_Date::blank()</value>
+							</configuration>
+							<configuration name="required" type="boolean">
+								<displayName></displayName>
+								<value>false</value>
+							</configuration>	
+					</configurationGroup>
+</I2CEConfiguration>

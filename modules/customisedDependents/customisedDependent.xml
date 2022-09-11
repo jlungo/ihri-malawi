@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="customised-dependents">
+  <metadata>
+    <displayName>Person's Dependents</displayName>
+    <category>CUSTOMISED Modules</category>
+    <description>Adds Dependent Information to a Person</description>
+    <version>4.1.6.5</version>
+    <creator>UDSM-THRP</creator>
+    <email>support@zalongwa.com</email>
+    <requirement name="dependents">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="dependent-Type">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="customised-dependents" path="/">
+    <configurationGroup name="dep_class" path="/modules/forms/formClasses/custDependents">
+    <status>overwrite:true</status>
+      <configuration name="extends">
+        <value>iHRIS_Dependent</value>
+      </configuration>
+      <configurationGroup name="fields">
+        <configurationGroup name="dependenttype">
+          <configuration name="formfield">
+            <value>MAP</value>
+          </configuration>
+          <configuration name="headers" type="delimited" values="many" locale="en_US">
+            <value>default:Dependent Type</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="dependentrelationship">
+          <configuration name="formfield">
+            <value>STRING_LINE</value>
+          </configuration>
+          <configuration name="headers" type="delimited" values="many" locale="en_US">
+            <value>default:Relationship</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="dependentemployer">
+          <configuration name="formfield">
+            <value>STRING_TEXT</value>
+          </configuration>
+          <configuration name="headers" type="delimited" values="many" locale="en_US">
+            <value>default:Dependent Employer</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <!-- end of form class -->
+    <configurationGroup name="dep_form" path="/modules/forms/forms/dependent">
+      <configuration name="class">
+        <value>custDependents</value>
+      </configuration>
+      <configuration name="display" locale="en_US">
+        <value>Dependent</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

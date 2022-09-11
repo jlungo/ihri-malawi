@@ -1,0 +1,55 @@
+<?xml version="1.1"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="customised-Import">
+  <metadata>
+    <displayName> Data import</displayName>
+    <description>Data import from External Databases</description>
+    <category>LOCALISED Modules</category>
+    <creator>iHRIS Tanzania</creator>
+    <email>support@zalongwa.com</email>
+    <version>4.1.15</version>
+    <path name='templates'>
+    	<value>./templates</value>
+    </path>
+   <path name='classes'>
+   <value>./lib</value>
+   </path >
+   <priority>400</priority>
+  </metadata>
+  <configurationGroup name="customised-Import" path="/I2CE/page/import">
+    <displayName>Export</displayName>
+    <version>4.1.15</version>
+    <configurationGroup name="args">
+      <displayName>Args</displayName>
+      <configurationGroup name="access">
+        <displayName>Access</displayName>
+        <configuration name="0">
+          <displayName>0</displayName>
+          <value>any</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="defaultHTMLFile">
+        <displayName>Default HTMLFile</displayName>
+        <configuration name="0">
+          <displayName>0</displayName>
+          <value>import.html</value>
+        </configuration>
+      </configurationGroup>
+      <configuration name="title">
+        <displayName>Title</displayName>
+        <value>Import</value>
+      </configuration>
+    </configurationGroup>
+    
+    <configuration name="class">
+      <displayName>Class</displayName>
+      <version>4.1.15</version>
+      <value>I2CE_PageImport</value>
+    </configuration>
+    
+    <configuration name="style">
+      <displayName>Style</displayName>
+      <value>shell</value>
+    </configuration>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="customised-DutyPost" path="/I2CE">
+  <metadata>
+    <version>4.1.0.1</version>
+  </metadata>
+  <configurationGroup name="customised-DutyPost" path="/I2CE" locale="en_US">
+    <version>4.1.0.1</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
+      <configuration name="person_can_view_child_form_dutypost" locale="en_US">
+        <value>Can view duty post child form of a person</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_dutypost" locale="en_US">
+        <value>Can edit duty post child forms of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="dutypost">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Duty Post</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_DutyPost">
+          <configurationGroup name="fields">
+            <configurationGroup name="duty">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Duty Post</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="dutyletter">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Letter of Appointment to Duty Post</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="dateassigned">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Date of Assignment to Post</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="dutypost">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Add/Update Duty Post</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="MoHJob">
+  <metadata>
+    <displayName>MoH Job</displayName>
+    <category>MoH Modules</category>
+    <description>Customizes the default job form for MoH purposes, renames job to position</description>
+    <creator>iHRIS Malawi</creator>
+    <email>ihrismalawi@gmail.com</email>
+    <version>4.1.0.23</version>
+    <requirement name="ihris-manage-Job">
+      <atLeast version="4.0"/>
+      <lessThan version="4.2"/>
+    </requirement>
+    <conflict name="customised-Job">
+      <atLeast version="4.0"/>
+      <lessThan version="4.2"/>
+    </conflict>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <priority>400</priority>
+  </metadata>
+  <configurationGroup name="MoHJob" path="/I2CE">
+    <status>overwrite:true</status>
+    <configurationGroup name="page">
+      <configurationGroup name="view_job">
+        <configuration name="class" values="single">
+          <displayName>Page Class</displayName>
+          <description>The class responsible for displaying this page</description>
+          <status>required:true</status>
+          <value>MoH_PageViewJob</value>
+        </configuration>
+        <configurationGroup name="args">
+          <displayName>Page Options</displayName>
+          <description>The options that control the access and display of all pages</description>
+          <configuration name="title" values="single" locale="en_US">
+            <displayName>Page Title</displayName>
+            <description>Page Title</description>
+            <status>required:true</status>
+            <value>View Position</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="job">
+          <version>4.1.0.5</version>
+          <displayName>Position</displayName>
+          <description>The Position Form</description>
+          <configuration name="class" values="single">
+            <displayName>Class Name</displayName>
+            <description>The name of the class providing the form</description>
+            <value>MoH_Job</value>
+          </configuration>
+          <configuration name="display" values="single" locale="en_US">
+            <displayName>Display name</displayName>
+            <description>The display name for this form</description>
+            <value>Position</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <!-- end of /modules/forms/forms -->
+      <configurationGroup name="formClasses">
+        <configurationGroup name="MoH_Job">
+          <displayName>Configuration for the class 'MoH_Job'</displayName>
+          <version>4.1.0.1</version>
+          <configuration name="extends">
+            <displayName>The class this form extends</displayName>
+            <value>iHRIS_ManageJob</value>
+          </configuration>
+          <configurationGroup name="fields" >
+          	<configurationGroup name="Grade">
+              <configuration name="formfield">
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>Grade</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.5</version>
+                <value>default:Grade</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="cadre">
+            	<configuration name="headers" type="delimited" locale="en_US">
+                	<displayName>The headers for this field.</displayName>
+                	<version>3.2.5</version>
+                	<value>default:Cadre (WHO)</value>
+             	</configuration>
+            </configurationGroup>
+
+            <!--adding Vote Code -->
+            <configurationGroup name="votecode">
+              <displayName>The field 'vote code'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Vote Code</value>
+              </configuration>
+            </configurationGroup>
+            <!--adding Vote name -->
+            <configurationGroup name="votename">
+              <displayName>The field 'vote name'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Cost Center Name</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end vote name -->
+            <!--adding gratuity -->
+            <configurationGroup name="gratuity">
+              <displayName>The field 'gratuity'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Rate of Gratuity (%)</value>
+              </configuration>
+            </configurationGroup>
+            <!-- adding common service field -->
+            <configurationGroup name="commonservice">
+              <displayName>The field 'commonservice'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Common Service (e.g. Personnel, etc)</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end commonservice -->
+            <!-- adding department field -->
+            <configurationGroup name="department">
+              <displayName>The field 'Department'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Department</value>
+              </configuration>
+            </configurationGroup>
+            <!-- end department --> 
+
+            <!--adding field careerpath -->
+            <configurationGroup name="careerpath">
+              <displayName>The field 'careerpath'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <value>MAP</value>
+              </configuration>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.4</version>
+                <value>default:Career Path</value>
+              </configuration>
+            </configurationGroup>
+
+            <configurationGroup name="hrhcadre">
+              <configuration name="formfield">
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <value>hrhcadre</value>
+                </configuration>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>3.2.5</version>
+                <value>default:Cadre (HRH)</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

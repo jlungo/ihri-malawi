@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd"[]>
+<I2CEConfiguration name="MoHPerson">
+   <metadata>
+	<displayName>MoH Person</displayName>
+	<category>MoH Modules</category>
+	<description>Sets up the MoH Person form with extra fields</description>
+	<creator>iHRIS Malawi</creator>
+	<email>ihrismalawi@gmail.com</email>
+	<version>4.1.5.45</version>
+	<requirement name="ihris-manage-Person">
+		<atLeast version="4.0" />
+		<lessThan version="4.2" />
+	</requirement>
+	<path name="templates">
+		<value>./templates</value>
+	</path>
+	<priority>300</priority>
+   </metadata>
+   <configurationGroup name="MoHPerson" path="/">
+    <status>overwrite:true</status>
+     <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+       <configurationGroup name="person">
+	 <version>4.1.0.0</version>
+	   <displayName>Person</displayName>
+	    <description>The Person Form</description>
+	     <configuration name="class" values="single">
+		<displayName>Class Name</displayName>
+		<description>The name of the class providing the form</description>
+		<value>MoH_Person</value>
+	     </configuration>
+	</configurationGroup>
+     </configurationGroup>
+     <!-- end of /modules/forms/forms -->
+     <configurationGroup name="formClasses">
+      <configurationGroup name="MoH_Person">
+	    <displayName>Configuration for the class 'MoH_Person'</displayName>
+	    <version>4.1.0.0</version>
+             <configuration name="extends">
+	    <displayName>The class this form extends</displayName>
+		<value>iHRIS_ManagePerson</value>
+      </configuration>
+
+	<configurationGroup name="fields">
+
+	   <configurationGroup name="Prefix">
+		<configuration name="formfield">
+			<value>MAP</value>
+		</configuration>
+		<configurationGroup name="meta">
+			<configuration name="form" values="many">
+				<value>Prefix</value>
+			</configuration>
+		</configurationGroup>
+		<configuration name="headers" type="delimited"
+			locale="en_US">
+			<displayName>The headers for this field.</displayName>
+			<version>3.2.5</version>
+			<value>default:Prefix name</value>
+		</configuration>
+		<configuration name="required" type="boolean">
+			<displayName>This field is required to be set</displayName>
+			<version>3.2.5</version>
+			<value>true</value>
+		</configuration>
+	  </configurationGroup>
+
+	  <configurationGroup name="othername">
+		<configuration name="headers" type="delimited"
+		   locale="en_US">
+		   <displayName>The headers for this field.</displayName>
+		   <version>3.2.1</version>
+		   <value>default:Initals/Other Names</value>
+		</configuration>
+	   </configurationGroup>
+
+	   <configurationGroup name="residence">
+	        <configurationGroup name="meta">
+		  <configuration name="form" values="many">
+		    <value>district</value>
+		    <value>county</value>
+	        </configuration>
+	        <configurationGroup name="display">
+		  <configurationGroup name="default">
+		    <configuration name="fields">
+		      <value>county:district</value>
+		    </configuration>
+		  </configurationGroup>
+	        </configurationGroup>
+	     </configurationGroup>
+	     <configuration name="headers" type="delimited"
+		locale="en_US">
+		   <displayName>The headers for this field.</displayName>
+		   <version>3.2.5</version>
+		   <value>default:TA of Origin</value>
+	     </configuration>
+             <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>false</value>
+            </configuration>
+	   </configurationGroup>
+
+            <configurationGroup name="academic_edu_lev">
+              <displayName>The field 'academic_edu_lev'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <version>4.1.0</version>
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <version>4.1.0</version>
+                  <value>degree</value>
+                </configuration>
+                <configurationGroup name="display">
+                  <version>4.1.0</version>
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>degree</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.0</version>
+                <value>default:Highest Level of Education</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>true</value>
+              </configuration>
+            </configurationGroup>
+	   <!--Acadmic Qualification  -->
+           
+           <configurationGroup name="prof_qualification">
+              <displayName>The field 'prof_qualification'</displayName>
+              <configuration name="formfield">
+                <displayName>The form field type</displayName>
+                <version>4.1.1</version>
+                <value>MAP</value>
+              </configuration>
+              <configurationGroup name="meta">
+                <configuration name="form" values="many">
+                  <version>4.1.1</version>
+                  <value>profession</value>
+                </configuration>
+                <configurationGroup name="display">
+                  <version>4.1.1</version>
+                  <configurationGroup name="default">
+                    <configuration name="fields">
+                      <value>profession</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configuration name="headers" type="delimited" locale="en_US">
+                <displayName>The headers for this field.</displayName>
+                <version>4.1.1</version>
+                <value>default:Professional Qualification</value>
+              </configuration>
+              <configuration name="required" type="boolean">
+                <displayName>This field is required to be set</displayName>
+                <value>false</value>
+              </configuration>
+            </configurationGroup>
+            <!--Prof Qualification  -->
+					
+	   <configurationGroup name="FirstAppointmentDate">
+		<displayName>The field 'FirstAppointmentDate'</displayName>
+		<configuration name="formfield">
+			<displayName>The form field type</displayName>
+			<value>DATE_YMD</value>
+		</configuration>
+		<configuration name="headers" type="delimited"
+			locale="en_US">
+			<displayName>The headers for this field.</displayName>
+			<version>3.2.5</version>
+			<value>default:Date of 1st Appointment</value>
+		</configuration>
+		<configuration name="default_eval">
+			<displayName>The default Value as an eval string</displayName>
+			<version>4.0.6.2</version>
+			<value>I2CE_Date::now()</value>
+		</configuration>
+		<configuration name="required" type="boolean">
+			<displayName>This field is required to be set</displayName>
+			<value>true</value>
+		</configuration>
+	  </configurationGroup>					
+					
+	      <configurationGroup name="MaidenName">
+		<displayName>The field 'MaidenName'</displayName>
+		<configuration name="formfield">
+			<displayName>The form field type</displayName>
+			<value>STRING_LINE</value>
+		</configuration>
+		<configuration name="headers" type="delimited"
+			locale="en_US">
+			<displayName>The headers for this field.</displayName>
+			<version>3.2.4</version>
+			<value>default:Maiden Name</value>
+		</configuration>
+	        </configurationGroup>
+
+	        <configurationGroup name="Employmenttype">
+		 <configuration name="formfield">
+			<value>MAP</value>
+		  </configuration>
+		 <configurationGroup name="meta">
+			<configuration name="form" values="many">
+				<value>Employmenttype</value>
+			</configuration>
+		  </configurationGroup>
+		  <configuration name="headers" type="delimited"
+			locale="en_US">
+			<displayName>The headers for this field.</displayName>
+			<version>3.2.5</version>
+			<value>default:Employment Type</value>
+		  </configuration>
+                  <configuration name="required" type="boolean">
+			<displayName>This field is required to be set</displayName>
+			<value>true</value>
+		  </configuration>
+	         </configurationGroup>
+
+		  <configurationGroup name="birth_date">
+			<displayName>The field 'birth_date'</displayName>
+			<configuration name="formfield">
+				<displayName>The form field type</displayName>
+				<value>DATE_YMD</value>
+			</configuration>
+			<configuration name="headers" type="delimited"
+				locale="en_US">
+				<displayName>The headers for this field.</displayName>
+				<version>3.2.1</version>
+				<value>default:Date of Birth</value>
+			</configuration>
+			<configuration name="default_eval">
+				<displayName>The default value for this field as an eval string</displayName>
+				<value>I2CE_Date::blank()</value>
+		        </configuration>
+			<configuration name="required" type="boolean">
+			   <displayName>This field is required to be set</displayName>
+			   <value>true</value>
+		     </configuration>
+		    </configurationGroup>
+
+		    <configurationGroup name="gender">
+			<displayName>The field 'gender'</displayName>
+			<version>3.2.5</version>
+			<configuration name="formfield">
+				<displayName>The form field type</displayName>
+				<value>MAP</value>
+			</configuration>
+			<configuration name="headers" type="delimited"
+				locale="en_US">
+				<displayName>The headers for this field.</displayName>
+				<version>3.2.1</version>
+				<value>default:Gender</value>
+			</configuration>
+			<configuration name="required" type="boolean">
+				<displayName>This field is required to be set</displayName>
+				<value>true</value>
+		   </configuration>
+		  </configurationGroup>
+
+		  <configurationGroup name="marital_status">
+			<displayName>The field 'marital_status'</displayName>
+			<version>3.2.5</version>
+			<configuration name="formfield">
+				<displayName>The form field type</displayName>
+				<value>MAP</value>
+			</configuration>
+			<configuration name="headers" type="delimited"
+				locale="en_US">
+				<displayName>The headers for this field.</displayName>
+				<version>3.2.1</version>
+				<value>default:Marital Status</value>
+			</configuration>
+			<configuration name="required" type="boolean">
+			        <displayName>This field is required to be set</displayName>
+				<value>true</value>
+			</configuration>
+		     </configurationGroup>
+
+		     <configurationGroup name="birthnationality">
+				<displayName>The field 'birthnationality'</displayName>
+				<configuration name="formfield">
+					<displayName>The form field type</displayName>
+					<version>3.2.7</version>
+					<value>MAP</value>
+				</configuration>
+				<configurationGroup name="meta">
+					<configuration name="form" values="many">
+						<version>3.2.7</version>
+						<value>country</value>
+					</configuration>
+					<configurationGroup name="display">
+						<version>3.2.8</version>
+						<configurationGroup name="default">
+							<configuration name="fields">
+								<value>country</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+				<configuration name="headers" type="delimited"
+					locale="en_US">
+					<displayName>The headers for this field.</displayName>
+					<version>3.2.1</version>
+					<value>default:Country of birth</value>
+				</configuration>
+				<configuration name="required" type="boolean">
+					<displayName>This field is required to be set</displayName>
+					<value>false</value>
+				</configuration>
+			   </configurationGroup>
+
+			</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+	</configurationGroup>
+</I2CEConfiguration>

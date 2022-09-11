@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name='MoHEducation'>
+	<metadata>
+		<displayName>MoH Education</displayName>
+		<className>MoH_Education</className>
+		<category>MoH Modules</category>
+		<description>Combined Education, Qualification and Training details</description>
+		<creator>iHRIS Malawi</creator>
+		<email>ihrismalawi@gmail.com</email>
+		<version>4.0.0.9</version>
+		<path name='classes'>
+			<value>./lib</value>
+		</path>
+		<path name='templates'>
+			<value>./templates</value>
+		</path>
+		<priority>300</priority>
+	</metadata>
+	<configurationGroup name='MoHEducation' path='/I2CE'>
+		<status>overwite:true</status>
+		<configurationGroup name="forms" path="/modules/forms">
+			<configurationGroup name="forms">
+				<status>advanced:true</status>
+				<status>required:true</status>
+				<configurationGroup name="MoHEducation">
+					<displayName><![CDATA[ Education/Qualification/Training ]]></displayName>
+					<configuration name='class' values='single'>
+						<displayName>Class</displayName>
+						<value>MoH_EducationFormClass</value>
+					</configuration>
+					<configuration name='display' values='single'>
+						<displayName>Display</displayName>
+						<value><![CDATA[ Education/Qualification/Training ]]></value>
+					</configuration>
+				</configurationGroup>
+				<configurationGroup name='person_meta'
+					path='/modules/forms/forms/person/meta'>
+					<displayName>MetaData on the form</displayName>
+					<configuration name='child_forms' values='many'>
+						<status>uniquemerge:true</status>
+						<displayName>Child Forms</displayName>
+						<value>MoHEducation</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+
+			<configurationGroup name="formClasses">
+				<configurationGroup name="MoH_EducationFormClass">
+					<configuration name="extends">
+						<displayName>The class this form extends</displayName>
+						<value>I2CE_Form</value>
+					</configuration>
+					<configurationGroup name="fields">
+						<configurationGroup name="educationlevel">
+							<configuration name="formfield">
+								<value>MAP</value>
+							</configuration>
+							<configurationGroup name="meta">
+								<configuration name="form" values="many">
+									<value>EducationType</value>
+								</configuration>
+							</configurationGroup>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<displayName>The headers for this field.</displayName>
+								<version>3.2.5</version>
+								<value>default:Level</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="title">
+							<displayName>Title</displayName>
+							<configuration name="formfield">
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<value>default:Title</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="coursenum">
+							<displayName>Course Number</displayName>
+							<configuration name="formfield">
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<value>default:Course Number</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="grade">
+							<displayName>Grade</displayName>
+							<configuration name="formfield">
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<value>default:Grade</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="institution">
+							<displayName>Institution</displayName>
+							<configuration name="formfield">
+								<value>STRING_LINE</value>
+							</configuration>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<value>default:Institution</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="courseyearend">
+							<displayName>The field 'courseyearend'</displayName>
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>DATE_Y</value>
+							</configuration>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<displayName>The headers for this field.</displayName>
+								<version>3.2.4</version>
+								<value>default:Course year End</value>
+							</configuration>
+							<configuration name="default_eval">
+								<displayName>The default Value as an eval string</displayName>
+								<version>4.0.6.2</version>
+								<value>I2CE_Date::now()</value>
+							</configuration>
+						</configurationGroup>
+						<configurationGroup name="expectedfinishdate">
+							<displayName>The field 'expectedfinishdate'</displayName>
+							<configuration name="formfield">
+								<displayName>The form field type</displayName>
+								<value>DATE_YMD</value>
+							</configuration>
+							<configuration name="headers" type="delimited"
+								locale="en_US">
+								<displayName>The headers for this field.</displayName>
+								<version>3.2.4</version>
+								<value>default:Expected Finish Date</value>
+							</configuration>
+							<configuration name="default_eval">
+								<displayName>The default Value as an eval string</displayName>
+								<version>4.0.6.2</version>
+								<value>I2CE_Date::now()</value>
+							</configuration>
+						</configurationGroup>
+					</configurationGroup>
+				</configurationGroup>
+			</configurationGroup>
+		</configurationGroup>
+
+
+		<configurationGroup name='page'>
+			<status>required:true</status>
+			<configurationGroup name='MoHEducation'>
+				<configuration name='class' values='single'>
+					<status>required:true</status>
+					<value>iHRIS_PageFormParentPerson</value>
+				</configuration>
+				<configuration name='style' values='single'>
+					<value>ihris_common_page_form_parent_person</value>
+				</configuration>
+				<configurationGroup name='args'>
+					<displayName>Page Options</displayName>
+					<description>The options that control the access and display of all
+						pages</description>
+					<configuration name='title' values='single'>
+						<displayName>Page Title</displayName>
+						<description>Page Title</description>
+						<status>required:true</status>
+						<value>Add/Update Education</value>
+					</configuration>
+					<configuration name='page_form' values='single'>
+						<displayName>Form</displayName>
+						<description>The form this page is using</description>
+						<status>required:true</status>
+						<value>MoHEducation</value>
+					</configuration>
+				</configurationGroup>
+			</configurationGroup>
+
+
+		</configurationGroup>
+	</configurationGroup>
+</I2CEConfiguration>
