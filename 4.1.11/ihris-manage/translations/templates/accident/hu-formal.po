@@ -1,0 +1,144 @@
+# Translation of iHRIS Manage - Accident to Magyar (magázó) (Magyar (magázó))
+# Exported from translatewiki.net
+#
+# Author: TK-999
+# --
+# Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+# Copyright (c) 2011-2014 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Manage - Accident\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2013-07-22 20:18+0200\n"
+"PO-Revision-Date: 2014-03-12 13:06:59+0000\n"
+"Language: hu-formal\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2013-10-07 17:24:44+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.23alpha (769c4a6); Translate 2014-02-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L16'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Can edit the workplace injuries and accidents assigned to a person"
+msgstr ""
+"Szerkesztheti a valamely személyhez rendelt munkahelyi sérüléseket és "
+"baleseteket"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L19'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Can view the wokrplace injuries and accidents assigned to a person"
+msgstr ""
+"Megtekintheti a valamely személyhez rendelt munkahelyi sérüléseket és "
+"baleseteket"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L22'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Edit the workplace accident type list"
+msgstr "A munkahelyi balesetek típusait tartalmazó lista szerkesztése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L32'>modules/Accident/configs/en_US/Accident.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/view_accident.html#L21'>modules/Accident/templates/en_US/view_accident.html</a>
+#, no-c-format
+msgid "Accident"
+msgstr "Baleset"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L37'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Workplace Accident Type"
+msgstr "Munkahelyi baleset típusa"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L46'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Date of Occurence"
+msgstr "Esemény időpontja"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L51'>modules/Accident/configs/en_US/Accident.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/view_list_accident_type.html#L14'>modules/Accident/templates/en_US/view_list_accident_type.html</a>
+#, no-c-format
+msgid "Accident Type"
+msgstr "Baleset típusa"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L56'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Start of Applicability"
+msgstr "Alkalmazhatóság kezdete"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L61'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "End of Applicability"
+msgstr "Alkalmazhatóság vége"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L66'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Follow-up Required"
+msgstr "Nyomon követése szükséges"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L71'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "People Involved"
+msgstr "Érintett személyek"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L82'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "Add/Update Workplace Accident"
+msgstr "Munkahelyi baleset hozzáadása/frissítése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/view_list_accident_type.html#L4'>modules/Accident/templates/en_US/view_list_accident_type.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/view_accident.html#L3'>modules/Accident/templates/en_US/view_accident.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Információ szerkesztése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/view_list_accident_type.html#L6'>modules/Accident/templates/en_US/view_list_accident_type.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr "Információ frissítése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/view_list_accident_type.html#L7'>modules/Accident/templates/en_US/view_list_accident_type.html</a>
+#, no-c-format
+msgid "Select another Accident Type"
+msgstr "Más balesettípus kiválasztása"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/form_accident.html#L3'>modules/Accident/templates/en_US/form_accident.html</a>
+#, no-c-format
+msgid "Workplace Accident Information"
+msgstr "Információk a munkahelyi balesetről"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/templates/en_US/view_accident.html#L12'>modules/Accident/templates/en_US/view_accident.html</a>
+#, no-c-format
+msgid "Correct this Information"
+msgstr "Információ kijavítása"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L25'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "View the workplace accident type list"
+msgstr "A munkahelyi balesetek típusait tartalmazó lista szerkesztése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/Accident/configs/en_US/Accident.xml#L11'>modules/Accident/configs/en_US/Accident.xml</a>
+#, no-c-format
+msgid "The end date must be after the start date."
+msgstr ""

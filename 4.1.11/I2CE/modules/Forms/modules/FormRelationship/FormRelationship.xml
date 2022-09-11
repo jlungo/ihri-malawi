@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="formRelationships">
+  <metadata>
+    <displayName>Form Relationships</displayName>
+    <description>Provides Form Relationships for use by a Swiss Factory</description>
+    <link>https://launchpad.net/i2ce</link>
+    <version>4.1.11.0</version>
+    <path name="configs">
+      <value>./configs</value>
+    </path>
+    <requirement name="forms">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="form-limits">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="forms-storage">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <requirement name="swissfactory">
+      <atLeast version="4.1" />
+      <lessThan version="4.2" />
+    </requirement>
+    <path name="classes">
+      <value>./lib</value>
+    </path>
+    <path name="templates">
+      <value>./templates</value>
+    </path>
+    <path name="css">
+      <value>./css</value>
+    </path>
+  </metadata>
+  <configurationGroup name="formRelationships">
+    <configurationGroup name="tasks" path="/modules/formRelationships/text/" locale="en_US">
+      <version>4.1.0.1</version>
+      <configuration name="select_value">
+        <value>Select Value</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-CustomReports-staff-reports" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.11.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-manage-CustomReports-staff-reports" path="/modules/CustomReports" locale="nl">
+    <version>4.1.0.2.1</version>
+    <configurationGroup name="relationships" config="CustomReports_Relationships">
+      <configurationGroup name="staff" config="CustomReports_Relationship">
+        <configuration name="display_name" locale="nl">
+          <value>Huidige personeel</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Een overzicht van al het huidige personeel</value>
+        </configuration>
+        <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+          <configurationGroup name="person" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="nl">
+              <value>Persoon</value>
+            </configuration>
+            <configuration name="description" locale="nl">
+              <value>De persoon die deze positie op het moment vervult.</value>
+            </configuration>
+            <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+              <configurationGroup name="demographic" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Demografie</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>Demografische gegevens over de persoon.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="work" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Contactgegevens werk</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>Contactgegevens voor deze persoon op het werk.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="emergency" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Contactgegevens bij noodgevallen</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>Contactgegevens voor deze persoon bij noodgevallen.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="home" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Contactgegevens thuis</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>Contactgegevens voor deze persoon thuis.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="nationality" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Nationaliteit</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>Nationaliteit</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="nl">
+              <value>Positie</value>
+            </configuration>
+            <configuration name="description" locale="nl">
+              <value>De door deze persoon beklede positie.</value>
+            </configuration>
+            <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+              <configurationGroup name="facility" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Instelling</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>De instelling waarin deze positie wordt bekleed.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="department" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Afdeling</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>De afdeling waarin deze positie wordt bekleed.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="job" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="nl">
+                  <value>Functie</value>
+                </configuration>
+                <configuration name="description" locale="nl">
+                  <value>De met deze positie verband houdende functie.</value>
+                </configuration>
+                <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+                  <configurationGroup name="classification" config="CustomReports_Relationship_Join">
+                    <configuration name="display_name" locale="nl">
+                      <value>Classificatie</value>
+                    </configuration>
+                    <configuration name="description" locale="nl">
+                      <value>De functieclassificatie voor deze positie.</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="current_salary" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="nl">
+              <value>Huidig salaris</value>
+            </configuration>
+            <configuration name="description" locale="nl">
+              <value>Het huidige salaris van deze persoon.</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="start_salary" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="nl">
+              <value>Startsalaris</value>
+            </configuration>
+            <configuration name="description" locale="nl">
+              <value>Het startsalaris voor deze persoon in zijn of haar huidige positie.</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="reporting_functions" config="CustomReports_Relationship_ReportingFunctions">
+          <configurationGroup name="age65" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="nl">
+              <value>Het jaar waarin deze persoon 65 wordt.</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="year65" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="nl">
+              <value>Het jaar waarin deze persoon 65 wordt.</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="age_range" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="nl">
+              <value>De leeftijdsgroep voor de persoon</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="hire_year" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="nl">
+              <value>Het jaar dat de persoon in deze positie is gaan werken.</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reports" config="CustomReports_Reports">
+      <configurationGroup name="staff_list" config="CustomReports_Report">
+        <configurationGroup name="meta" config="CustomReports_Report_Meta">
+          <configuration name="display_name" locale="nl">
+            <value>Personeelslijst</value>
+          </configuration>
+          <configuration name="description" locale="nl">
+            <value>Een overzicht van al het huidige personeel</value>
+          </configuration>
+          <configuration name="category" locale="nl">
+            <value>Personeelsrapportages</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms" config="CustomReports_Report_ReportingForms">
+          <configurationGroup name="primary_form" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="start_date" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Datum aanname</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="person" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="surname" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Achternaam</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="firstname" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Voornaam</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="othername" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Andere naam</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="nationality" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Nationaliteitsnummer</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="nl">
+                      <value>Nationaliteit</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="demographic" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="birth_date" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Geboortedatum</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="gender" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Geslacht</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="work" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Telefoonnummer werk</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>E-mailadres werk</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="emergency" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="address" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Adres voor noodgevallen</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Telefoonnummer voor noodgevallen</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>E-mailadres voor noodgevallen</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="home" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="address" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Adres thuis</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Telefoonnummer thuis</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>E-mailadres thuis</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="title" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Positie</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="facility" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Nummer instelling</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="nl">
+                      <value>Instelling</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="department" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Nummer afdeling</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="nl">
+                      <value>Afdeling</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="current_salary" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="salary" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Huidig salaris</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="start_salary" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="salary" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Startsalaris</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="facility" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Instelling</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="department" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="nl">
+                  <value>Afdeling</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="staff_chart" config="CustomReports_Report">
+        <configurationGroup name="meta">
+          <configuration name="display_name" locale="nl">
+            <value>Personeelsgrafieken</value>
+          </configuration>
+          <configuration name="description" locale="nl">
+            <value>Algemene rapportage over het personeel voor het maken van grafieken.</value>
+          </configuration>
+          <configuration name="category" locale="nl">
+            <value>Personeelsrapportages</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms">
+          <configurationGroup name="person">
+            <configurationGroup name="fields">
+              <configurationGroup name="nationality">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="nl">
+                      <value>Nationaliteit</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="nl">
+                  <value>Nationaliteitsnummer</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="nationality">
+            <configurationGroup name="fields">
+              <configurationGroup name="name">
+                <configuration name="header" locale="nl">
+                  <value>Nationaliteit</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="demographic">
+            <configurationGroup name="fields">
+              <configurationGroup name="birth_date">
+                <configurationGroup name="limits">
+                  <configurationGroup name="greaterthan_equals">
+                    <configuration name="header" locale="nl">
+                      <value>Geboren na</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configurationGroup name="lessthan_equals">
+                    <configuration name="header" locale="nl">
+                      <value>Geboren voor</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="nl">
+                  <value>Demografie geboortedatum</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="gender">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="nl">
+                      <value>Geslacht</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="nl">
+                  <value>Geslacht</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position">
+            <configurationGroup name="fields">
+              <configurationGroup name="facility">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="nl">
+                      <value>Instelling</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="nl">
+                  <value>Nummer instelling</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <configurationGroup name="fields">
+              <configurationGroup name="facility_type">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="nl">
+                      <value>Instellingstype</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="nl">
+                  <value>Instellingstype</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="job">
+            <configurationGroup name="fields">
+              <configurationGroup name="title">
+                <configuration name="header" locale="nl">
+                  <value>Functiebenaming</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="classification">
+            <configurationGroup name="fields">
+              <configurationGroup name="name">
+                <configuration name="header" locale="nl">
+                  <value>Classificatie</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="reporting_functions">
+          <configurationGroup name="age65">
+            <configuration name="header" locale="nl">
+              <value>Pensioenjaar</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="age_range">
+            <configuration name="header" locale="nl">
+              <value>Leeftijdsgroep</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="hire_year">
+            <configuration name="header" locale="nl">
+              <value>Aannamejaar</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reportViews" config="CustomReports_ReportViews">
+      <configurationGroup name="staff_directory" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Adresboek personeel</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Een lijst met alle huidige medewerkers en werkcontactinformatie.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="home_contact" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Thuiscontactlijst</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Alle medewerkers met thuiscontactgegevens.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="classification_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Indeling</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Een totaal van alle medewerkers per classificatie.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="nl">
+                  <value>Cirkeldiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="nl">
+                  <value>Staafdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="nl">
+                  <value>Kolomdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="nl">
+                  <value>Spreidingsdiagram</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="emergency_contact_list" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Contactgegevenslijst voor noodgevallen</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Lijst van alle medewerkers met contactgegevens voor noodgevallen.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="salary_list" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Salarislijst</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Een lijst met de salarisgegevens van alle medewerkers.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="job_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Overzicht taken</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Medewerkersoverzicht per functie.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="nl">
+                  <value>Cirkeldiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="nl">
+                  <value>Staafdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="nl">
+                  <value>Kolomdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="nl">
+                  <value>Spreidingsdiagram</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="nationality_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Overzicht nationaliteit</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Een lijst van alle medewerkers naar nationaliteit.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="nl">
+                  <value>Cirkeldiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="nl">
+                  <value>Staafdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="nl">
+                  <value>Kolomdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="nl">
+                  <value>Spreidingsdiagram</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="age_distribution" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Leeftijdsverdeling</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Totaal van alle medewerkers naar leeftijd.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="nl">
+                  <value>Cirkeldiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="nl">
+                  <value>Staafdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="nl">
+                  <value>Kolomdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="nl">
+                  <value>Spreidingsdiagram</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="hires_per_year" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="nl">
+          <value>Aannames per jaar</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Aannametotalen per jaar.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="nl">
+                  <value>Cirkeldiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="nl">
+                  <value>Staafdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="nl">
+                  <value>Kolomdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="nl">
+                  <value>Spreidingsdiagram</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="retirement_planning" config="CustomReports_ReportView">
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="nl">
+                  <value>Cirkeldiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="nl">
+                  <value>Staafdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="nl">
+                  <value>Kolomdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="StackedColumn">
+                <configuration name="display_name" locale="nl">
+                  <value>Gestapeld kolomdiagram (eenvoudig)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="nl">
+                  <value>Spreidingsdiagram</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="display_name" locale="nl">
+          <value>Pensioenplanning</value>
+        </configuration>
+        <configuration name="description" locale="nl">
+          <value>Overzicht voor geplande pensioenjaren voor medewerkers.</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

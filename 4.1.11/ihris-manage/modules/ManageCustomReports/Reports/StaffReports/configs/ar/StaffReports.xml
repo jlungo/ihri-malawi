@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-CustomReports-staff-reports" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.11.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-manage-CustomReports-staff-reports" path="/modules/CustomReports" locale="ar">
+    <version>4.1.0.2.1</version>
+    <configurationGroup name="relationships" config="CustomReports_Relationships">
+      <configurationGroup name="staff" config="CustomReports_Relationship">
+        <configuration name="display_name" locale="ar">
+          <value>الموظفين الحاليين</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>قائمة بأسماء&#160;جميع&#160;الموظفين الحاليين.</value>
+        </configuration>
+        <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+          <configurationGroup name="person" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="ar">
+              <value>شخص</value>
+            </configuration>
+            <configuration name="description" locale="ar">
+              <value>الشخص الذي&#160;يشغل&#160;هذا الوظيفة&#160;حاليا.</value>
+            </configuration>
+            <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+              <configurationGroup name="demographic" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>الديموغرافية</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>التفاصيل الديموغرافية للشخص.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="work" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>الإتصال بالعمل</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>تفاصيل الإتصال بالعمل&#160;لهذا الشخص.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="emergency" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>الاتصال&#160;في حالات الطوارئ</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>تفاصيل الاتصال&#160;في حالات الطوارئ&#160;لهذا الشخص.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="home" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>الإتصال بالمنزل</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>تفاصيل الاتصال&#160;بالمنزل &#160;لهذا الشخص.</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="nationality" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>الجنسية</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>الجنسية</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="ar">
+              <value>الوظيفة</value>
+            </configuration>
+            <configuration name="description" locale="ar">
+              <value>الوظيفة التي شغلها &#160;هذا الشخص.</value>
+            </configuration>
+            <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+              <configurationGroup name="facility" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>المرفق</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>المرفق الذي تعمل فيه هذه الوظيفة</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="department" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>قسم</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>القسم التابع له هذه الوظيفة</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="job" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="ar">
+                  <value>عمل</value>
+                </configuration>
+                <configuration name="description" locale="ar">
+                  <value>العمل&#160;المرتبط بهذا&#160;الوظيفة</value>
+                </configuration>
+                <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+                  <configurationGroup name="classification" config="CustomReports_Relationship_Join">
+                    <configuration name="display_name" locale="ar">
+                      <value>تصنيف</value>
+                    </configuration>
+                    <configuration name="description" locale="ar">
+                      <value>تصنيف العمل &#160;لهذه الوظيفة</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="current_salary" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="ar">
+              <value>الراتب&#160;الحالي</value>
+            </configuration>
+            <configuration name="description" locale="ar">
+              <value>الراتب&#160;الحالي&#160;لهذا الشخص.</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="start_salary" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="ar">
+              <value>راتب البداية</value>
+            </configuration>
+            <configuration name="description" locale="ar">
+              <value>راتب البداية للشخص في وظيفته الحالية</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="reporting_functions" config="CustomReports_Relationship_ReportingFunctions">
+          <configurationGroup name="age65" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="ar">
+              <value>السنة التي فيها يبلغ&#160;هذا الشخص&#160;65.</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="year65" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="ar">
+              <value>السنة التي فيها يبلغ&#160;هذا الشخص&#160;65.</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="age_range" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="ar">
+              <value>الفئة العمرية&#160;للشخص</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="hire_year" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="ar">
+              <value>السنة&#160;التي&#160;بدأ فيها الشخص&#160;شغل هذه الوظيفة</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reports" config="CustomReports_Reports">
+      <configurationGroup name="staff_list" config="CustomReports_Report">
+        <configurationGroup name="meta" config="CustomReports_Report_Meta">
+          <configuration name="display_name" locale="ar">
+            <value>قائمة&#160;الموظفين</value>
+          </configuration>
+          <configuration name="description" locale="ar">
+            <value>قائمة بأسماء&#160;جميع&#160;الموظفين الحاليين.</value>
+          </configuration>
+          <configuration name="category" locale="ar">
+            <value>تقارير&#160;الموظفين</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms" config="CustomReports_Report_ReportingForms">
+          <configurationGroup name="primary_form" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="start_date" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>تاريخ التوظيف</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="person" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="surname" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>لقب</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="firstname" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>الاسم الأول</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="othername" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>اسم آخر</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="nationality" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>الرقم التعريفي للجنسية</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="ar">
+                      <value>الجنسية</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="demographic" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="birth_date" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>تاريخ&#160;الميلاد</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="gender" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>نوع الجنس</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="work" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>هاتف&#160;العمل</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>البريد الإلكتروني في العمل</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="emergency" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="address" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>العنوان في حالات الطوارئ</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>الهاتف&#160;في حالات الطوارئ</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>البريد الإلكتروني في حالات الطوارئ</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="home" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="address" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>عنوان المنزل</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>هاتف المنزل</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>البريد الإلكتروني الخاص بالمنزل</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="title" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>الوظيفة</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="facility" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>الرقم التعريفي للمرفق</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="ar">
+                      <value>المرفق</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="department" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>الرقم التعريفي للقسم</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="ar">
+                      <value>قسم</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="current_salary" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="salary" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>الراتب&#160;الحالي</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="start_salary" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="salary" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>راتب البداية</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="facility" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>المرفق</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="department" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="ar">
+                  <value>قسم</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="staff_chart" config="CustomReports_Report">
+        <configurationGroup name="meta">
+          <configuration name="display_name" locale="ar">
+            <value>مخططات الموظفين</value>
+          </configuration>
+          <configuration name="description" locale="ar">
+            <value>تقارير&#160;الموظفين الشاملة&#160;للرسوم البيانية.</value>
+          </configuration>
+          <configuration name="category" locale="ar">
+            <value>تقارير&#160;الموظفين</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms">
+          <configurationGroup name="person">
+            <configurationGroup name="fields">
+              <configurationGroup name="nationality">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="ar">
+                      <value>الجنسية</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="ar">
+                  <value>الرقم التعريفي للجنسية</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="nationality">
+            <configurationGroup name="fields">
+              <configurationGroup name="name">
+                <configuration name="header" locale="ar">
+                  <value>الجنسية</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="demographic">
+            <configurationGroup name="fields">
+              <configurationGroup name="birth_date">
+                <configurationGroup name="limits">
+                  <configurationGroup name="greaterthan_equals">
+                    <configuration name="header" locale="ar">
+                      <value>تاريخ&#160;الولادة&#160;بعد</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configurationGroup name="lessthan_equals">
+                    <configuration name="header" locale="ar">
+                      <value>تاريخ&#160;الولادة&#160;قبل</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="ar">
+                  <value>تاريخ&#160;الميلاد&#160;الديموغرافي</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="gender">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="ar">
+                      <value>نوع الجنس</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="ar">
+                  <value>نوع الجنس</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position">
+            <configurationGroup name="fields">
+              <configurationGroup name="facility">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="ar">
+                      <value>المرفق</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="ar">
+                  <value>الرقم التعريفي للمرفق</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <configurationGroup name="fields">
+              <configurationGroup name="facility_type">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="ar">
+                      <value>نوع المرفق</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="ar">
+                  <value>نوع المرفق</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="job">
+            <configurationGroup name="fields">
+              <configurationGroup name="title">
+                <configuration name="header" locale="ar">
+                  <value>المسمى الوظيفي</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="classification">
+            <configurationGroup name="fields">
+              <configurationGroup name="name">
+                <configuration name="header" locale="ar">
+                  <value>تصنيف</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="reporting_functions">
+          <configurationGroup name="age65">
+            <configuration name="header" locale="ar">
+              <value>سنة التقاعد</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="age_range">
+            <configuration name="header" locale="ar">
+              <value>الفئة العمرية</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="hire_year">
+            <configuration name="header" locale="ar">
+              <value>تاريخ التعيين</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reportViews" config="CustomReports_ReportViews">
+      <configurationGroup name="staff_directory" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>دليل&#160;الموظفين</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>قائمة بأسماء&#160;جميع&#160;الموظفين الحاليين&#160;مع معلومات الاتصال&#160;بالعمل.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="home_contact" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>قائمة الإتصال بالمنزل</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>جميع الموظفين&#160;مع تفاصيل الاتصال&#160;الرئيسية.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="classification_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>تفصيل التصنيف</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>مجموع العاملين&#160;وفقا للتصنيف.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="ar">
+                  <value>مخطط دائري&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="ar">
+                  <value>شريط&#160;الرسم البياني&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="ar">
+                  <value>الرسم البياني&#160;العمودي (بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="ar">
+                  <value>رسم بياني بالنقاط المبعثرة</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="emergency_contact_list" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>قائمة الاتصال في حالات الطوارئ</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>قائمة&#160;لجميع الموظفين&#160;مع&#160;تفاصيل&#160;الاتصال في حالات الطوارئ.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="salary_list" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>قائمة راتب</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>قائمة بأسماء&#160;جميع الموظفين&#160;مع&#160;تفاصيل&#160;الراتب.</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="job_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>تفصيل العمل</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>مجموع&#160;الموظفين بالعمل.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="ar">
+                  <value>مخطط دائري&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="ar">
+                  <value>شريط&#160;الرسم البياني&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="ar">
+                  <value>الرسم البياني&#160;العمودي (بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="ar">
+                  <value>رسم بياني بالنقاط المبعثرة</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="nationality_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>تفصيل&#160;الجنسية</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>قائمة بأسماء&#160;جميع الموظفين&#160;حسب الجنسية.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="ar">
+                  <value>مخطط دائري&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="ar">
+                  <value>شريط&#160;الرسم البياني&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="ar">
+                  <value>الرسم البياني&#160;العمودي (بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="ar">
+                  <value>رسم بياني بالنقاط المبعثرة</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="age_distribution" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>توزيع حسب السن</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>جميع&#160;الموظفين حسب&#160;الفئة العمرية.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="ar">
+                  <value>مخطط دائري&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="ar">
+                  <value>شريط&#160;الرسم البياني&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="ar">
+                  <value>الرسم البياني&#160;العمودي (بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="ar">
+                  <value>رسم بياني بالنقاط المبعثرة</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="hires_per_year" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="ar">
+          <value>التعيينات&#160;سنوياً</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>مجاميع التعيينات السنوي.</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="ar">
+                  <value>مخطط دائري&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="ar">
+                  <value>شريط&#160;الرسم البياني&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="ar">
+                  <value>الرسم البياني&#160;العمودي (بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="ar">
+                  <value>رسم بياني بالنقاط المبعثرة</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="retirement_planning" config="CustomReports_ReportView">
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="ar">
+                  <value>مخطط دائري&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="ar">
+                  <value>شريط&#160;الرسم البياني&#160;(بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="ar">
+                  <value>الرسم البياني&#160;العمودي (بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="StackedColumn">
+                <configuration name="display_name" locale="ar">
+                  <value>رسم بياني عمودي (بسيط)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="ar">
+                  <value>رسم بياني بالنقاط المبعثرة</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="display_name" locale="ar">
+          <value>التخطيط للتقاعد</value>
+        </configuration>
+        <configuration name="description" locale="ar">
+          <value>مجاميع الموظفين&#160;بحلول عام&#160;التقاعد.</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-CustomReports-staff-reports" path="/modules/CustomReports">
+  <metadata>
+    <version>4.1.11.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-manage-CustomReports-staff-reports" path="/modules/CustomReports" locale="es">
+    <version>4.1.0.2.1</version>
+    <configurationGroup name="relationships" config="CustomReports_Relationships">
+      <configurationGroup name="staff" config="CustomReports_Relationship">
+        <configuration name="display_name" locale="es">
+          <value>Personal Asctual</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Listado del Personal Actual</value>
+        </configuration>
+        <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+          <configurationGroup name="person" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="es">
+              <value>Persona</value>
+            </configuration>
+            <configuration name="description" locale="es">
+              <value>La Persona que actualmente ocupa esta Posición</value>
+            </configuration>
+            <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+              <configurationGroup name="demographic" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Demográfico</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>Detalles Demográficos de esta Persona</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="work" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Contacto de Trabajo</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>Detalles de Contacto de Trabajo para esta Persona</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="emergency" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Contacto de Emergencia</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>Detalles de Contacto de Emergencia para esta Persona</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="home" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Contacto de Hogar</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>Detalles de Contacto de Hogar para esta Persona</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="nationality" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Nacionalidad</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>Nacionalidad</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="es">
+              <value>Posición</value>
+            </configuration>
+            <configuration name="description" locale="es">
+              <value>La Posición Ocupada por esta Persona</value>
+            </configuration>
+            <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+              <configurationGroup name="facility" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Localidad</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>La Localidad en la que esta Posición Trabaja</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="department" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Departamento</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>Departamento para esta Posición</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="job" config="CustomReports_Relationship_Join">
+                <configuration name="display_name" locale="es">
+                  <value>Empleo</value>
+                </configuration>
+                <configuration name="description" locale="es">
+                  <value>El trabajo asociado a este puesto</value>
+                </configuration>
+                <configurationGroup name="joins" config="CustomReports_Relationship_Joins">
+                  <configurationGroup name="classification" config="CustomReports_Relationship_Join">
+                    <configuration name="display_name" locale="es">
+                      <value>Clasificación</value>
+                    </configuration>
+                    <configuration name="description" locale="es">
+                      <value>Clasificación del Empleo de esta Posición</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="current_salary" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="es">
+              <value>Salario Actual</value>
+            </configuration>
+            <configuration name="description" locale="es">
+              <value>Salario Actual para esta Persona</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="start_salary" config="CustomReports_Relationship_Join">
+            <configuration name="display_name" locale="es">
+              <value>Salario Inicial</value>
+            </configuration>
+            <configuration name="description" locale="es">
+              <value>El Salario Inicial para esta Persona en su Posición Actual</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="reporting_functions" config="CustomReports_Relationship_ReportingFunctions">
+          <configurationGroup name="age65" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="es">
+              <value>El año en que esta persona cumple 65 años de edad</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="year65" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="es">
+              <value>El año en que esta persona cumple 65 años de edad</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="age_range" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="es">
+              <value>El Rango de Edad para esta Persona</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="hire_year" config="CustomReports_Relationship_ReportingFunction">
+            <configuration name="description" locale="es">
+              <value>El Año en que esta Persona inició en esta Posición</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reports" config="CustomReports_Reports">
+      <configurationGroup name="staff_list" config="CustomReports_Report">
+        <configurationGroup name="meta" config="CustomReports_Report_Meta">
+          <configuration name="display_name" locale="es">
+            <value>Listado de Personal</value>
+          </configuration>
+          <configuration name="description" locale="es">
+            <value>Listado del Personal Actual</value>
+          </configuration>
+          <configuration name="category" locale="es">
+            <value>Reportes de Personal</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms" config="CustomReports_Report_ReportingForms">
+          <configurationGroup name="primary_form" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="start_date" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Fecha de Contratación</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="person" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="surname" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Apellido</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="firstname" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Nombre</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="othername" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Otro Nombre</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="nationality" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Id. de nacionalidad</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="es">
+                      <value>Nacionalidad</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="demographic" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="birth_date" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Fecha de nacimiento</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="gender" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Sexo</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="work" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Teléfono del trabajo</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Correo electrónico del trabajo</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="emergency" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="address" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Dirección de emergencia</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Teléfono de emergencia</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Correo electrónico de emergencia</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="home" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="address" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Dirección de domicilio</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="telephone" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Teléfono Residencia</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="email" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Correo Electrónico Particular</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="title" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Posición</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="facility" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>ID del Local</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="es">
+                      <value>Localidad</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+              <configurationGroup name="department" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Id. de departamento</value>
+                </configuration>
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="es">
+                      <value>Departamento</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="current_salary" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="salary" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Salario Actual</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="start_salary" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="salary" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Salario Inicial</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="facility" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Localidad</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="department" config="CustomReports_Report_ReportingForm">
+            <configurationGroup name="fields" config="CustomReports_Report_ReportingForm_Fields">
+              <configurationGroup name="name" config="CustomReports_Report_ReportingForm_Field">
+                <configuration name="header" locale="es">
+                  <value>Departamento</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="staff_chart" config="CustomReports_Report">
+        <configurationGroup name="meta">
+          <configuration name="display_name" locale="es">
+            <value>Cartas de Personal</value>
+          </configuration>
+          <configuration name="description" locale="es">
+            <value>Reportes Suplementarios de Personal para Graficar</value>
+          </configuration>
+          <configuration name="category" locale="es">
+            <value>Reportes de Personal</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="reporting_forms">
+          <configurationGroup name="person">
+            <configurationGroup name="fields">
+              <configurationGroup name="nationality">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="es">
+                      <value>Nacionalidad</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="es">
+                  <value>Id. de nacionalidad</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="nationality">
+            <configurationGroup name="fields">
+              <configurationGroup name="name">
+                <configuration name="header" locale="es">
+                  <value>Nacionalidad</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="demographic">
+            <configurationGroup name="fields">
+              <configurationGroup name="birth_date">
+                <configurationGroup name="limits">
+                  <configurationGroup name="greaterthan_equals">
+                    <configuration name="header" locale="es">
+                      <value>Fecha de Nacimiento despues de</value>
+                    </configuration>
+                  </configurationGroup>
+                  <configurationGroup name="lessthan_equals">
+                    <configuration name="header" locale="es">
+                      <value>Fecha de Nacimiento antes de</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="es">
+                  <value>Fecha de Nacimiento Demográfica</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="gender">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="es">
+                      <value>Sexo</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="es">
+                  <value>Sexo</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="position">
+            <configurationGroup name="fields">
+              <configurationGroup name="facility">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="es">
+                      <value>Localidad</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="es">
+                  <value>ID del Local</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="facility">
+            <configurationGroup name="fields">
+              <configurationGroup name="facility_type">
+                <configurationGroup name="limits">
+                  <configurationGroup name="equals">
+                    <configuration name="header" locale="es">
+                      <value>Tipo de Local</value>
+                    </configuration>
+                  </configurationGroup>
+                </configurationGroup>
+                <configuration name="header" locale="es">
+                  <value>Tipo de Local</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="job">
+            <configurationGroup name="fields">
+              <configurationGroup name="title">
+                <configuration name="header" locale="es">
+                  <value>Titulo del trabajo</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+          <configurationGroup name="classification">
+            <configurationGroup name="fields">
+              <configurationGroup name="name">
+                <configuration name="header" locale="es">
+                  <value>Clasificación</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="reporting_functions">
+          <configurationGroup name="age65">
+            <configuration name="header" locale="es">
+              <value>Año de Retiro</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="age_range">
+            <configuration name="header" locale="es">
+              <value>Intervalo de edades</value>
+            </configuration>
+          </configurationGroup>
+          <configurationGroup name="hire_year">
+            <configuration name="header" locale="es">
+              <value>Año de Contratación</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="reportViews" config="CustomReports_ReportViews">
+      <configurationGroup name="staff_directory" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Directorio del Personal</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Listado del Personal Actual con su Información de Contacto</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="home_contact" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Listado de Contactos de Hogar</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Todo el Personal con detalles de Contacto</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="classification_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Desglose de Clasficaciones</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Total de todo el Personal por Clasificación</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Tarta (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de barras (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Columnas (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Dispersión</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="emergency_contact_list" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Listado de Contactos de Emergencia</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Listado de Todo el Personal on sus detalles de Contacto de Emergencia</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="salary_list" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Listado de Salarios</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Listado de todos los Empleados on Detalles de Salarios</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="job_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Desglose de Empleos</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Total del Personal por Empleo</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Tarta (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de barras (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Columnas (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Dispersión</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="nationality_breakdown" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Desglose de Nacionalidades</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Listado del Personal por Nacionalidad</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Tarta (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de barras (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Columnas (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Dispersión</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="age_distribution" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Distribución de Edad</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Total del Personal por rango de Edad</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Tarta (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de barras (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Columnas (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Dispersión</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="hires_per_year" config="CustomReports_ReportView">
+        <configuration name="display_name" locale="es">
+          <value>Contrataciones por Año</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Totales de Contratación por Año</value>
+        </configuration>
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Tarta (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de barras (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Columnas (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Dispersión</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="retirement_planning" config="CustomReports_ReportView">
+        <configurationGroup name="display_options">
+          <configurationGroup name="PieChart">
+            <configurationGroup name="styles">
+              <configurationGroup name="Pie">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Tarta (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Bar">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de barras (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Column">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Columnas (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="StackedColumn">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Columnas Apiladas (Simple)</value>
+                </configuration>
+              </configurationGroup>
+              <configurationGroup name="Scatter">
+                <configuration name="display_name" locale="es">
+                  <value>Gráfico de Dispersión</value>
+                </configuration>
+              </configurationGroup>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configuration name="display_name" locale="es">
+          <value>Planeación de Retiros</value>
+        </configuration>
+        <configuration name="description" locale="es">
+          <value>Totales del Personal por Año de Retiro</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

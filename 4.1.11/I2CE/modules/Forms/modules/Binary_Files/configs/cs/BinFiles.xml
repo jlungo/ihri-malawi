@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="BinField">
+  <metadata>
+    <version>4.1.11.0.1</version>
+  </metadata>
+  <configurationGroup name="BinField" path="/modules/BinField" locale="cs">
+    <version>4.1.7.0.1</version>
+    <configurationGroup name="invalid_messages" path="/modules/forms/invalid_field_messages" locale="cs">
+      <configuration name="no_upload">
+        <value>Nelze nahrát soubor:</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

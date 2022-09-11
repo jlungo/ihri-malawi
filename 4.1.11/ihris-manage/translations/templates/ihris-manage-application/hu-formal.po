@@ -1,0 +1,291 @@
+# Translation of iHRIS Manage - Application to Magyar (magázó) (Magyar (magázó))
+# Exported from translatewiki.net
+#
+# Author: TK-999
+# --
+# Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+# Copyright (c) 2011-2014 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Manage - Application\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2013-07-22 20:18+0200\n"
+"PO-Revision-Date: 2014-03-12 13:07:38+0000\n"
+"Language: hu-formal\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2013-10-07 17:25:02+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.23alpha (769c4a6); Translate 2014-02-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/form_position_decision.html#L3'>modules/ManageApplication/templates/en_US/form_position_decision.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_position_decision.html#L12'>modules/ManageApplication/templates/en_US/view_position_decision.html</a>
+#, no-c-format
+msgid "Hiring Decision"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_position_interview.html#L3'>modules/ManageApplication/templates/en_US/view_position_interview.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_position_decision.html#L3'>modules/ManageApplication/templates/en_US/view_position_decision.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_application.html#L3'>modules/ManageApplication/templates/en_US/view_application.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Információ szerkesztése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_position_interview.html#L5'>modules/ManageApplication/templates/en_US/view_position_interview.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_position_decision.html#L5'>modules/ManageApplication/templates/en_US/view_position_decision.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_application.html#L5'>modules/ManageApplication/templates/en_US/view_application.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr "Információ frissítése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/form_position_interview.html#L3'>modules/ManageApplication/templates/en_US/form_position_interview.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_position_interview.html#L12'>modules/ManageApplication/templates/en_US/view_position_interview.html</a>
+#, no-c-format
+msgid "Interview Details"
+msgstr "Interjú részletei"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/applicant_review_results.html#L2'>modules/ManageApplication/templates/en_US/applicant_review_results.html</a>
+#, no-c-format
+msgid "Select the applicant name below for"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/applicant_review_row.html#L3'>modules/ManageApplication/templates/en_US/applicant_review_row.html</a>
+#, no-c-format
+msgid "Make a job offer"
+msgstr "Állásajánlat létrehozása"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/applicant_review_no_results.html#L1'>modules/ManageApplication/templates/en_US/applicant_review_no_results.html</a>
+#, no-c-format
+msgid "There are no applicants for this position."
+msgstr "Nincsenek jelentkezők erre a tisztségre."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/form_application.html#L3'>modules/ManageApplication/templates/en_US/form_application.html</a>
+#, no-c-format
+msgid "Position Information"
+msgstr "Információ a tisztségről"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/form_application.html#L4'>modules/ManageApplication/templates/en_US/form_application.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_application.html#L20'>modules/ManageApplication/templates/en_US/view_application.html</a>
+#, no-c-format
+msgid "Applicant Questions"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/view_application.html#L12'>modules/ManageApplication/templates/en_US/view_application.html</a>
+#, no-c-format
+msgid "Open Position(s) Applied For"
+msgstr "Megpályázott szabad tisztség(ek)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/applicant_review.html#L2'>modules/ManageApplication/templates/en_US/applicant_review.html</a>
+#, no-c-format
+msgid "Review Applicants"
+msgstr "Jelentkezők áttekintése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/applicant_review.html#L5'>modules/ManageApplication/templates/en_US/applicant_review.html</a>
+#, no-c-format
+msgid "return"
+msgstr "vissza"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/applicant_review_list.html#L3'>modules/ManageApplication/templates/en_US/applicant_review_list.html</a>
+#, no-c-format
+msgid "Select the Open Position below to view all the applicants."
+msgstr ""
+"Válassza ki a lenti szabad tisztséget az összes jelentkező megtekintéséhez."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L19'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Can view position decision child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L22'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Can edit position decision child forms of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L25'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Can view position interview child form of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L28'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Can edit position interview child forms of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L41'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Applicant"
+msgstr "Jelentkező"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L46'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Position Interview"
+msgstr "Állásinterjú"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L51'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Position Decision"
+msgstr "Döntés"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L60'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Position(s)"
+msgstr "Tisztség(ek)"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L65'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Have you ever been convicted of a felony?"
+msgstr "Elítélték valaha önt bűncselekmény miatt?"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L70'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "If yes, give the circumstances."
+msgstr "Amennyiben igen, adja meg a körülményeket."
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L75'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid ""
+"In addition to your work history, are there other skills, qualifications or "
+"experience we should consider?"
+msgstr ""
+"Az alkalmazási története mellett vannak-e más, figyelmuünkbe ajánlott "
+"képességei, minősítései vagy tapasztalatai?"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L80'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "How did you hear of this opening?"
+msgstr "Hogyan szerzett tudomást erről az állásajánlatról?"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L85'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "When can you start?"
+msgstr "Mikor tud kezdeni?"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L90'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Desired Wage"
+msgstr "Kívánt bér"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L95'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Are you looking for full-time employment?"
+msgstr "Teljes munkaidőben kíván dolgozni?"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L100'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "If no, what hours are you available?"
+msgstr "Amennyiben nem, mely órákban érhető el?"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L109'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Date of Interview"
+msgstr "Interjú dátuma"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L114'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "People Attending"
+msgstr "Résztvett személyek"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L119'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L138'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Comments"
+msgstr "Megjegyzések"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L128'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Date of Decision"
+msgstr "Döntés dátuma"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L133'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Make a Job Offer?"
+msgstr "Létrehoz egy állásajánlatot?"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L149'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Add/Update Application"
+msgstr "Jelentkezés hozzáadása/frissítése"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L156'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Add/Update Position Decision"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L163'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Add/Update Position Interview"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/templates/en_US/form_position_interview.html#L12'>modules/ManageApplication/templates/en_US/form_position_interview.html</a>
+#, no-c-format
+msgid "oops"
+msgstr "Hoppá!"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L11'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid ""
+"You selected you were convicted of a felony but didn't describe the "
+"circumstances."
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L14'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid ""
+"You selected not full time, but you didn't give what hours you are available."
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L34'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Can edit application child forms of a person"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageApplication/configs/en_US/ManageApplication.xml#L31'>modules/ManageApplication/configs/en_US/ManageApplication.xml</a>
+#, no-c-format
+msgid "Can view application child form of a person"
+msgstr ""

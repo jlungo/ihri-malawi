@@ -1,0 +1,426 @@
+# Translation Template of ihris-manage module (ihris-manage-AutoList Version 4.1.7.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage@ihris-manage-AutoList 4.1.7.0\n"
+"POT-Creation-Date: 2014-04-30 14:22-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L11 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L22 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 22]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L33 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 33]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L44 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 44]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L62 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 62]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L73 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 73]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L84 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 84]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L95 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 95]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L106 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 106]
+#, no-c-format
+msgid "Administer Positions"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L14 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 14]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L25 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 25]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L36 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 36]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L47 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 47]
+#, no-c-format
+msgid "Create Job Structure"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L17 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 17]
+#, no-c-format
+msgid "Cadres"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L28 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 28]
+#, no-c-format
+msgid "Job Classifications"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L39 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 39]
+#, no-c-format
+msgid "Salary Grades"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L50 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 50]
+#, no-c-format
+msgid "Jobs"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L55 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 55]
+#, no-c-format
+msgid "View Associated Postions"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L65 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 65]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L76 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 76]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L87 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 87]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L98 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 98]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L109 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 109]
+#, no-c-format
+msgid "Manage Positions"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L68 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 68]
+#, no-c-format
+msgid "Salary Sources"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L79 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 79]
+#, no-c-format
+msgid "Position Types"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L90 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 90]
+#, no-c-format
+msgid "Positions (by Status)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L101 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 101]
+#, no-c-format
+msgid "Positions (by Facility)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L112 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 112]
+#, no-c-format
+msgid "Confirmation Types"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L117 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 117]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L128 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 128]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L139 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 139]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L150 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 150]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L161 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 161]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L172 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 172]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L183 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 183]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L194 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 194]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L205 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 205]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L216 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 216]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L227 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 227]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L238 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 238]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L249 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 249]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L260 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 260]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L271 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 271]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L282 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 282]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L293 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 293]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L304 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 304]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L315 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 315]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L326 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 326]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L337 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 337]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L348 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 348]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L359 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 359]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L370 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 370]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L381 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 381]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L392 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 392]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L403 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 403]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L414 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 414]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L425 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 425]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L436 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 436]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L447 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 447]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L458 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 458]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L469 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 469]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L480 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 480]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L491 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 491]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L502 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 502]
+#, no-c-format
+msgid "Administer Other Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L120 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 120]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L131 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 131]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L142 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 142]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L153 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 153]
+#, no-c-format
+msgid "Organization Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L123 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 123]
+#, no-c-format
+msgid "Facility Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L134 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 134]
+#, no-c-format
+msgid "Office/Facility"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L145 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 145]
+#, no-c-format
+msgid "Department"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L156 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 156]
+#, no-c-format
+msgid "Registration Councils"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L164 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 164]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L175 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 175]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L186 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 186]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L197 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 197]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L208 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 208]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L219 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 219]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L230 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 230]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L241 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 241]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L252 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 252]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L263 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 263]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L274 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 274]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L285 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 285]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L296 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 296]
+#, no-c-format
+msgid "Employee Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L167 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 167]
+#, no-c-format
+msgid "Education Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L178 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 178]
+#, no-c-format
+msgid "Degree"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L189 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 189]
+#, no-c-format
+msgid "Language"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L200 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 200]
+#, no-c-format
+msgid "Competency Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L211 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 211]
+#, no-c-format
+msgid "Competency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L222 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 222]
+#, no-c-format
+msgid "Competency Evaluation"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L233 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 233]
+#, no-c-format
+msgid "Identification Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L244 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 244]
+#, no-c-format
+msgid "Benefit Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L255 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 255]
+#, no-c-format
+msgid "Marital Status"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L266 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 266]
+#, no-c-format
+msgid "Reasons for Departure"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L277 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 277]
+#, no-c-format
+msgid "Accident Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L288 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 288]
+#, no-c-format
+msgid "Disciplinary Action Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L299 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 299]
+#, no-c-format
+msgid "Disciplinary Action Reason"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L307 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 307]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L318 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 318]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L329 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 329]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L340 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 340]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L351 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 351]
+#, no-c-format
+msgid "Geographic Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L310 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 310]
+#, no-c-format
+msgid "Country"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L321 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 321]
+#, no-c-format
+msgid "Region"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L332 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 332]
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L343 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 343]
+#, no-c-format
+msgid "County"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L354 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 354]
+#, no-c-format
+msgid "Currency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L362 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 362]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L373 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 373]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L384 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 384]
+#, no-c-format
+msgid "Planning Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L365 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 365]
+#, no-c-format
+msgid "Establishment Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L376 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 376]
+#, no-c-format
+msgid "Establishment Period"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L387 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 387]
+#, no-c-format
+msgid "Establishments"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L395 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 395]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L406 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 406]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L417 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 417]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L428 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 428]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L439 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 439]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L450 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 450]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L461 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 461]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L472 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 472]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L483 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 483]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L494 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 494]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L505 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 505]
+#, no-c-format
+msgid "Training Course Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L398 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 398]
+#, no-c-format
+msgid "Training Course Exam Types"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L409 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 409]
+#, no-c-format
+msgid "Training Course Modules"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L420 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 420]
+#, no-c-format
+msgid "Training Courses"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L431 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 431]
+#, no-c-format
+msgid "Scheduled Training Courses"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L442 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 442]
+#, no-c-format
+msgid "Status of a Training Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L453 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 453]
+#, no-c-format
+msgid "Requestors of a Training Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L464 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 464]
+#, no-c-format
+msgid "Evaluation of a Training Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L475 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 475]
+#, no-c-format
+msgid "Category of a Training Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L486 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 486]
+#, no-c-format
+msgid "Training Institution"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L497 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 497]
+#, no-c-format
+msgid "Training Funder"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L508 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 508]
+#, no-c-format
+msgid "Continuing Education Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L513 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 513]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L518 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 518]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L523 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 523]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L528 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 528]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L533 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 533]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L538 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 538]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L543 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 543]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L548 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 548]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L553 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 553]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L558 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 558]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L563 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 563]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L568 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 568]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L573 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 573]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L578 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 578]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L583 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 583]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L588 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 588]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L593 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 593]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L598 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 598]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L603 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 603]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L608 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 608]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L613 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 613]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L618 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 618]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L623 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 623]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L628 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 628]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L633 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 633]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L638 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 638]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L643 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 643]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L648 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 648]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L653 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 653]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L658 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 658]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L663 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 663]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L668 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 668]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L673 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 673]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L678 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 678]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L683 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 683]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L688 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 688]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L693 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 693]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L698 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 698]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L703 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 703]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L708 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 708]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L713 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 713]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L718 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 718]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L723 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 723]
+#, no-c-format
+msgid "SDMX-HD"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L728 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 728]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L733 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 733]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L738 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 738]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml#L743 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageAutoList/configs/en_US/ManageAutoList.xml line 743]
+#, no-c-format
+msgid "ISCO"
+msgstr ""
+

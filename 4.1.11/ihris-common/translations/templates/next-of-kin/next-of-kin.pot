@@ -1,0 +1,61 @@
+# Translation Template of ihris-common module (nextOfKin Version 4.1.2.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-common@nextOfKin 4.1.2.0\n"
+"POT-Creation-Date: 2014-04-30 14:20-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/form_nextofkin.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/form_nextofkin.html line 2]
+#, no-c-format
+msgid "Next Of Kin Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/view_nextofkin.html#L3 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/view_nextofkin.html line 3]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/view_nextofkin.html#L4 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/view_nextofkin.html line 4]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml#L25 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml line 25]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/view_nextofkin.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/templates/en_US/view_nextofkin.html line 8]
+#, no-c-format
+msgid "Next of Kin"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml#L13 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml line 13]
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml#L18 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml line 18]
+#, no-c-format
+msgid "Relationship"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml#L39 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml line 39]
+#, no-c-format
+msgid "Add/Update Next of Kin Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml#L30 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml line 30]
+#, no-c-format
+msgid "Can view a person's next of kin"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml#L33 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/NextOfKin/configs/en_US/nextofkin.xml line 33]
+#, no-c-format
+msgid "Can edit a person's next of kin"
+msgstr ""
+

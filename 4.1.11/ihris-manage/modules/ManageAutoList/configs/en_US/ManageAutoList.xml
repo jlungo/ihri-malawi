@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-AutoList" path="/modules/Lists/auto_list">
+  <metadata>
+    <version>4.1.7.0</version>
+  </metadata>
+  <configurationGroup name="ihris-manage-AutoList" path="/modules/Lists/auto_list" locale="en_US">
+    <version>4.1.7.0</version>
+    <configurationGroup name="cadre">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Create Job Structure</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Cadres</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="classification">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Create Job Structure</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Job Classifications</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="salary_grade">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Create Job Structure</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Salary Grades</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="job">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Create Job Structure</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Jobs</value>
+      </configuration>
+      <configurationGroup name="linked">
+        <configurationGroup name="position">
+          <configuration name="title" locale="en_US">
+            <value>View Associated Postions</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="salary_source">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Manage Positions</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Salary Sources</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="position_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Manage Positions</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Position Types</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="position">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Manage Positions</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Positions (by Status)</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="position_by_facility">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Manage Positions</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Positions (by Facility)</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="confirmation_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Positions</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Manage Positions</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Confirmation Types</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="facility_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Organization Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Facility Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="facility">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Organization Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Office/Facility</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="department">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Organization Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Department</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="council">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Organization Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Registration Councils</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="edu_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Education Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="degree">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Degree</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="language">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Language</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="competency_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Competency Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="competency">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Competency</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="competency_evaluation">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Competency Evaluation</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="id_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Identification Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="benefit_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Benefit Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="marital_status">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Marital Status</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="pos_change_reason">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Reasons for Departure</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="accident_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Accident Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="disciplinary_action_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Disciplinary Action Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="disciplinary_action_reason">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Employee Lists</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Disciplinary Action Reason</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="country">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Country</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="region">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Region</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="district">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>District</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="county">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>County</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="currency">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Geographic Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Currency</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="establishment_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Planning Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Establishment Type</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="establishment_period">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Planning Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Establishment Period</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="establishment">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Planning Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Establishments</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_course_exam_type">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Course Exam Types</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_course_mod">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Course Modules</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_course">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Courses</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="scheduled_training_course">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Scheduled Training Courses</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_course_status">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Status of a Training Course</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_course_requestor">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Requestors of a Training Course</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_course_evaluation">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Evaluation of a Training Course</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_course_category">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Category of a Training Course</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_institution">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Institution</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="training_funder">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Training Funder</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="continuing_education_course">
+      <configuration name="category" locale="en_US">
+        <value>Administer Other Lists</value>
+      </configuration>
+      <configuration name="subcategory" locale="en_US">
+        <value>Training Course Information</value>
+      </configuration>
+      <configuration name="text" locale="en_US">
+        <value>Continuing Education Course</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_asource">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_sex">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_gboundary_type">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_cstype">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_gcode_country">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_currency">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_dsource">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_dstype">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_dtype">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_day">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_disagg">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_disease">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_disstat">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_fperiod">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_gender">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_glevel">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_glocation">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_hif1">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_hif2">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_income">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_logical">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_metype">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_month">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_mult">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_operand">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_otype">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_orphan">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_periodicity">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_preg">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_pstatus">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_ptype">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_quarter">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_race">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_sector">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_special_value">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_stype">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_tpop">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_unit">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_value_type">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_vstatus">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_vulnstat">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_week">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="cl_year">
+      <configuration name="category" locale="en_US">
+        <value>SDMX-HD</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="isco_88_major">
+      <configuration name="category" locale="en_US">
+        <value>ISCO</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="isco_88_minor">
+      <configuration name="category" locale="en_US">
+        <value>ISCO</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="isco_88_sub_major">
+      <configuration name="category" locale="en_US">
+        <value>ISCO</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="isco_88_unit">
+      <configuration name="category" locale="en_US">
+        <value>ISCO</value>
+      </configuration>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

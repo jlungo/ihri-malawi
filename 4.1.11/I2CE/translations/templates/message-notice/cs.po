@@ -1,0 +1,23 @@
+# Czech translation for i2ce
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the i2ce package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i2ce\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-04-30 14:15-0600\n"
+"PO-Revision-Date: 2012-08-27 20:36+0000\n"
+"Last-Translator: Zbyněk Schwarz <Unknown>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-12-09 05:47+0000\n"
+"X-Generator: Launchpad (build 17283)\n"
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/MessageHandler/modules/MessageNotice/templates/en_US/message_notice.html#L4 4.1-dev/4.0-dev/annotate/head%3A/modules/MessageHandler/modules/MessageNotice/templates/en_US/message_notice.html line 4]
+#, no-c-format
+msgid "Information"
+msgstr "Informace"

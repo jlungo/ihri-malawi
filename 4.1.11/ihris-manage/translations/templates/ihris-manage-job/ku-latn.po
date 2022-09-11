@@ -1,0 +1,128 @@
+# Translation of iHRIS Manage - Job to Kurdish (Latin script) (Kurdî (latînî)‎)
+# Exported from translatewiki.net
+#
+# Author: George Animal
+# --
+# Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+# Copyright (c) 2011-2014 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS Manage - Job\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2013-07-22 20:18+0200\n"
+"PO-Revision-Date: 2014-03-12 13:10:25+0000\n"
+"Language: ku-Latn\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2013-10-07 17:26:19+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.23alpha (769c4a6); Translate 2014-02-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_job.html#L4'>modules/ManageJob/templates/en_US/view_list_job.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_job.html#L12'>modules/ManageJob/templates/en_US/view_job.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_salary_grade.html#L4'>modules/ManageJob/templates/en_US/view_list_salary_grade.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr "Va agahîyan biguherîne"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_job.html#L6'>modules/ManageJob/templates/en_US/view_list_job.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_job.html#L14'>modules/ManageJob/templates/en_US/view_job.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_salary_grade.html#L6'>modules/ManageJob/templates/en_US/view_list_salary_grade.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_job.html#L7'>modules/ManageJob/templates/en_US/view_list_job.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_job.html#L15'>modules/ManageJob/templates/en_US/view_job.html</a>
+#, no-c-format
+msgid "Select another Job"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_job.html#L14'>modules/ManageJob/templates/en_US/view_list_job.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_job.html#L22'>modules/ManageJob/templates/en_US/view_job.html</a>
+#, no-c-format
+msgid "Job"
+msgstr "Kar"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_salary_grade.html#L7'>modules/ManageJob/templates/en_US/view_list_salary_grade.html</a>
+#, no-c-format
+msgid "Select another Salary Grade"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L30'>modules/ManageJob/configs/en_US/Job.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L68'>modules/ManageJob/configs/en_US/Job.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_list_salary_grade.html#L14'>modules/ManageJob/templates/en_US/view_list_salary_grade.html</a>
+#, no-c-format
+msgid "Salary Grade"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L21'>modules/ManageJob/configs/en_US/Job.xml</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_job.html#L2'>modules/ManageJob/templates/en_US/view_job.html</a>
+#, no-c-format
+msgid "View Job"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_job.html#L5'>modules/ManageJob/templates/en_US/view_job.html</a>
+#, no-c-format
+msgid "Job Information"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/templates/en_US/view_job.html#L6'>modules/ManageJob/templates/en_US/view_job.html</a>
+#, no-c-format
+msgid "Hide"
+msgstr "veşêre"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L11'>modules/ManageJob/configs/en_US/Job.xml</a>
+#, no-c-format
+msgid "Edit the salary_grade list"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L14'>modules/ManageJob/configs/en_US/Job.xml</a>
+#, no-c-format
+msgid "View the salary_grade list"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L39'>modules/ManageJob/configs/en_US/Job.xml</a>
+#, no-c-format
+msgid "Name"
+msgstr "Nav"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L44'>modules/ManageJob/configs/en_US/Job.xml</a>
+#, no-c-format
+msgid "Start"
+msgstr "Destpêk"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L49'>modules/ManageJob/configs/en_US/Job.xml</a>
+#, no-c-format
+msgid "End"
+msgstr "Dawî"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L54'>modules/ManageJob/configs/en_US/Job.xml</a>
+#, no-c-format
+msgid "MidPoint"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-manage/4.0-dev/annotate/head%3A/modules/ManageJob/configs/en_US/Job.xml#L59'>modules/ManageJob/configs/en_US/Job.xml</a>
+#, no-c-format
+msgid "Notes"
+msgstr ""

@@ -1,0 +1,147 @@
+# Translation Template of I2CE module (form-limits Version 4.1.0)
+# Copyright (C) 2010 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: I2CE@form-limits 4.1.0\n"
+"POT-Creation-Date: 2010-06-04 15:36-0400\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#, no-c-format
+msgid "Limit this field to be between the following values"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to contain (case insensitive) the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be Yes or No"
+msgstr ""
+
+#, no-c-format
+msgid "Select Value"
+msgstr ""
+
+#, no-c-format
+msgid "No"
+msgstr ""
+
+#, no-c-format
+msgid "Yes"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be greather than the current date."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be not null (value specified)."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be less than or equal to the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be like (case insensitive) the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be True or False"
+msgstr ""
+
+#, no-c-format
+msgid "True"
+msgstr ""
+
+#, no-c-format
+msgid "False"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be equal to the given value."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be the minimum for all child forms that have the same parent."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be like (case sensitive) the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be equal to the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be null or not"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be no."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be the minimum value for this form having the same parent."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be greater than or equal to the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be true."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be equal to (case insensitive) the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be the maximum for all child forms that have the same parent."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be greater than the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be one of the following values"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be less than the current date."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be the maximum value for this form having the same parent."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be less than the following value"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be one of the following values: (Hold down the Control key to select multiple values)"
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be yes."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be false."
+msgstr ""
+
+#, no-c-format
+msgid "Limit this field to be null (value not specified)."
+msgstr ""
+

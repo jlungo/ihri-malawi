@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-PersonPosition" path="/I2CE">
+  <metadata>
+    <version>4.1.9.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-manage-PersonPosition" path="/I2CE" locale="ar">
+    <version>4.1.9.0.1</version>
+    <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="ar">
+      <configuration name="pp_bad_date" path="person_position/start_date/bad_date"></configuration>
+      <configuration name="pp_end_date" path="person_position/end_date/bad_date"></configuration>
+      <configuration name="pp_end_date" path="person_position/end_date/required"></configuration>
+      <configuration name="pp_reason" path="person_position/reason/required"></configuration>
+      <configuration name="p_status" path="position/status/required"></configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <configuration name="can_edit_database_list_department" locale="ar">
+        <value>تعديل&#160;قائمة الإدارة</value>
+      </configuration>
+      <configuration name="can_view_database_list_department" locale="ar">
+        <value>عرض لائحة القسم</value>
+      </configuration>
+      <configuration name="can_edit_database_list_position_type" locale="ar">
+        <value>عدل قائمة position_type</value>
+      </configuration>
+      <configuration name="can_view_database_list_position_type" locale="ar">
+        <value>عرض قائمة&#160;نوع الوظائف</value>
+      </configuration>
+      <configuration name="can_edit_database_list_position" locale="ar">
+        <value>تعديل قائمة الوظيفة</value>
+      </configuration>
+      <configuration name="can_view_database_list_position" locale="ar">
+        <value>عرض قائمة&#160;الوظيفة</value>
+      </configuration>
+      <configuration name="can_edit_database_list_pos_change_reason" locale="ar">
+        <value>تعديل قائمة سبب تغيير الوظيفة</value>
+      </configuration>
+      <configuration name="can_view_database_list_pos_change_reason" locale="ar">
+        <value>عرض ققائمة سبب تغيير الوظيفة</value>
+      </configuration>
+      <configuration name="can_edit_manage_positions_database_lists" locale="ar">
+        <value>يمكن&#160;تعديل&#160;بعض المعلومات عن&#160;الوظائف</value>
+      </configuration>
+      <configuration name="can_view_manage_positions_database_lists" locale="ar">
+        <value>يمكن عرض&#160;بعض المعلومات عن&#160;الوظائف</value>
+      </configuration>
+      <configuration name="can_edit_all_manage_positions_database_lists" locale="ar">
+        <value>يمكن&#160;تعديل&#160;كل المعلومات عن&#160;الوظائف</value>
+      </configuration>
+      <configuration name="can_view_all_manage_positions_database_lists" locale="ar">
+        <value>يمكن&#160;الاطلاع&#160;على جميع المعلومات&#160; الخاصة بالوظائف</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_position" locale="ar">
+        <value>يمكن&#160;تعديل&#160;الوظيفة&#160;لشخص</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_person_position" locale="ar">
+        <value>يمكن&#160;عرض&#160;الوظيفة&#160;لشخص</value>
+      </configuration>
+      <configuration name="person_can_change_child_form_person_position" locale="ar">
+        <value>يمكن&#160;تغيير&#160;الوظيفة الحالية &#160;لشخص</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="position_status">
+        <configurationGroup name="open">
+          <configuration name="fields" value="many" type="delimited" locale="ar">
+            <value>name:فتح</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="closed">
+          <configuration name="fields" value="many" type="delimited" locale="ar">
+            <value>name:مغلق</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="discontinued">
+          <configuration name="fields" value="many" type="delimited" locale="ar">
+            <value>name:موقوف</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="departure">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="ar">
+            <value>تسجيل&#160;المغادرة</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="make_offer">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="ar">
+            <value>تقديم عرض لوظيفة</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="person_position">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="ar">
+            <value>تعديل وظيفة</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="view_position">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="ar">
+            <value>أعرض المنصب</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="person_position">
+          <configuration name="display" values="single" locale="ar">
+            <value>الشخص الذي يشغل الوظيفة</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="description" locale="ar">
+              <value>يستخدم&#160;هذا النموذج&#160;للربط بين&#160;شخص و موقع وظيفة محددة</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="pos_change_reason">
+          <configuration name="display" values="single" locale="ar">
+            <value>أسباب&#160;ترك العمل</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position_status">
+          <configuration name="display" values="single" locale="ar">
+            <value>حالة الوظيفة</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <configuration name="display" values="single" locale="ar">
+            <value>المنصب</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position_type">
+          <configuration name="display" values="single" locale="ar">
+            <value>نوع المنصب</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="department">
+          <configuration name="display" values="single" locale="ar">
+            <value>الإدارة</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Department">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:اسم</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_PersonPosition">
+          <configurationGroup name="fields">
+            <configurationGroup name="position">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:المنصب</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:تاريخ البدء</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:تاريخ الانتهاء</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="reason">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:سبب&#160;المغادرة</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Position">
+          <configurationGroup name="fields">
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:رمز الوظيفة</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:وظيفة</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="title">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:عنوان الوظيفة</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="description">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:وصف الوظيفة</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="supervisor">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:مشرف</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:مرفق</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="department">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:الإدارة</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="pos_type">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:نوع المنصب</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="proposed_hiring_date">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:تاريخ التوظيف المقترح</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="posted_date">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:تاريخ&#160;النشر</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="status">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:حالة</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="comments">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:التعليقات الخاصة بالوظيفة</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="interview_comments">
+              <configuration name="headers" type="delimited" locale="ar">
+                <value>default:التعليقات الخاصة بالمقابلة</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

@@ -1,0 +1,143 @@
+# Translation Template of I2CE module (UserForm Version 4.1.7.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: I2CE@UserForm 4.1.7.0\n"
+"POT-Creation-Date: 2014-04-30 14:15-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/button_confirm_user.html#L12 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/button_confirm_user.html line 12]
+#, no-c-format
+msgid "return (do not save changes)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html line 2]
+#, no-c-format
+msgid "Administer Users"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html line 8]
+#, no-c-format
+msgid "Select User to Edit"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html#L10 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html line 10]
+#, no-c-format
+msgid "Add new User"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L22 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 22]
+#, no-c-format
+msgid "Can create a user on the system"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L25 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 25]
+#, no-c-format
+msgid "Can edit all the users in the system."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L35 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 35]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L42 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 42]
+#, no-c-format
+msgid "Manage Users/Access"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L50 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 50]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L58 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 58]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L93 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 93]
+#, no-c-format
+msgid "Role"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L63 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 63]
+#, no-c-format
+msgid "Can Assign To User"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L73 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 73]
+#, no-c-format
+msgid "Trickle Up"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L82 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 82]
+#, no-c-format
+msgid "Username"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L87 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 87]
+#, no-c-format
+msgid "Password (leave blank to keep the same password)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L88 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 88]
+#, no-c-format
+msgid "Generate New Password"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L28 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 28]
+#, no-c-format
+msgid "Can create or edit the users in the system."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/button_confirm_user.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/button_confirm_user.html line 8]
+#, no-c-format
+msgid "Confirm"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html#L3 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html line 3]
+#, no-c-format
+msgid "User Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html#L6 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html line 6]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html line 8]
+#, no-c-format
+msgid "Update This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html#L9 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_form_base_view.html line 9]
+#, no-c-format
+msgid "Select another User"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html#L15 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/user_list.html line 15]
+#, no-c-format
+msgid "add"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L11 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 11]
+#, no-c-format
+msgid "That username is already being used."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L14 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 14]
+#, no-c-format
+msgid "The password and confirmation password weren't the same."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L17 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 17]
+#, no-c-format
+msgid "For new users you must enter an initial password."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/button_confirm_user.html#L4 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/templates/en_US/button_confirm_user.html line 4]
+#, no-c-format
+msgid "Required Field"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml#L68 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/UserForm/configs/en_US/UserForm.xml line 68]
+#, no-c-format
+msgid "Preferred Home Page"
+msgstr ""
+

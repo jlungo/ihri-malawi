@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="forms">
+  <metadata>
+    <version>4.1.11.0</version>
+  </metadata>
+  <configurationGroup name="forms" locale="en_US">
+    <version>4.1.9.0</version>
+    <configurationGroup name="forms">
+      <configurationGroup name="user">
+        <configuration name="display" values="single" locale="en_US">
+          <value>User</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

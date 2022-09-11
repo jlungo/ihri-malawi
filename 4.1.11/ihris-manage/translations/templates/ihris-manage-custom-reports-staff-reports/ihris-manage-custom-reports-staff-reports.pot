@@ -1,0 +1,476 @@
+# Translation Template of ihris-manage module (ihris-manage-CustomReports-staff-reports Version 4.1.0.2)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage@ihris-manage-CustomReports-staff-reports 4.1.0.2\n"
+"POT-Creation-Date: 2014-04-30 14:22-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L12 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 12]
+#, no-c-format
+msgid "Current Staff"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L15 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 15]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L160 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 160]
+#, no-c-format
+msgid "A list of all current staff."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L20 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 20]
+#, no-c-format
+msgid "Person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L23 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 23]
+#, no-c-format
+msgid "The person currently filling this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L28 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 28]
+#, no-c-format
+msgid "Demographic"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L31 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 31]
+#, no-c-format
+msgid "Demographic details for the person."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L36 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 36]
+#, no-c-format
+msgid "Work Contact"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L39 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 39]
+#, no-c-format
+msgid "Work contact details for this person."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L44 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 44]
+#, no-c-format
+msgid "Emergency Contact"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L47 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 47]
+#, no-c-format
+msgid "Emergency Contact details for this person."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L52 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 52]
+#, no-c-format
+msgid "Home Contact"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L55 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 55]
+#, no-c-format
+msgid "Home contact details for this person."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L60 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 60]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L63 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 63]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L200 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 200]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L363 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 363]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L377 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 377]
+#, no-c-format
+msgid "Nationality"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L70 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 70]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L277 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 277]
+#, no-c-format
+msgid "Position"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L73 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 73]
+#, no-c-format
+msgid "The position held by this person."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L78 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 78]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L287 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 287]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L328 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 328]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L421 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 421]
+#, no-c-format
+msgid "Facility"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L81 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 81]
+#, no-c-format
+msgid "The facility where this position works."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L86 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 86]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L299 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 299]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L337 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 337]
+#, no-c-format
+msgid "Department"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L89 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 89]
+#, no-c-format
+msgid "The department for this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L94 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 94]
+#, no-c-format
+msgid "Job"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L97 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 97]
+#, no-c-format
+msgid "The job associated with this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L102 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 102]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L460 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 460]
+#, no-c-format
+msgid "Classification"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L105 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 105]
+#, no-c-format
+msgid "The job classification for this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L114 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 114]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L310 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 310]
+#, no-c-format
+msgid "Current Salary"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L117 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 117]
+#, no-c-format
+msgid "The current salary for this person."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L122 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 122]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L319 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 319]
+#, no-c-format
+msgid "Starting Salary"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L125 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 125]
+#, no-c-format
+msgid "The starting salary for this person in their current position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L132 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 132]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L137 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 137]
+#, no-c-format
+msgid "The year this person turns 65."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L142 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 142]
+#, no-c-format
+msgid "The age range for the person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L147 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 147]
+#, no-c-format
+msgid "The year the person started in this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L157 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 157]
+#, no-c-format
+msgid "Staff List"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L171 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 171]
+#, no-c-format
+msgid "Hire Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L180 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 180]
+#, no-c-format
+msgid "Surname"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L185 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 185]
+#, no-c-format
+msgid "Firstname"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L190 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 190]
+#, no-c-format
+msgid "Othername"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L195 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 195]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L368 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 368]
+#, no-c-format
+msgid "Nationality ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L211 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 211]
+#, no-c-format
+msgid "Birth Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L216 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 216]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L405 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 405]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L410 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 410]
+#, no-c-format
+msgid "Gender"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L225 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 225]
+#, no-c-format
+msgid "Work Telephone"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L230 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 230]
+#, no-c-format
+msgid "Work Email"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L239 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 239]
+#, no-c-format
+msgid "Emergency Address"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L244 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 244]
+#, no-c-format
+msgid "Emergency Telephone"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L249 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 249]
+#, no-c-format
+msgid "Emergency Email"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L258 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 258]
+#, no-c-format
+msgid "Home Address"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L263 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 263]
+#, no-c-format
+msgid "Home Telephone"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L268 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 268]
+#, no-c-format
+msgid "Home Email"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L282 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 282]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L426 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 426]
+#, no-c-format
+msgid "Facility ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L294 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 294]
+#, no-c-format
+msgid "Department ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L347 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 347]
+#, no-c-format
+msgid "Staff Charts"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L350 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 350]
+#, no-c-format
+msgid "Staff aggregate reports for charting."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L388 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 388]
+#, no-c-format
+msgid "Birth Date After"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L393 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 393]
+#, no-c-format
+msgid "Birth Date Before"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L398 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 398]
+#, no-c-format
+msgid "Demographic Birth Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L437 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 437]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L442 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 442]
+#, no-c-format
+msgid "Facility Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L451 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 451]
+#, no-c-format
+msgid "Job Title"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L469 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 469]
+#, no-c-format
+msgid "Retirement Year"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L474 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 474]
+#, no-c-format
+msgid "Age Range"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L479 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 479]
+#, no-c-format
+msgid "Hire Year"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L488 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 488]
+#, no-c-format
+msgid "Staff Directory"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L491 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 491]
+#, no-c-format
+msgid "A list of all current staff with work contact information."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L496 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 496]
+#, no-c-format
+msgid "Home Contact List"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L499 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 499]
+#, no-c-format
+msgid "All staff with home contact details."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L504 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 504]
+#, no-c-format
+msgid "Classification Breakdown"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L507 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 507]
+#, no-c-format
+msgid "A total of all staff by classification."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L514 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 514]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L564 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 564]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L598 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 598]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L632 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 632]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L666 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 666]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L694 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 694]
+#, no-c-format
+msgid "Pie Chart(Simple)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L519 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 519]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L569 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 569]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L603 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 603]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L637 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 637]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L671 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 671]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L699 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 699]
+#, no-c-format
+msgid "Bar Chart(Simple)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L524 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 524]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L574 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 574]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L608 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 608]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L642 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 642]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L676 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 676]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L704 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 704]
+#, no-c-format
+msgid "Column Chart(Simple)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L529 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 529]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L579 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 579]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L613 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 613]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L647 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 647]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L681 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 681]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L714 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 714]
+#, no-c-format
+msgid "Scatter Plot"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L538 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 538]
+#, no-c-format
+msgid "Emergency Contact List"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L541 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 541]
+#, no-c-format
+msgid "List of all staff with emergency contact details."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L546 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 546]
+#, no-c-format
+msgid "Salary List"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L549 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 549]
+#, no-c-format
+msgid "A list of all employees with salary details."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L554 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 554]
+#, no-c-format
+msgid "Job Breakdown"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L557 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 557]
+#, no-c-format
+msgid "Total staff by job."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L588 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 588]
+#, no-c-format
+msgid "Nationality Breakdown"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L591 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 591]
+#, no-c-format
+msgid "A list of all staff by nationality."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L622 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 622]
+#, no-c-format
+msgid "Age Distribution"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L625 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 625]
+#, no-c-format
+msgid "Total of all staff by age range."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L656 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 656]
+#, no-c-format
+msgid "Hires per Year"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L659 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 659]
+#, no-c-format
+msgid "Hire totals by year."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L709 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 709]
+#, no-c-format
+msgid "Stacked Column Chart(Simple)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L721 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 721]
+#, no-c-format
+msgid "Retirement Planning"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L724 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 724]
+#, no-c-format
+msgid "Staff totals by retirement year."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L163 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 163]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml#L353 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/StaffReports/configs/en_US/StaffReports.xml line 353]
+#, no-c-format
+msgid "Staff Reports"
+msgstr ""
+

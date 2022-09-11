@@ -1,0 +1,48 @@
+# Translation of iHRIS I2CE - Color Picker to Zazaki (Zazaki)
+# Exported from translatewiki.net
+#
+# Author: Erdemaslancan
+# Author: Mirzali
+# --
+# Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+# Copyright (c) 2011-2014 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS I2CE - Color Picker\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2013-07-22 20:36+0200\n"
+"PO-Revision-Date: 2014-03-12 13:00:31+0000\n"
+"Language: diq\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2013-10-07 17:22:41+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.23alpha (769c4a6); Translate 2014-02-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_rgb_single.html#L11'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_rgb_single.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_hex_single.html#L11'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_hex_single.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_single.html#L11'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_single.html</a>
+#, no-c-format
+msgid "Chosen Color"
+msgstr "Reng Weçine"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_rgb_single.html#L11'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_rgb_single.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_hex_single.html#L11'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_hex_single.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_single.html#L11'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_single.html</a>
+#, no-c-format
+msgid "Choose A Color"
+msgstr "Yew Reng Weçine"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_rgb_single.html#L24'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_rgb_single.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_hex_single.html#L22'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_hex_single.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_single.html#L24'>modules/MooTools/modules/ColorPicker/templates/en_US/configuration_color_triple_single.html</a>
+#, no-c-format
+msgid "(Default"
+msgstr "(Hesabiyaye"

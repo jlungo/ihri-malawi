@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-PersonPosition" path="/I2CE">
+  <metadata>
+    <version>4.1.9.0</version>
+  </metadata>
+  <configurationGroup name="ihris-manage-PersonPosition" path="/I2CE" locale="en_US">
+    <version>4.1.9.0</version>
+    <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="en_US">
+      <configuration name="pp_bad_date" path="person_position/start_date/bad_date">
+        <value>Please enter a start date after the previous position's start date.</value>
+      </configuration>
+      <configuration name="pp_end_date" path="person_position/end_date/bad_date">
+        <value>The end date must be after the start date.</value>
+      </configuration>
+      <configuration name="pp_end_date" path="person_position/end_date/required">
+        <value>Required Field.</value>
+      </configuration>
+      <configuration name="pp_reason" path="person_position/reason/required">
+        <value>Required Field.</value>
+      </configuration>
+      <configuration name="p_status" path="position/status/required">
+        <value>Please enter a new status.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <configuration name="can_edit_database_list_department" locale="en_US">
+        <value>Edit the department list</value>
+      </configuration>
+      <configuration name="can_view_database_list_department" locale="en_US">
+        <value>View the department list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_position_type" locale="en_US">
+        <value>Edit the position_type list</value>
+      </configuration>
+      <configuration name="can_view_database_list_position_type" locale="en_US">
+        <value>View the position_type list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_position" locale="en_US">
+        <value>Edit the position list</value>
+      </configuration>
+      <configuration name="can_view_database_list_position" locale="en_US">
+        <value>View the position list</value>
+      </configuration>
+      <configuration name="can_edit_database_list_pos_change_reason" locale="en_US">
+        <value>Edit the pos_change_reason list</value>
+      </configuration>
+      <configuration name="can_view_database_list_pos_change_reason" locale="en_US">
+        <value>View the pos_change_reason list</value>
+      </configuration>
+      <configuration name="can_edit_manage_positions_database_lists" locale="en_US">
+        <value>Can edit some information about positions</value>
+      </configuration>
+      <configuration name="can_view_manage_positions_database_lists" locale="en_US">
+        <value>Can view some information about positions</value>
+      </configuration>
+      <configuration name="can_edit_all_manage_positions_database_lists" locale="en_US">
+        <value>Can edit all information about positions</value>
+      </configuration>
+      <configuration name="can_view_all_manage_positions_database_lists" locale="en_US">
+        <value>Can view all information about positions</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_position" locale="en_US">
+        <value>Can edit the position of a person</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_person_position" locale="en_US">
+        <value>Can view the position of a person</value>
+      </configuration>
+      <configuration name="person_can_change_child_form_person_position" locale="en_US">
+        <value>Can change the existing position of a person</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="position_status">
+        <configurationGroup name="open">
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Open</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="closed">
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Closed</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="discontinued">
+          <configuration name="fields" value="many" type="delimited" locale="en_US">
+            <value>name:Discontinued</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="departure">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Record a Departure</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="make_offer">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Make a Job Offer</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="person_position">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>Edit Position</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="view_position">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="en_US">
+            <value>View Position</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="person_position">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Person Position</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="description" locale="en_US">
+              <value>This form is used to link a person to a pariticular position residence</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="pos_change_reason">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Reasons for Departure</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position_status">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Position Status</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Position</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position_type">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Position Type</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="department">
+          <configuration name="display" values="single" locale="en_US">
+            <value>Department</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Department">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Name</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_PersonPosition">
+          <configurationGroup name="fields">
+            <configurationGroup name="position">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Start Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:End Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="reason">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Reason for Departure</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Position">
+          <configurationGroup name="fields">
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position Code</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Job</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="title">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position Title</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="description">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position Description</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="supervisor">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Supervisor</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Facility</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="department">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Department</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="pos_type">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position Type</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="proposed_hiring_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Proposed Hiring Date</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="posted_date">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Date Posted</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="status">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Status</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="comments">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Position Comments</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="interview_comments">
+              <configuration name="headers" type="delimited" locale="en_US">
+                <value>default:Interview Comments</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

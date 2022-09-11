@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ihris-manage-PersonPosition" path="/I2CE">
+  <metadata>
+    <version>4.1.9.0.1</version>
+  </metadata>
+  <configurationGroup name="ihris-manage-PersonPosition" path="/I2CE" locale="si">
+    <version>4.1.9.0.1</version>
+    <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="si">
+      <configuration name="pp_bad_date" path="person_position/start_date/bad_date">
+        <value>කරුණාකර කලින් තනතුර ආරම්භ කළ දිනට පෙර දිනයක් ඇතුලත් කරන්න</value>
+      </configuration>
+      <configuration name="pp_end_date" path="person_position/end_date/bad_date">
+        <value>අවසන් වන දිනය, ආරම්භක දිනයට පසු දිනයක් විය යුතුය.</value>
+      </configuration>
+      <configuration name="pp_end_date" path="person_position/end_date/required">
+        <value>අත්‍යාවශ්‍ය පෙළ</value>
+      </configuration>
+      <configuration name="pp_reason" path="person_position/reason/required">
+        <value>අත්‍යාවශ්‍ය පෙළ</value>
+      </configuration>
+      <configuration name="p_status" path="position/status/required">
+        <value>කරුණාකර නව තත්වය ඇතුලත් කරන්න</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
+      <configuration name="can_edit_database_list_department" locale="si">
+        <value>දෙපාර්තුමේන්තු ලැයිස්තුව සකසන්න</value>
+      </configuration>
+      <configuration name="can_view_database_list_department" locale="si">
+        <value>දෙපාර්තමේන්තු ලැයිස්තු දසුන</value>
+      </configuration>
+      <configuration name="can_edit_database_list_position_type" locale="si">
+        <value>තනතුරු_වර්ග ලැයිස්තුව සකසන්න</value>
+      </configuration>
+      <configuration name="can_view_database_list_position_type" locale="si">
+        <value>තනතුරු_වර්ග ලැයිස්තුව බලන්න</value>
+      </configuration>
+      <configuration name="can_edit_database_list_position" locale="si">
+        <value>තනතුරු ලැයිස්තුව සකසන්න</value>
+      </configuration>
+      <configuration name="can_view_database_list_position" locale="si">
+        <value>තනතුරු ලැයිස්තුව බලන්න</value>
+      </configuration>
+      <configuration name="can_edit_database_list_pos_change_reason" locale="si">
+        <value>තනතුරු_වෙනස්කිරීමේ_හේතු ලැයිස්තුව සකසන්න</value>
+      </configuration>
+      <configuration name="can_view_database_list_pos_change_reason" locale="si">
+        <value>තනතුරු_වෙනස්කිරීමේ_හේතු ලැයිස්තුව බලන්න</value>
+      </configuration>
+      <configuration name="can_edit_manage_positions_database_lists" locale="si">
+        <value>තනතුරු ගැන සමහර තොරතුරු සකසන්න</value>
+      </configuration>
+      <configuration name="can_view_manage_positions_database_lists" locale="si">
+        <value>තනතුරු ගැන සමහර තොරතුරු බලන්න</value>
+      </configuration>
+      <configuration name="can_edit_all_manage_positions_database_lists" locale="si">
+        <value>තනතුරු ගැන සියලු තොරතුරු සකසන්න</value>
+      </configuration>
+      <configuration name="can_view_all_manage_positions_database_lists" locale="si">
+        <value>තනතුරු ගැන සියලු තොරතුරු බලන්න</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_person_position" locale="si">
+        <value>පුද්ගලයෙකුගේ තනතුර සකසන්න</value>
+      </configuration>
+      <configuration name="person_can_view_child_form_person_position" locale="si">
+        <value>පුද්ගලයෙකුගේ තනතුර බලන්න</value>
+      </configuration>
+      <configuration name="person_can_change_child_form_person_position" locale="si">
+        <value>පුද්ගලයෙකුගේ පවතින තනතුර වෙනස් කරන්න</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formsData" path="formsData/forms">
+      <configurationGroup name="position_status">
+        <configurationGroup name="open">
+          <configuration name="fields" value="many" type="delimited" locale="si">
+            <value>name:විවෘත කරන්න</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="closed">
+          <configuration name="fields" value="many" type="delimited" locale="si">
+            <value>name:වැසුවා</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="discontinued">
+          <configuration name="fields" value="many" type="delimited" locale="si">
+            <value>name:අත්හිටුවන ලදී</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="departure">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="si">
+            <value>නික්මයාම ලේඛනගත කරන්න</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="make_offer">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="si">
+            <value>රැකියා ප්‍රදානයක් නිර්මාණය කරන්න</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="person_position">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="si">
+            <value>තනතුර සකසන්න</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="view_position">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="si">
+            <value>තනතුර බලන්න</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="person_position">
+          <configuration name="display" values="single" locale="si">
+            <value>පුද්ගල තනතුර</value>
+          </configuration>
+          <configurationGroup name="meta">
+            <configuration name="description" locale="si">
+              <value>මෙම පෝරමය පුද්ගලයෙකු නියමිත තනතුරට සබැඳි කිරම සඳහා යොදා ගන්නා ලදී</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="pos_change_reason">
+          <configuration name="display" values="single" locale="si">
+            <value>නික්ම යාමට හේතු</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position_status">
+          <configuration name="display" values="single" locale="si">
+            <value>තනතුරේ තත්වය</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position">
+          <configuration name="display" values="single" locale="si">
+            <value>තනතුර</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="position_type">
+          <configuration name="display" values="single" locale="si">
+            <value>තනතුරු වර්ගය</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="department">
+          <configuration name="display" values="single" locale="si">
+            <value>දෙපාර්තමේන්තුව</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Department">
+          <configurationGroup name="fields">
+            <configurationGroup name="name">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:නම</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_PersonPosition">
+          <configurationGroup name="fields">
+            <configurationGroup name="position">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:තනතුර</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="start_date">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:ඇරඹුම් දිනය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="end_date">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:අවසන් දිනය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="reason">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:නික්මයාමට හේතු</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+        <configurationGroup name="iHRIS_Position">
+          <configurationGroup name="fields">
+            <configurationGroup name="code">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:තනතුරු කේතය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="job">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:කාර්යය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="title">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:තනතුරු සිරැසිය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="description">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:තනතුරු විස්තරය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="supervisor">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:අධීක්ෂණය කරන්නා</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="facility">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:පහසුකම</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="department">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:දෙපාර්තමේන්තුව</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="pos_type">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:තනතුරු වර්ගය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="proposed_hiring_date">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:යෝජිත බඳවා ගැනීමේ දිනය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="posted_date">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:පළ කරන ලද දිනය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="status">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:තත්ත්වය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="comments">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:තනතුර පිලිබඳ සටහන</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="interview_comments">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:සම්මුඛ පරීක්ෂණ පිලිබඳ සටහන</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

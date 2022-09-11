@@ -1,0 +1,168 @@
+# Translation of iHRIS I2CE - Custom Reports PDF to Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+# Exported from translatewiki.net
+#
+# Author: Tifinaghes
+# --
+# Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+# Copyright (c) 2011-2014 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iHRIS I2CE - Custom Reports PDF\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"POT-Creation-Date: 2013-01-04 11:36+0300\n"
+"PO-Revision-Date: 2014-03-12 13:01:34+0000\n"
+"Language: tzm\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2013-10-07 17:22:59+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.23alpha (769c4a6); Translate 2014-02-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L5'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Print Options"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L8'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Paper Size"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L46'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA0"
+msgstr "RA0"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L47'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA1"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L48'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA2"
+msgstr "RA2"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L49'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA3"
+msgstr "RA3"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L50'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "RA4"
+msgstr "RA4"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L51'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA0"
+msgstr "SRA0"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L52'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA1"
+msgstr "SRA1"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L53'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA2"
+msgstr "SRA2"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L54'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA3"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L55'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "SRA4"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L56'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "LETTER"
+msgstr "ⵜⴰⴱⵔⴰⵜ"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L57'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "LEGAL"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L58'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "EXECUTIVE"
+msgstr "EXECUTIVE"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L59'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "FOLIO"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L65'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Orientation"
+msgstr "ⴰⵎⵏⵉⴷ"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L68'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Portrait"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L69'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Landscape"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L76'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Close"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L7'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "This will create a PDF based on the report displayed as a table."
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L2'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L75'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Print"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L2'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Select PDF options and view this report for printing as a table"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html#L75'>modules/CustomReports/modules/PDF/templates/en_US/customReports_display_control_PDF.html</a>
+#, no-c-format
+msgid "Print this report as PDF"
+msgstr ""

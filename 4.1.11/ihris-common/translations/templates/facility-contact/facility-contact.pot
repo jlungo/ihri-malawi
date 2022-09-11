@@ -1,0 +1,26 @@
+# Translation Template of ihris-common module (FacilityContact Version 4.1.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-common@FacilityContact 4.1.0\n"
+"POT-Creation-Date: 2014-04-30 14:20-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Facility/modules/FacilityContact/templates/en_US/view_list_facility_contact.html#L3 4.1-dev/4.0-dev/annotate/head%3A/modules/Facility/modules/FacilityContact/templates/en_US/view_list_facility_contact.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Facility/modules/FacilityContact/templates/en_US/lists_form_facility_contact.html#L3 4.1-dev/4.0-dev/annotate/head%3A/modules/Facility/modules/FacilityContact/templates/en_US/lists_form_facility_contact.html line 3]
+#, no-c-format
+msgid "Contact Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Facility/modules/FacilityContact/configs/en_US/Facility.xml#L12 4.1-dev/4.0-dev/annotate/head%3A/modules/Facility/modules/FacilityContact/configs/en_US/Facility.xml line 12]
+#, no-c-format
+msgid "Facility Contact"
+msgstr ""
+

@@ -1,0 +1,89 @@
+# Translation of iHRIS I2CE - Forms to لوری (لوری)
+# Exported from translatewiki.net
+#
+# Author: Bonevarluri
+# --
+# Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+# Copyright (c) 2011-2014 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2013-07-22 20:36+0200\n"
+"PO-Revision-Date: 2014-03-12 13:03:03+0000\n"
+"Language: lrc\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2013-10-07 17:23:33+0000\n"
+"X-Generator: MediaWiki 1.23alpha (769c4a6); Translate 2014-02-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_confirm_notchild.html#L8'>modules/Forms/templates/en_US/button_confirm_notchild.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_save_return.html#L9'>modules/Forms/templates/en_US/button_save_return.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_confirm.html#L9'>modules/Forms/templates/en_US/button_confirm.html</a>
+#, no-c-format
+msgid "return (do not save changes)"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/configs/en_US/Forms.xml#L12'>modules/Forms/configs/en_US/Forms.xml</a>
+#, no-c-format
+msgid "User"
+msgstr "كارور"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_return_only.html#L6'>modules/Forms/templates/en_US/button_return_only.html</a>
+#, no-c-format
+msgid "return"
+msgstr "ورگشتن"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_save.html#L8'>modules/Forms/templates/en_US/button_save.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_save_only.html#L2'>modules/Forms/templates/en_US/button_save_only.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_save_return.html#L5'>modules/Forms/templates/en_US/button_save_return.html</a>
+#, no-c-format
+msgid "Save"
+msgstr "ذخيره كردن"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_confirm_notchild.html#L9'>modules/Forms/templates/en_US/button_confirm_notchild.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_confirm.html#L10'>modules/Forms/templates/en_US/button_confirm.html</a>
+#, no-c-format
+msgid "Confirm"
+msgstr "مئكم كردن"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/form_error.html#L1'>modules/Forms/templates/en_US/form_error.html</a>
+#, no-c-format
+msgid ""
+"There are problems with the data you entered. Invalid fields are surrounded "
+"by red."
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_save.html#L6'>modules/Forms/templates/en_US/button_save.html</a>
+#, no-c-format
+msgid "Edit"
+msgstr "ويرايشت"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_confirm_notchild.html#L4'>modules/Forms/templates/en_US/button_confirm_notchild.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/button_confirm.html#L4'>modules/Forms/templates/en_US/button_confirm.html</a>
+#, no-c-format
+msgid "Required Field"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/auto_view_child_form.html#L6'>modules/Forms/templates/en_US/auto_view_child_form.html</a>
+#, no-c-format
+msgid "Hide"
+msgstr "قام كردن"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/auto_view_child_form.html#L11'>modules/Forms/templates/en_US/auto_view_child_form.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/i2ce/4.0-dev/annotate/head%3A/modules/Forms/templates/en_US/auto_view_parent_form.html#L15'>modules/Forms/templates/en_US/auto_view_parent_form.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""

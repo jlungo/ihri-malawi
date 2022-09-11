@@ -1,0 +1,206 @@
+# Translation Template of ihris-manage module (ihris-manage-CustomReports-position-reports Version 4.1.0.2)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-manage@ihris-manage-CustomReports-position-reports 4.1.0.2\n"
+"POT-Creation-Date: 2014-04-30 14:22-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L16 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 16]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L181 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 181]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L204 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 204]
+#, no-c-format
+msgid "Cadre"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L19 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 19]
+#, no-c-format
+msgid "The cadre associated with this job."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L24 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 24]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L193 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 193]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L213 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 213]
+#, no-c-format
+msgid "Classification"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L27 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 27]
+#, no-c-format
+msgid "The classification associated with this job."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L32 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 32]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L114 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 114]
+#, no-c-format
+msgid "Job"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L35 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 35]
+#, no-c-format
+msgid "The job associated with this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L40 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 40]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L131 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 131]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L222 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 222]
+#, no-c-format
+msgid "Facility"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L43 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 43]
+#, no-c-format
+msgid "The facility where this position works."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L48 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 48]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L143 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 143]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L231 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 231]
+#, no-c-format
+msgid "Department"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L51 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 51]
+#, no-c-format
+msgid "The department this position belongs to."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L56 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 56]
+#, no-c-format
+msgid "Last Position"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L59 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 59]
+#, no-c-format
+msgid "The last person that filled this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L64 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 64]
+#, no-c-format
+msgid "Current Position"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L67 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 67]
+#, no-c-format
+msgid "The current person filling this position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L74 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 74]
+#, no-c-format
+msgid "The number of days this positions was open before being filled."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L79 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 79]
+#, no-c-format
+msgid "Positions"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L82 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 82]
+#, no-c-format
+msgid "All information related to a position."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L90 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 90]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L267 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 267]
+#, no-c-format
+msgid "Position List"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L93 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 93]
+#, no-c-format
+msgid "Details for all positions."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L104 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 104]
+#, no-c-format
+msgid "Code"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L109 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 109]
+#, no-c-format
+msgid "Position Job"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L121 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 121]
+#, no-c-format
+msgid "Title"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L126 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 126]
+#, no-c-format
+msgid "Facility ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L138 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 138]
+#, no-c-format
+msgid "Department ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L150 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 150]
+#, no-c-format
+msgid "Posted Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L155 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 155]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L160 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 160]
+#, no-c-format
+msgid "Status"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L171 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 171]
+#, no-c-format
+msgid "Job Title"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L176 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 176]
+#, no-c-format
+msgid "Cadre ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L188 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 188]
+#, no-c-format
+msgid "Classification ID"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L240 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 240]
+#, no-c-format
+msgid "Open Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L249 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 249]
+#, no-c-format
+msgid "Filled Date"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L258 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 258]
+#, no-c-format
+msgid "Days Open"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L270 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 270]
+#, no-c-format
+msgid "A list of all positions."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L275 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 275]
+#, no-c-format
+msgid "Position Open Duration"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L278 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 278]
+#, no-c-format
+msgid "The length in days each position was open before being filled."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml#L96 4.1-dev/4.0-dev/annotate/head%3A/modules/ManageCustomReports/Reports/PositionReports/configs/en_US/PositionReports.xml line 96]
+#, no-c-format
+msgid "Position Reports"
+msgstr ""
+

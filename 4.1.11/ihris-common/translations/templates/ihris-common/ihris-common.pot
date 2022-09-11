@@ -1,0 +1,353 @@
+# Translation Template of ihris-common module (ihris-common Version 4.1.9.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-common@ihris-common 4.1.9.0\n"
+"POT-Creation-Date: 2014-04-30 14:20-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml#L46 4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml line 46]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L2 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 2]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L6 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 6]
+#, no-c-format
+msgid "Configure System"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L2 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 2]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L5 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L2 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 2]
+#, no-c-format
+msgid "Administer Database"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L9 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 9]
+#, no-c-format
+msgid "Administer positions and create and update dropdown menus."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L4 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L16 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 16]
+#, no-c-format
+msgid "Configure Modules"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L19 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 19]
+#, no-c-format
+msgid "Enable and disable the various modules for the system."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L28 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 28]
+#, no-c-format
+msgid "Manage Reports"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L31 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 31]
+#, no-c-format
+msgid "Manage the standard reports available to users and create new custom reports."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L7 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 7]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L33 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 33]
+#, no-c-format
+msgid "Form Relationships"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L34 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 34]
+#, no-c-format
+msgid "Define how forms are related for use in reports."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L8 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 8]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L36 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 36]
+#, no-c-format
+msgid "Reports"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L9 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 9]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L40 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 40]
+#, no-c-format
+msgid "Report Views"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L12 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 12]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L54 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 54]
+#, no-c-format
+msgid "Browse Magic Data"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L57 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 57]
+#, no-c-format
+msgid "Browse the configuration data used by the sytem."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L64 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 64]
+#, no-c-format
+msgid "Tasks and Roles"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L67 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 67]
+#, no-c-format
+msgid "Administer Tasks and Roles for the System"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L18 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 18]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L76 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 76]
+#, no-c-format
+msgid "Manage Locales"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L79 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 79]
+#, no-c-format
+msgid "Manage the Locales made available by the system"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L21 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 21]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L88 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 88]
+#, no-c-format
+msgid "Background Processes"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L91 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 91]
+#, no-c-format
+msgid "Examine background processes you have started"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L24 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 24]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L99 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 99]
+#, no-c-format
+msgid "Browse Forms"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L102 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 102]
+#, no-c-format
+msgid "Browse the forms used by the system."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L30 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 30]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L121 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 121]
+#, no-c-format
+msgid "Cached Forms"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L124 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 124]
+#, no-c-format
+msgid "Control the creation of cached forms"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L32 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 32]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L131 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 131]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L5 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 5]
+#, no-c-format
+msgid "Administer Users"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history.html#L2 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history.html line 2]
+#, no-c-format
+msgid "Field Change History"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/history.html#L10 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/history.html line 10]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history.html#L4 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history.html line 4]
+#, no-c-format
+msgid "return"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L15 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 15]
+#, no-c-format
+msgid "Tasks Roles"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L5 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 5]
+#, no-c-format
+msgid "Demographic Lists"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L7 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 7]
+#, no-c-format
+msgid "Identification Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L8 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 8]
+#, no-c-format
+msgid "Marital Status"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L12 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 12]
+#, no-c-format
+msgid "Geographic Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L14 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 14]
+#, no-c-format
+msgid "Country"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L15 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 15]
+#, no-c-format
+msgid "Region"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L16 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 16]
+#, no-c-format
+msgid "District"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L17 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 17]
+#, no-c-format
+msgid "County"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L19 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 19]
+#, no-c-format
+msgid "Currency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L23 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 23]
+#, no-c-format
+msgid "Additional Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L26 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 26]
+#, no-c-format
+msgid "Competency Type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L27 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 27]
+#, no-c-format
+msgid "Competency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L30 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 30]
+#, no-c-format
+msgid "Continuing Education Course"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L33 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 33]
+#, no-c-format
+msgid "Training Institution"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L34 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 34]
+#, no-c-format
+msgid "Training Funder"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history_fullname.html#L4 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history_fullname.html line 4]
+#, no-c-format
+msgid "Full Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history_fullname.html#L5 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/field_history_fullname.html line 5]
+#, no-c-format
+msgid "Date Changed"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/intro.html#L2 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/intro.html line 2]
+#, no-c-format
+msgid "Welcome"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L8 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 8]
+#, no-c-format
+msgid "Custom Reports"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html#L10 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/shell.html line 10]
+#, no-c-format
+msgid "Change Password"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml#L11 4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml line 11]
+#, no-c-format
+msgid "Can access the general configure system menu"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml#L18 4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml line 18]
+#, no-c-format
+msgid "Home"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml#L25 4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml line 25]
+#, no-c-format
+msgid "View History"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml#L32 4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml line 32]
+#, no-c-format
+msgid "View Field History"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml#L39 4.1-dev/4.0-dev/annotate/head%3A/configs/en_US/iHRIS-Common-Configuration.xml line 39]
+#, no-c-format
+msgid "Access Denied"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L38 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 38]
+#, no-c-format
+msgid "Define reports based on previously defined relationships. You can choose which fields are available to each report and what fields can be used to limit the report."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L43 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 43]
+#, no-c-format
+msgid "Define report views based on previously defined reports. You can choose which fields to display and also define a default view that display a chart or limited results when a user access the report view."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L135 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 135]
+#, no-c-format
+msgid "Create, update and disable user accounts to enforce secure access to the system. Access is limited to the System Administrator."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_only.html#L2 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/button_confirm_only.html line 2]
+#, no-c-format
+msgid "Confirm"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L39 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 39]
+#, no-c-format
+msgid "Mass Delete"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html#L41 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/lists.html line 41]
+#, no-c-format
+msgid "By Person (Search Page)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L34 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 34]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L140 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 140]
+#, no-c-format
+msgid "User Statistics"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L142 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 142]
+#, no-c-format
+msgid "View data entry statistics for users."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html#L27 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/menu_configure.html line 27]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L109 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 109]
+#, no-c-format
+msgid "Manage DHIS2 MetaData"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L111 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 111]
+#, no-c-format
+msgid "Upload"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L111 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 111]
+#, no-c-format
+msgid "DHIS2"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html#L112 4.1-dev/4.0-dev/annotate/head%3A/templates/en_US/configure.html line 112]
+#, no-c-format
+msgid "MetaData such as organizational units and data elements."
+msgstr ""
+

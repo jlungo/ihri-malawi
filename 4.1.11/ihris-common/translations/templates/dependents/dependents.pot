@@ -1,0 +1,66 @@
+# Translation Template of ihris-common module (dependents Version 4.1.6.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-common@dependents 4.1.6.0\n"
+"POT-Creation-Date: 2014-04-30 14:20-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L13 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml line 13]
+#, no-c-format
+msgid "Gender"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L18 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml line 18]
+#, no-c-format
+msgid "Date of Birth"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L23 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml line 23]
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L30 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml line 30]
+#, no-c-format
+msgid "Dependent"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L35 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml line 35]
+#, no-c-format
+msgid "Can view a person's dependents"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L38 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml line 38]
+#, no-c-format
+msgid "Can edit a person's dependents"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L44 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml line 44]
+#, no-c-format
+msgid "Add/Update Dependent Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html#L3 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html line 3]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html#L4 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html line 4]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html line 8]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/form_dependent.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/form_dependent.html line 2]
+#, no-c-format
+msgid "Dependent Information"
+msgstr ""
+

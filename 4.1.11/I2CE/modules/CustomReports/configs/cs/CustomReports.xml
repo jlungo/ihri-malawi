@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="CustomReports">
+  <metadata>
+    <version>4.1.11.0.1</version>
+  </metadata>
+  <configurationGroup name="CustomReports" locale="cs">
+    <version>4.1.9.0.1</version>
+    <configurationGroup name="tasks" path="/modules/CustomReports/text/" locale="cs">
+      <configuration name="Increasing">
+        <value>Vzestupně</value>
+      </configuration>
+      <configuration name="Decreasing">
+        <value>Sestupně</value>
+      </configuration>
+      <configurationGroup name="user_messages">
+        <configuration name="no_report_view">
+          <value>Musíte určit hlášení k zobrazení</value>
+        </configuration>
+        <configuration name="invalid_report_view">
+          <value>Zadali jste neplatné hlášení k zobrazení</value>
+        </configuration>
+        <configuration name="no_permission_report_view">
+          <value>Nemáte oprávnění k zobrazení tohoto hlášení</value>
+        </configuration>
+        <configuration name="no_display_report_view">
+          <value>Nelze nalézt žádná platná zobrazení pro toto zobrazení hlášení</value>
+        </configuration>
+        <configuration name="reportView_merged_field_display">
+          <value>%s z %s</value>
+        </configuration>
+        <configuration name="merge_display">
+          <value>%s připojeno k %s</value>
+        </configuration>
+        <configurationGroup name="merge_descriptions">
+          <configuration name="parent">
+            <value>%s připojeno k %s jako nadřazený formulář</value>
+          </configuration>
+          <configuration name="child">
+            <value>%s připojeno k %s jako podřazený formulář</value>
+          </configuration>
+          <configuration name="default">
+            <value>%s připojeno k %s</value>
+          </configuration>
+        </configurationGroup>
+        <configuration name="report_no_name">
+          <value>Pro toto hlášení není určen žádný krátký název</value>
+        </configuration>
+        <configuration name="report_bad_name">
+          <value>Neplatný krátký název určený pro toto hlášení</value>
+        </configuration>
+        <configuration name="report_bad_used">
+          <value>Krátký název, který je určený pro toto hlášení se již používá</value>
+        </configuration>
+        <configuration name="report_no_relationship">
+          <value>Pro toto hlášení není určen žádný vztah hlášení</value>
+        </configuration>
+        <configuration name="report_bad_relationship">
+          <value>Určený vztah hlášení je neplatný</value>
+        </configuration>
+        <configuration name="cannot_delete">
+          <value>Nemáte přístup ke smazání dat hlášení</value>
+        </configuration>
+        <configuration name="bad_delete_path">
+          <value>Neplatná cesta pro smazání</value>
+        </configuration>
+        <configuration name="not_cached">
+          <value>Nelze nastavit uložený formulář</value>
+        </configuration>
+        <configuration name="not_saved">
+          <value>Nelze uložit možnosti zobrazení</value>
+        </configuration>
+        <configuration name="saved">
+          <value>Možnosti zobrazení uloženy</value>
+        </configuration>
+        <configuration name="not_generated">
+          <value>Nelze vytvořit hlášení</value>
+        </configuration>
+        <configuration name="not_updated">
+          <value>Nelze aktualizovat hodnoty</value>
+        </configuration>
+        <configuration name="updated">
+          <value>Aktualizované hodnoty</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="report_status">
+        <configuration name="does_not_exist">
+          <value>Neexistuje</value>
+        </configuration>
+        <configuration name="not_generated">
+          <value>Nevytvořeno</value>
+        </configuration>
+        <configuration name="stale">
+          <value>Zastaralé</value>
+        </configuration>
+        <configuration name="failed">
+          <value>Selhalo</value>
+        </configuration>
+        <configuration name="in_progress">
+          <value>Probíhá</value>
+        </configuration>
+        <configuration name="generated">
+          <value>Vytvořeno</value>
+        </configuration>
+      </configurationGroup>
+      <configurationGroup name="headers">
+        <configuration name="sum">
+          <value>Součet</value>
+        </configuration>
+        <configuration name="maximum"></configuration>
+        <configuration name="minimum"></configuration>
+        <configuration name="average">
+          <value>Průměr</value>
+        </configuration>
+        <configuration name="count">
+          <value>Celkem</value>
+        </configuration>
+        <configuration name="count_distinct">
+          <value>Celkem odlišných</value>
+        </configuration>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="cs">
+      <configuration name="custom_reports_can_access" locale="cs"></configuration>
+      <configuration name="custom_reports_delete" locale="cs">
+        <value>Umožňuje smazání dat o vlastních hlášeních</value>
+      </configuration>
+      <configuration name="custom_reports_can_access_relationships" locale="cs">
+        <value>Umožní přístup ke vztahům vlastního hlášení</value>
+      </configuration>
+      <configuration name="custom_reports_can_edit_relationships" locale="cs">
+        <value>Umožní úpravu vztahů vlastního hlášení</value>
+      </configuration>
+      <configuration name="custom_reports_can_access_reports" locale="cs">
+        <value>Umožní přístup k vlastním hlášením</value>
+      </configuration>
+      <configuration name="custom_reports_can_edit_reports" locale="cs"></configuration>
+      <configuration name="custom_reports_can_view_reportViews" locale="cs">
+        <value>Umožní zobrazit Zobrazení Vlastního hlášení</value>
+      </configuration>
+      <configuration name="custom_reports_can_edit_reportViews" locale="cs">
+        <value>Umožní úpravu zobrazení vlastního hlášení</value>
+      </configuration>
+      <configuration name="custom_reports_admin" locale="cs">
+        <value>Správce vlastních hlášení. Může provádět úkoly spojené s vlastními hlášeními</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="command_line">
+      <configurationGroup name="show">
+        <configurationGroup name="args">
+          <configuration name="title" locale="cs">
+            <value>Zobrazit hlášení</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="page_styles" path="/I2CE/template/page_styles">
+        <configurationGroup name="customreport_config">
+          <configurationGroup name="args">
+            <configuration name="title" locale="cs">
+              <value>Vytvořit hlášení</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="show">
+        <configurationGroup name="args">
+          <configuration name="title" locale="cs">
+            <value>Zobrazit hlášení</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="saveOptions">
+        <configurationGroup name="args">
+          <configuration name="title" locale="cs">
+            <value>Zobrazit hlášení</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="nodisplay">
+        <configurationGroup name="args">
+          <configuration name="title" locale="cs"></configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

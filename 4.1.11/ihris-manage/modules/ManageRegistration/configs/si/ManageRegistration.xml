@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="ManageRegistration" path="/I2CE">
+  <metadata>
+    <version>4.1.0.1</version>
+  </metadata>
+  <configurationGroup name="ManageRegistration" path="/I2CE" locale="si">
+    <version>4.1.0.1</version>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="si">
+      <configuration name="person_can_view_child_form_registration" locale="si">
+        <value>පුද්ගලයෙකුගේ ලියාපදිංචි කිරීමේ උප ආකෘතිපත්‍රය නැරඹීමට හැක</value>
+      </configuration>
+      <configuration name="person_can_edit_child_form_registration" locale="si">
+        <value>පුද්ගලයෙකුගේ ලියාපදිංචි කිරීමේ උප ආකෘතිපත්‍ර සංස්කරණය කළ හැක</value>
+      </configuration>
+      <configuration name="can_edit_database_list_council" locale="si">
+        <value>මණ්ඩල දත්ත සමුදාය ලැයිස්තුව සංස්කරණය කළ හැක</value>
+      </configuration>
+      <configuration name="can_view_database_list_council" locale="si">
+        <value>මණ්ඩල දත්ත සමුදාය ලැයිස්තුව නැරඹීමට හැක</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="page">
+      <configurationGroup name="registration">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="si">
+            <value>ලියාපදිංචි කිරීම එකතු/යාවත්කාල කරන්න</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="forms" path="/modules/forms">
+      <configurationGroup name="forms">
+        <configurationGroup name="council">
+          <configuration name="display" values="single" locale="si">
+            <value>මණ්ඩලය</value>
+          </configuration>
+        </configurationGroup>
+        <configurationGroup name="registration">
+          <configuration name="display" values="single" locale="si">
+            <value>ලියාපදිංචිය</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="formClasses">
+        <configurationGroup name="iHRIS_Registration">
+          <configurationGroup name="fields">
+            <configurationGroup name="council">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:ලියාපදිංචි කිරීමේ මණ්ඩලය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="registration_number">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:ලියාපදිංචි අංකය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="license_number">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:බලපත්‍ර අංකය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="registration_date">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:ලියාපදිංචිවූ දිනය</value>
+              </configuration>
+            </configurationGroup>
+            <configurationGroup name="license_expiration">
+              <configuration name="headers" type="delimited" locale="si">
+                <value>default:බලපත්‍ර කාලය ඉකුත් වන දිනය</value>
+              </configuration>
+            </configurationGroup>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

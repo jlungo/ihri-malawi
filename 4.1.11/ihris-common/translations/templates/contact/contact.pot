@@ -1,0 +1,66 @@
+# Translation Template of ihris-common module (Contact Version 4.1.7.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-common@Contact 4.1.7.0\n"
+"POT-Creation-Date: 2014-04-30 14:20-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/templates/en_US/form_contact.html#L3 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/templates/en_US/form_contact.html line 3]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/templates/en_US/lists_form_contact.html#L3 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/templates/en_US/lists_form_contact.html line 3]
+#, no-c-format
+msgid "Contact Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L15 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 15]
+#, no-c-format
+msgid "Mailing Address"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L20 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 20]
+#, no-c-format
+msgid "Telephone Number"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L30 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 30]
+#, no-c-format
+msgid "Alternate Telephone Number"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L35 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 35]
+#, no-c-format
+msgid "Fax Number"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L40 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 40]
+#, no-c-format
+msgid "Email Address"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L45 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 45]
+#, no-c-format
+msgid "Notes"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L46 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 46]
+#, no-c-format
+msgid "Notes (Primary Contact Person)"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L55 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 55]
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml#L25 4.1-dev/4.0-dev/annotate/head%3A/modules/Contact/configs/en_US/Contact.xml line 25]
+#, no-c-format
+msgid "Mobile Phone Number"
+msgstr ""
+

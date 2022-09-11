@@ -1,0 +1,81 @@
+# Translation of iHRIS Common - Depender to لوری (لوری)
+# Exported from translatewiki.net
+#
+# Author: Mogoeilor
+# --
+# Copyright (c) 2011-2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+# Copyright (c) 2011-2014 Rosetta Contributors and Canonical Ltd
+# Copyright (c) 2011-2014 translatewiki.net contributors
+# This file is distributed under the same license as the iHRIS package.
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2013-01-30 15:09-0700\n"
+"PO-Revision-Date: 2014-03-12 12:47:29+0000\n"
+"Language: lrc\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2013-10-07 17:18:16+0000\n"
+"X-Generator: MediaWiki 1.23alpha (7c4da7f); Translate 2014-02-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L13'>modules/Person/modules/Dependents/configs/en_US/dependent.xml</a>
+#, no-c-format
+msgid "Gender"
+msgstr "جنس"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L18'>modules/Person/modules/Dependents/configs/en_US/dependent.xml</a>
+#, no-c-format
+msgid "Date of Birth"
+msgstr "تاریخ زمار بین"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L23'>modules/Person/modules/Dependents/configs/en_US/dependent.xml</a>
+#, no-c-format
+msgid "Name"
+msgstr "نوم"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L30'>modules/Person/modules/Dependents/configs/en_US/dependent.xml</a>
+#, no-c-format
+msgid "Dependent"
+msgstr "خود بهر"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L35'>modules/Person/modules/Dependents/configs/en_US/dependent.xml</a>
+#, no-c-format
+msgid "Can view a person's dependents"
+msgstr "تونیت یه گل آئم خود بهر بوینیت"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L38'>modules/Person/modules/Dependents/configs/en_US/dependent.xml</a>
+#, no-c-format
+msgid "Can edit a person's dependents"
+msgstr "تونیت وابسته یا شخصی نه ویرایشت بکید"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/configs/en_US/dependent.xml#L44'>modules/Person/modules/Dependents/configs/en_US/dependent.xml</a>
+#, no-c-format
+msgid "Add/Update Dependent Information"
+msgstr ""
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html#L3'>modules/Person/modules/Dependents/templates/en_US/view_dependent.html</a>
+#, no-c-format
+msgid "Edit This Information"
+msgstr "ای دونسمنیا نه ویرایشت کو"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html#L4'>modules/Person/modules/Dependents/templates/en_US/view_dependent.html</a>
+#, no-c-format
+msgid "Update this Information"
+msgstr "ای دونسمنیانه روزآمد کو"
+
+#: <a
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/view_dependent.html#L8'>modules/Person/modules/Dependents/templates/en_US/view_dependent.html</a>
+#: href='http://bazaar.launchpad.net/~intrahealth+informatics/ihris-common/4.0-dev/annotate/head%3A/modules/Person/modules/Dependents/templates/en_US/form_dependent.html#L2'>modules/Person/modules/Dependents/templates/en_US/form_dependent.html</a>
+#, no-c-format
+msgid "Dependent Information"
+msgstr "دونسمنیا وابسته بهر"

@@ -1,0 +1,150 @@
+# Translation Template of I2CE module (formBrowser Version 4.1.7.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: I2CE@formBrowser 4.1.7.0\n"
+"POT-Creation-Date: 2014-04-30 14:15-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_menu_form.html#L4 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_menu_form.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L6 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L7 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 7]
+#, no-c-format
+msgid "The"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_menu_form.html#L5 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_menu_form.html line 5]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L7 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 7]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 8]
+#, no-c-format
+msgid "form"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L15 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 15]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L16 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 16]
+#, no-c-format
+msgid "The form '"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L18 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 18]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L19 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 19]
+#, no-c-format
+msgid "Warning: There is no class registered for this form."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L26 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 26]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L27 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 27]
+#, no-c-format
+msgid "Select a record to view"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L30 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 30]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L31 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 31]
+#, no-c-format
+msgid "None"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L40 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 40]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L40 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 40]
+#, no-c-format
+msgid "Select a child form to view"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L52 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 52]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L51 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 51]
+#, no-c-format
+msgid "View the parent form ("
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L55 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 55]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L54 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 54]
+#, no-c-format
+msgid "View Parent"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L63 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 63]
+#, no-c-format
+msgid "Edit Form"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_menu.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_menu.html line 2]
+#, no-c-format
+msgid "Available Forms"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/configs/en_US/FormBrowser.xml#L11 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/configs/en_US/FormBrowser.xml line 11]
+#, no-c-format
+msgid "Can view form browser"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/configs/en_US/FormBrowser.xml#L18 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/configs/en_US/FormBrowser.xml line 18]
+#, no-c-format
+msgid "Form Browser"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L15 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 15]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L16 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 16]
+#, no-c-format
+msgid "' is provided via the class '"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html#L59 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_edit.html line 59]
+#, no-c-format
+msgid "Save this form ("
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html#L60 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details.html line 60]
+#, no-c-format
+msgid "Edit this form ("
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 8]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L12 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 12]
+#, no-c-format
+msgid "The field"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 8]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L12 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 12]
+#, no-c-format
+msgid "is registered as type"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L9 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 9]
+#, no-c-format
+msgid "which is provided by"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L13 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 13]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L17 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 17]
+#, no-c-format
+msgid "Warning: The field '"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L13 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 13]
+#, no-c-format
+msgid "' is not associated with any class."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L17 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 17]
+#, no-c-format
+msgid "' has no registed type."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L20 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 20]
+#, no-c-format
+msgid "The field has id"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html#L23 4.1-dev/4.0-dev/annotate/head%3A/modules/Forms/modules/FormBrowser/templates/en_US/formBrowser_form_details_no_record.html line 23]
+#, no-c-format
+msgid "This field links to the form"
+msgstr ""
+

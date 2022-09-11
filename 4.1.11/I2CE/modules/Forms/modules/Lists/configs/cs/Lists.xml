@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
+<I2CEConfiguration name="Lists" path="/I2CE/">
+  <metadata>
+    <version>4.1.10.0.1</version>
+  </metadata>
+  <configurationGroup name="Lists" path="/I2CE/" locale="cs">
+    <version>4.1.9.0.1</version>
+    <configurationGroup name="auto_list" path="/I2CE/page/auto_list">
+      <configuration name="title" locale="cs"></configuration>
+    </configurationGroup>
+    <configurationGroup name="auto_list_edit" path="/I2CE/page/auto_list_edit">
+      <configuration name="title" locale="cs">
+        <value>Přidat/aktualizovat seznam databáze</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="auto_list_remap" path="/I2CE/page/auto_list_remap">
+      <configuration name="title" locale="cs"></configuration>
+    </configurationGroup>
+    <configurationGroup name="Lists" path="/modules/Lists">
+      <configuration name="messages" type="delimited" values="many" locale="cs">
+        <value>other_lists:Další seznamy</value>
+        <value>edit_title:Přidat/aktualizovat %s</value>
+        <value>edit_text:Aktualizovat tuto informaci</value>
+        <value>add_text:Přidat nový %s</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="invalid_messages" path="/modules/forms/invalid_field_messages" locale="cs">
+      <configuration name="unique_fields">
+        <value>Toto musí být jedinečné a další záznam má tuto hodnotu pro zadané hodnoty polí:</value>
+      </configuration>
+      <configuration name="unique_field">
+        <value>Toto musí být jedinečné a další záznam má tuto hodnotu pro zadané hodnoty pole:</value>
+      </configuration>
+      <configuration name="unique">
+        <value>Toto musí být jedinečné a další záznam má tuto hodnotu.</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="template_text" path="/modules/forms/template_text">
+      <configuration name="blank" values="single" locale="cs">
+        <value>Vyberte jeden</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="formClasses" path="/modules/forms/formClasses">
+      <configurationGroup name="I2CE_List">
+        <configurationGroup name="fields">
+          <configurationGroup name="remap">
+            <configuration name="headers" type="delimited" locale="cs"></configuration>
+          </configurationGroup>
+          <configurationGroup name="i2ce_hidden">
+            <configuration name="headers" type="delimited" locale="cs">
+              <value>default:Skrýt</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="I2CE_SimpleList">
+        <configurationGroup name="fields">
+          <configurationGroup name="name">
+            <configuration name="headers" type="delimited" locale="cs">
+              <value>default:Název</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+      <configurationGroup name="I2CE_SimpleCodedList">
+        <configurationGroup name="fields">
+          <configurationGroup name="code">
+            <configuration name="headers" type="delimited" locale="cs">
+              <value>default:Kód</value>
+            </configuration>
+          </configurationGroup>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+    <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="cs">
+      <configuration name="can_hide_list_members">
+        <value>Může skrýt seznamy členů</value>
+      </configuration>
+      <configuration name="can_edit_database_lists">
+        <value>Může upravit některé ze seznamů uložených v databázi</value>
+      </configuration>
+      <configuration name="can_edit_all_database_lists">
+        <value>Může upravit všechny seznamy uložené v databázi</value>
+      </configuration>
+      <configuration name="can_view_database_lists">
+        <value>Může zobrazit některé ze seznamů uložených v databázi</value>
+      </configuration>
+      <configuration name="can_view_all_database_lists">
+        <value>Může zobrazit všechny seznamy uložené v databázi</value>
+      </configuration>
+    </configurationGroup>
+    <configurationGroup name="pages" path="/I2CE/page">
+      <configurationGroup name="view_list">
+        <configurationGroup name="args">
+          <configuration name="title" values="single" locale="cs">
+            <value>Zobrazit Seznam</value>
+          </configuration>
+        </configurationGroup>
+      </configurationGroup>
+    </configurationGroup>
+  </configurationGroup>
+</I2CEConfiguration>

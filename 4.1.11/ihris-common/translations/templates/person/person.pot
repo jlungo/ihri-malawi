@@ -1,0 +1,224 @@
+# Translation Template of ihris-common module (Person Version 4.1.9.0)
+# Copyright (C) 2014 <hris@capacityproject.org> Capacity Project partnership via IntraHealth International, Inc.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ihris-common@Person 4.1.9.0\n"
+"POT-Creation-Date: 2014-04-30 14:20-0600\n"
+"Last-Translator: Intrahealth <hris@capacityproject.org>\n"
+"Language-Team: Intrahealth <hris@capacityproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L104 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 104]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 2]
+#, no-c-format
+msgid "View Person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html line 2]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L5 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 5]
+#, no-c-format
+msgid "Individual Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L6 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L42 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 42]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L56 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 56]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L81 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 81]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L93 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 93]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L105 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 105]
+#, no-c-format
+msgid "Hide"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 8]
+#, no-c-format
+msgid "Add Identification"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L14 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 14]
+#, no-c-format
+msgid "Edit This Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L16 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 16]
+#, no-c-format
+msgid "Update this Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L25 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 25]
+#, no-c-format
+msgid "Name / Nationality"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html#L4 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html line 4]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L41 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 41]
+#, no-c-format
+msgid "Contact Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html#L6 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html line 6]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L55 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 55]
+#, no-c-format
+msgid "Qualifications"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L58 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 58]
+#, no-c-format
+msgid "Add Language Proficiency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L61 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 61]
+#, no-c-format
+msgid "Add Competency"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L62 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 62]
+#, no-c-format
+msgid "Competency Evaluations"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html#L8 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html line 8]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L80 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 80]
+#, no-c-format
+msgid "Employment History"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L82 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 82]
+#, no-c-format
+msgid "Add Employment"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html#L11 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L92 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 92]
+#, no-c-format
+msgid "Education History"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L94 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 94]
+#, no-c-format
+msgid "Add Education"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html#L13 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_person.html line 13]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L104 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 104]
+#, no-c-format
+msgid "Notes"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L106 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 106]
+#, no-c-format
+msgid "Add Note"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_link.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/menu_view_link.html line 2]
+#, no-c-format
+msgid "View Record"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L97 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 97]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html#L2 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html line 2]
+#, no-c-format
+msgid "Add/Update Person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html#L10 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/form_person.html line 10]
+#, no-c-format
+msgid "Personal Information"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L36 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 36]
+#, no-c-format
+msgid "Can view the person page"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L39 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 39]
+#, no-c-format
+msgid "Can edit the person page"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L42 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 42]
+#, no-c-format
+msgid "Can view all of the child forms of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L45 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 45]
+#, no-c-format
+msgid "Can edit all of the child forms of a person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L52 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 52]
+#, no-c-format
+msgid "Person"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L56 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 56]
+#, no-c-format
+msgid "This form holds basic information about a person such as their names and residence"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L66 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 66]
+#, no-c-format
+msgid "Surname"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L71 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 71]
+#, no-c-format
+msgid "First Name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L76 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 76]
+#, no-c-format
+msgid "Other Names"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L81 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 81]
+#, no-c-format
+msgid "Nationality"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L86 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 86]
+#, no-c-format
+msgid "Residence"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L31 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 31]
+#, no-c-format
+msgid "Duplicate records match this record's name"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L11 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 11]
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L14 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 14]
+#, no-c-format
+msgid "This record has been saved."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html#L18 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/templates/en_US/view.html line 18]
+#, no-c-format
+msgid "View Name History"
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L17 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 17]
+#, no-c-format
+msgid "The requested form has been deleted."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L20 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 20]
+#, no-c-format
+msgid "An error occurred deleting this form."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L23 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 23]
+#, no-c-format
+msgid "You do not have permission to delete this form."
+msgstr ""
+
+#: [http://bazaar.launchpad.net/~intrahealth+informatics/4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml#L26 4.1-dev/4.0-dev/annotate/head%3A/modules/Person/configs/en_US/Person.xml line 26]
+#, no-c-format
+msgid "This form can not be deleted."
+msgstr ""
+
