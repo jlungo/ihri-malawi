@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE I2CEConfiguration SYSTEM "I2CE_Configuration.dtd">
 <I2CEConfiguration name="academic-Qualifications">
+  <!--Testing-->
   <metadata>
     <displayName>Academic Qualifications</displayName>
     <description>Common name titles</description>
