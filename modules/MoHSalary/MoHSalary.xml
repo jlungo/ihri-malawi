@@ -7,12 +7,12 @@
 		<description>Customizes the default person position salary form, makes salary not required</description>
 		<creator>iHRIS Malawi</creator>
 		<email>ihrismalawi@gmail.com</email>
-		<version>4.0.0.9</version>
+		<version>4.3.0</version>
 		<path name="configs">
 			<value>./configs</value>
 		</path>
 		<requirement name="ihris-manage-Salary">
-			<atLeast version="4.1" />
+			<atLeast version="4.3" />
 		</requirement>
 		<priority>350</priority>
 		<path name="classes">
@@ -53,7 +53,7 @@
 			<configurationGroup name="formClasses">
 				<configurationGroup name="MoH_Salary">
 					<displayName>Configuration for the class 'MoH_Salary'</displayName>
-					<version>4.1.0.1</version>
+					<version>4.3.0</version>
 					<configuration name="extends">
 						<displayName>The class this form extends</displayName>
 						<value>iHRIS_Salary</value>

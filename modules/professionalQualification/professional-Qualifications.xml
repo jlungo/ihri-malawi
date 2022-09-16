@@ -5,13 +5,13 @@
     <displayName>Professional Qualifications</displayName>
     <description>Common name titles</description>
     <category>LOCALISED Modules</category>
-    <version>4.1.3</version>
+    <version>4.3.0</version>
     <creator>iHRIS Tanzania</creator>
     <email>support@zalongwa.com</email>
   </metadata>
   <configurationGroup name="professional-Qualifications" path="/modules/forms/forms/profession">
     <displayName>Export</displayName>
-    <version>4.1.0</version>
+    <version>4.3.0</version>
     <configuration name="class">
       <displayName>Class</displayName>
       <value>I2CE_SimpleList</value>

@@ -9,28 +9,28 @@
     <creator>Intrahealth Informatics</creator>
     <email>hris@capacityproject.org</email>
     <link>https://launchpad.net/i2ce</link>
-    <version>4.1.2</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ihris-common">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <!--
     <requirement name="pmoralg-LastPromotion">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     -->
     <requirement name="Person">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     
     <requirement name="customised-ConfirmationToService">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
    
     <path name="classes">
@@ -46,30 +46,30 @@
     <displayName>Duty Post</displayName>
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
       <configuration name="person_can_view_child_form_dutypost" locale="en_US">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>Can view duty post child form of a person</value>
       </configuration>
       <configuration name="person_can_edit_child_form_dutypost" locale="en_US">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>Can edit duty post child forms of a person</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
       <configuration name="person_can_view_child_form_dutypost" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_view</value>
       </configuration>
       <configuration name="person_can_edit_child_form_dutypost" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_view_child_form_dutypost</value>
         <value>person_can_view</value>
       </configuration>
       <configuration name="person_can_view_child_forms" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_view_child_form_dutypost</value>
       </configuration>
       <configuration name="person_can_edit_child_forms" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_edit_child_form_dutypost</value>
       </configuration>
     </configurationGroup>
@@ -99,7 +99,7 @@
           <configurationGroup name="meta">
             <configuration name="child_forms" values="many">
               <displayName>Child Forms</displayName>
-              <version>4.1.0</version>
+              <version>4.3.0</version>
               <value>dutypost</value>
             </configuration>
           </configurationGroup>
@@ -124,7 +124,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Duty Post</value>
               </configuration>
               <configuration name="required" type="boolean">
@@ -140,7 +140,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Code</value>
               </configuration>
               <!--<configuration name="default_eval">
@@ -160,7 +160,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Letter of Appointment to Duty Post</value>
               </configuration>
               <configuration name="required" type="boolean">

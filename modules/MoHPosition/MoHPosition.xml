@@ -8,10 +8,10 @@
 			renames position to job</description>
 		<creator>iHRIS Malawi</creator>
 		<email>ihrismalawi@gmail.com</email>
-		<version>4.0.0.39</version>
+		<version>4.3.0</version>
 		<requirement name="ihris-manage-PersonPosition">
-			<atLeast version="4.0" />
-			<lessThan version="4.2" />
+			<atLeast version="4.3" />
+			<lessThan version="4.4" />
 		</requirement>
 		<path name="classes">
 			<value>./lib</value>
@@ -35,7 +35,7 @@
 		<configurationGroup name="forms" path="/modules/forms">
 			<configurationGroup name="forms">
 				<configurationGroup name="position">
-					<version>4.1.0.3</version>
+					<version>4.3.0</version>
 					<displayName>Job</displayName>
 					<description>The Job Form</description>
 					<configuration name="class" values="single">
@@ -54,7 +54,7 @@
 			<configurationGroup name="formClasses">
 				<configurationGroup name="MoH_Position">
 					<displayName>Configuration for the class 'MoH_Position'</displayName>
-					<version>4.1.0.1</version>
+					<version>4.3.0</version>
 					<configuration name="extends">
 						<displayName>The class this form extends</displayName>
 						<value>iHRIS_Position</value>
@@ -65,7 +65,7 @@
 						</configuration>
 						<configuration name="display_args" type="delimited"
 							values="many">
-							<version>4.1.1.3</version>
+							<version>4.3.0</version>
 							<value>0:code</value>
 							<value>1:job</value>
 							<value>2:facility</value>
@@ -175,13 +175,13 @@
 								<configurationGroup name="display">
 									<configurationGroup name="default">
 										<configuration name="fields">
-											<version>4.1.1.6</version>
+											<version>4.3.0</version>
 											<value>position</value>
 										</configuration>
 									</configurationGroup>
 								</configurationGroup>
 								<configuration name="add_limit_module" type="delimited">
-									<version>4.1.1.9</version>
+									<version>4.3.0</version>
 									<value>ManageAccessFacility:getLimitAdd</value>
 								</configuration>
 							</configurationGroup>
@@ -202,7 +202,7 @@
 								<value>default:Cost Centre Working</value>
 							</configuration>
 							<configurationGroup name="meta">
-								<version>4.1.1.7</version>
+								<version>4.3.0</version>
 								<configuration name="form" values="many">
 									<value>facility</value>
 								</configuration>
@@ -214,7 +214,7 @@
 									</configurationGroup>
 								</configurationGroup>
 								<configuration name="add_limit_module" type="delimited">
-									<version>4.1.1.9</version>
+									<version>4.3.0</version>
 									<value>ManageAccessFacility:getLimitAdd</value>
 								</configuration>
 							</configurationGroup>

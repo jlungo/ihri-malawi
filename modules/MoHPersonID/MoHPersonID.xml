@@ -7,10 +7,10 @@
     <description>Customizes the PersonID module for MoH purposes</description>
     <creator>iHRIS Malawi</creator>
     <email>ihrismalawi@gmail.com</email>
-    <version>4.0.0.14</version>
+    <version>4.3.0</version>
     <requirement name="PersonID">
-      <atLeast version="4.0"/>
-      <lessThan version="4.2"/>
+      <atLeast version="4.3"/>
+      <lessThan version="4.4"/>
     </requirement>
     <path name="classes">
       <value>./lib</value>
@@ -25,7 +25,7 @@
     <configurationGroup name="forms" path="/modules/forms">
       <configurationGroup name="forms">
         <configurationGroup name="person_id">
-          <version>4.1.0.3</version>
+          <version>4.3.0</version>
           <displayName>Person Identification</displayName>
         <description>The Person Identification Form</description>
           <configuration name="class" values="single">
@@ -39,7 +39,7 @@
       <configurationGroup name="formClasses">
         <configurationGroup name="MoH_PersonID">
           <displayName>Configuration for the class 'MoH_PersonID'</displayName>
-          <version>4.1.0.1</version>
+          <version>4.3.0</version>
           <configuration name="extends">
             <displayName>The class this form extends</displayName>
             <value>iHRIS_PersonID</value>

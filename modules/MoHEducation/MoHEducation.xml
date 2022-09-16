@@ -8,7 +8,7 @@
 		<description>Combined Education, Qualification and Training details</description>
 		<creator>iHRIS Malawi</creator>
 		<email>ihrismalawi@gmail.com</email>
-		<version>4.0.0.9</version>
+		<version>4.3.0</version>
 		<path name='classes'>
 			<value>./lib</value>
 		</path>

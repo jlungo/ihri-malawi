@@ -7,7 +7,7 @@
 		<description>Categorization of position discipline</description>
 		<creator>iHRIS Malawi</creator>
     	<email>ihrismalawi@gmail.com</email>
-		<version>4.0.0.4</version>
+		<version>4.3.0</version>
 		<priority>300</priority>
 	</metadata>
 	<configurationGroup name='Programme'

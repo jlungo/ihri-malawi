@@ -7,10 +7,10 @@
     <description>Customizes the geography heirarchy for MoH purposes</description>
     <creator>iHRIS Malawi</creator>
     <email>ihrismalawi@gmail.com</email>
-    <version>4.0.0.14</version>
+    <version>4.3.0</version>
     <requirement name="Geography">
-      <atLeast version="4.0"/>
-      <lessThan version="4.2"/>
+      <atLeast version="4.3"/>
+      <lessThan version="4.4"/>
     </requirement>
     <path name="classes">
       <value>./lib</value>
@@ -49,7 +49,7 @@
       <configurationGroup name="formClasses">
         <configurationGroup name="MoH_TraditionalAuthority">
           <displayName>Configuration for the class 'MoH_TraditionalAuthority'</displayName>
-          <version>4.1.0.1</version>
+          <version>4.3.0</version>
           <configuration name="extends">
             <displayName>The class this form extends</displayName>
             <value>iHRIS_County</value>

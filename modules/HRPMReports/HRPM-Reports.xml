@@ -4,34 +4,34 @@
   <metadata>
     <displayName>HRPM-Reports</displayName>
     <description>Human Resources and Policy Management Reports</description>
-    <version>4.1.6.2</version>
+    <version>4.3.0</version>
   </metadata>
   <erase path="/modules/CustomReports/relationships/master_staff_rel">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reports/master_staff_report">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/staffDevReport">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/staffReturn">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/attritionReport">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/disciplinaryReport">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/staffWelfare">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/deploymentReport">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/advancesReport">
-    <lessThan version="4.1.6.1" />
+    <lessThan version="4.3.0" />
   </erase>
   <configurationGroup name="HRPM-Reports" path="/modules/CustomReports">
     <configurationGroup name="master_staff_rel" path="/modules/CustomReports/relationships/master_staff_rel">

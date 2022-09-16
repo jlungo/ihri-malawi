@@ -4,16 +4,16 @@
   <metadata>
     <displayName>Relationship: Workers</displayName>
     <description>Relationship 'Workers' and all reports and report views.</description>
-    <version>4.0.11.2015.04.29</version>
+    <version>4.3.0</version>
   </metadata>
   <erase path="/modules/CustomReports/relationships/Workers">
-    <lessThan version="4.0.11.2015.04.29" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reports/Workers">
-    <lessThan version="4.0.11.2015.04.29" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/1430238879">
-    <lessThan version="4.0.11.2015.04.29" />
+    <lessThan version="4.3.0" />
   </erase>
   <configurationGroup name="CustomReports-full-Workers" path="/modules/CustomReports">
     <configurationGroup name="Workers" path="//modules/CustomReports/relationships/Workers">

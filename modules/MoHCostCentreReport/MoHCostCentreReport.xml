@@ -4,16 +4,16 @@
   <metadata>
     <displayName>Cost Centre List</displayName>
     <description>List of Cost Centres</description>
-    <version>4.1.0.0</version>
+    <version>4.3.0</version>
   </metadata>
   <erase path="/modules/CustomReports/relationships/facility">
-    <lessThan version="4.1.0.0" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reports/facility_list">
-    <lessThan version="4.1.0.0" />
+    <lessThan version="4.3.0" />
   </erase>
   <erase path="/modules/CustomReports/reportViews/facility_list">
-    <lessThan version="4.1.0.0" />
+    <lessThan version="4.3.0" />
   </erase>
   <configurationGroup name="MoHCostCentreReport" path="/modules/CustomReports">
     <configurationGroup name="facility" path="//modules/CustomReports/relationships/facility">

@@ -5,16 +5,16 @@
     <displayName>Person's Dependents</displayName>
     <category>CUSTOMISED Modules</category>
     <description>Adds Dependent Information to a Person</description>
-    <version>4.1.6.5</version>
+    <version>4.3.0</version>
     <creator>UDSM-THRP</creator>
     <email>support@zalongwa.com</email>
     <requirement name="dependents">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="dependent-Type">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="templates">
       <value>./templates</value>

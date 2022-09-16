@@ -7,7 +7,7 @@
 		<description>Creates the unassigned people report for MoH</description>
 		<creator>iHRIS Malawi</creator>
 		<email>ihrismalawi@gmail.com</email>
-		<version>4.0.0.32</version>
+		<version>4.3.0</version>
 	</metadata>
 	<configurationGroup name="MoHUnassignedPeopleReport" path="/">
 		<status>overwrite:true</status>

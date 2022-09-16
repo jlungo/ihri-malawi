@@ -9,7 +9,7 @@
 	<description>Enables cost centre specific permissioning for MoH roles</description>
 	<creator>iHRIS Malawi</creator>
 	<email>ihrismalawi@gmail.com</email>
-	<version>4.0.0.2</version>
+	<version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -20,20 +20,20 @@
       <value>./lib</value>
     </path>
     <requirement name="form-relationship-based-permission">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="forms">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="Geography">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="ManageAccessFacility">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
   </metadata>
   
@@ -41,43 +41,43 @@
   	<configurationGroup name="tasks" path="/I2CE/tasks">
   	  <configurationGroup name="alt_satisfaction">
         <configuration name="person_can_edit" values="many">
-          <version>4.1.0.22</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
         </configuration>
         <configuration name="person_can_view_child_forms" values="many">
-          <version>4.1.0.10</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
         </configuration>
         <configuration name="person_can_edit_child_forms" values="many">
-          <version>4.1.0.16</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
         </configuration>
         <configuration name="person_can_view_child_form_salary" values="many">
-          <version>4.1.0.17</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
         </configuration>
         <configuration name="person_can_edit_child_form_salary" values="many">
-          <version>4.1.0.17</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
         </configuration>
         <configuration name="person_can_change_child_form_salary" values="many">
-          <version>4.1.0.18</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacility()</value>
         </configuration>
         <configuration name="can_edit_database_list_position" values="many">
-          <version>4.1.0.13</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
         </configuration>
         <configuration name="can_view_database_list_position" values="many">
-          <version>4.1.0.14</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
         </configuration>
         <configuration name="can_edit_database_list_facility" values="many">
-          <version>4.1.0.15</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
         </configuration>
         <configuration name="can_view_database_list_facility" values="many">
-          <version>4.1.0.15</version>
+          <version>4.3.0</version>
           <value>MoHCostCentreAccess-&gt;userAccessFacilityList()</value>
         </configuration>
       </configurationGroup>
@@ -114,7 +114,7 @@
               			<configurationGroup name="display">
                 			<configurationGroup name="default">
                   				<configuration name="fields">
-                    				<version>4.1.0.6</version>
+                    				<version>4.3.0</version>
                     				<value>facility</value>
                   				</configuration>
                 			</configurationGroup>

@@ -7,13 +7,13 @@
     <description>Makes Station information available to the system</description>
     <creator>UDSM-THRP</creator>
     <email>support@zalongwa.com</email>
-    <version>4.1.6</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="station">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="templates">
       <value>./templates</value>

@@ -9,17 +9,17 @@
     <creator>Intrahealth Informatics</creator>
     <email>support@zalongwa.com</email>
     <link>https://launchpad.net/i2ce</link>
-    <version>4.1.0</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ihris-common">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="Person">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="classes">
       <value>./lib</value>

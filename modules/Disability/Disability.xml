@@ -5,7 +5,7 @@
     <displayName>Disability</displayName>
     <category>CUSTOMISED Modules</category>
     <description>Tracks Disability Information</description>
-    <version>4.1.4</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -16,7 +16,7 @@
   </metadata>
   <configurationGroup name="customised-Disability" path="/I2CE">
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
-      <version>4.1.2</version>
+      <version>4.3.0</version>
       <configuration name="can_edit_database_list_disability" locale="en_US">
         <value>Can edit disability list</value>
       </configuration>
@@ -25,7 +25,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
-      <version>4.1.2</version>
+      <version>4.3.0</version>
       <configuration name="can_edit_database_list_disability" values="many">
         <value>can_view_database_list_disability</value>
         <value>can_edit_database_lists</value>
@@ -57,7 +57,7 @@
           <configuration name="storage" values="single">
             <displayName>Storage Details</displayName>
             <description>The storage mechanism for this form.</description>
-            <version>4.1.2</version>
+            <version>4.3.0</version>
             <value>magicdata</value>
           </configuration>
         </configurationGroup>
@@ -81,7 +81,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.2</version>
+                <version>4.3.0</version>
                 <value>default:Name (Blind, etc.)</value>
               </configuration>
               <configuration name="required" type="boolean">
@@ -97,7 +97,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.2</version>
+                <version>4.3.0</version>
                 <value>default:Code (1, 2, ...)</value>
               </configuration>
               <configuration name="unique" type="boolean">

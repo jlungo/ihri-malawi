@@ -6,12 +6,12 @@
     <description>Relationship 'establishment' and all reports and report views.</description>
     <creator>UDSM-THRP</creator>
     <email>support@zalongwa.com</email>
-    <version>4.1.1.4</version>
+    <version>4.3.0</version>
   </metadata>
   <configurationGroup name="establishment-report" path="/modules/CustomReports">
 	<configurationGroup name="establishment" path="/modules/CustomReports/relationships/establishment">
     <displayName>Export</displayName>
-    <version>4.1.1.4</version>
+    <version>4.3.0</version>
     <configuration name="description">
       <displayName>Description</displayName>
       <value>Establishment Information</value>
@@ -515,7 +515,7 @@
   </configurationGroup>
     <configurationGroup name="establishment" path="/modules/CustomReports/reports/establishment">
     <displayName>Export</displayName>
-    <version>4.1.1.4</version>
+    <version>4.3.0</version>
     <configurationGroup name="meta">
       <displayName>Meta</displayName>
       <configuration name="category">
@@ -4840,7 +4840,7 @@
   </configurationGroup>
     <configurationGroup name="establishmentReport" path="/modules/CustomReports/reportViews/establishmentReport">
     <displayName>Export</displayName>
-    <version>4.1.1.4</version>
+    <version>4.3.0</version>
     <configuration name="description">
       <displayName>Description</displayName>
       <value>A vacancy analysis report</value>

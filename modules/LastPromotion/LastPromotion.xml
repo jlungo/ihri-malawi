@@ -9,17 +9,17 @@
     <creator>iHRIS Tanzania</creator>
     <email>support@zalongwa.com</email>
     <link>https://launchpad.net/i2ce</link>
-    <version>4.1.5</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ihris-common">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <requirement name="Person">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="classes">
       <value>./lib</value>
@@ -34,30 +34,30 @@
     <displayName>Promotion Information</displayName>
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
       <configuration name="person_can_view_child_form_lastpromotion" locale="en_US">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>Can view last promotion child form of a person</value>
       </configuration>
       <configuration name="person_can_edit_child_form_lastpromotion" locale="en_US">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>Can edit last promotion child forms of a person</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
       <configuration name="person_can_view_child_form_lastpromotion" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_view</value>
       </configuration>
       <configuration name="person_can_edit_child_form_lastpromotion" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_view_child_form_lastpromotion</value>
         <value>person_can_view</value>
       </configuration>
       <configuration name="person_can_view_child_forms" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_view_child_form_lastpromotion</value>
       </configuration>
       <configuration name="person_can_edit_child_forms" values="many">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>person_can_edit_child_form_lastpromotion</value>
       </configuration>
     </configurationGroup>
@@ -88,7 +88,7 @@
           <configurationGroup name="meta">
             <configuration name="child_forms" values="many">
               <displayName>Child Forms</displayName>
-              <version>4.1.0</version>
+              <version>4.3.0</version>
               <value>lastpromotion</value>
             </configuration>
           </configurationGroup>
@@ -113,7 +113,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Promoted to: (Title)</value>
               </configuration>
               <configuration name="required" type="boolean">
@@ -140,7 +140,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Title Code</value>
               </configuration>
             </configurationGroup>
@@ -154,7 +154,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Personal-to-Holder Grade</value>
               </configuration>
             </configurationGroup>
@@ -168,7 +168,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Salary per Annum</value>
               </configuration>
             </configurationGroup>
@@ -181,7 +181,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Letter of Promotion</value>
               </configuration>
             </configurationGroup>
@@ -209,7 +209,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Confirmed in Appointment</value>
               </configuration>
             </configurationGroup>

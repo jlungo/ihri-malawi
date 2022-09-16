@@ -6,7 +6,7 @@
     <description>Cost Centre Names</description>
     <class>iHRIS_Module_Votename</class>
     <category>LOCALISED Modules</category>
-    <version>4.1.7</version>
+    <version>4.3.0</version>
     <creator>iHRIS Tanzania</creator>
     <email>support@zalongwa.com</email>
     <path name="templates">
@@ -18,7 +18,7 @@
   </metadata>
   <configurationGroup name="votename" path="/I2CE">
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
-      <version>4.1.0</version>
+      <version>4.3.0</version>
       <configuration name="can_edit_database_list_votename" locale="en_US">
         <value>Can edit votename list</value>
       </configuration>
@@ -27,7 +27,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
-      <version>4.1.0</version>
+      <version>4.3.0</version>
       <configuration name="can_edit_database_list_votename" values="many">
         <value>can_view_database_list_votename</value>
         <value>can_edit_database_lists</value>
@@ -60,7 +60,7 @@
           <configuration name="storage" values="single">
             <displayName>Storage Details</displayName>
             <description>The storage mechanism for this form.</description>
-            <version>4.1.0</version>
+            <version>4.3.0</version>
             <value>magicdata</value>
           </configuration>
         </configurationGroup>
@@ -83,7 +83,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Cost Centre Name</value>
               </configuration>
               <configuration name="required" type="boolean">
@@ -99,7 +99,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Code</value>
               </configuration>
               <configuration name="unique" type="boolean">
@@ -115,7 +115,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Mailing Address</value>
               </configuration>
             </configurationGroup><!--mailaddress-->
@@ -127,7 +127,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Telephone Number</value>
               </configuration>
             </configurationGroup><!--telephone-->                          
@@ -139,7 +139,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Latitude</value>
               </configuration>
             </configurationGroup><!--latitude--> 
@@ -151,7 +151,7 @@
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Longitude</value>
               </configuration>
             </configurationGroup><!--longitude-->                        

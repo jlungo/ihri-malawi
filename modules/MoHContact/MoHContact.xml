@@ -8,7 +8,7 @@
 		<description>Allows employees to have any number of contacts</description>
 		<creator>iHRIS Malawi</creator>
 		<email>ihrismalawi@gmail.com</email>
-		<version>4.1.0.6</version>
+		<version>4.3.0</version>
 		<path name='classes'>
 			<value>./lib</value>
 		</path>

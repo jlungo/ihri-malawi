@@ -7,10 +7,10 @@
 	<description>Sets up the MoH Person form with extra fields</description>
 	<creator>iHRIS Malawi</creator>
 	<email>ihrismalawi@gmail.com</email>
-	<version>4.1.5.45</version>
+	<version>4.3.0</version>
 	<requirement name="ihris-manage-Person">
-		<atLeast version="4.0" />
-		<lessThan version="4.2" />
+		<atLeast version="4.3" />
+		<lessThan version="4.4" />
 	</requirement>
 	<path name="templates">
 		<value>./templates</value>
@@ -22,7 +22,7 @@
      <configurationGroup name="forms" path="/modules/forms">
       <configurationGroup name="forms">
        <configurationGroup name="person">
-	 <version>4.1.0.0</version>
+	 <version>4.3.0</version>
 	   <displayName>Person</displayName>
 	    <description>The Person Form</description>
 	     <configuration name="class" values="single">
@@ -36,7 +36,7 @@
      <configurationGroup name="formClasses">
       <configurationGroup name="MoH_Person">
 	    <displayName>Configuration for the class 'MoH_Person'</displayName>
-	    <version>4.1.0.0</version>
+	    <version>4.3.0</version>
              <configuration name="extends">
 	    <displayName>The class this form extends</displayName>
 		<value>iHRIS_ManagePerson</value>
@@ -105,16 +105,16 @@
               <displayName>The field 'academic_edu_lev'</displayName>
               <configuration name="formfield">
                 <displayName>The form field type</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>MAP</value>
               </configuration>
               <configurationGroup name="meta">
                 <configuration name="form" values="many">
-                  <version>4.1.0</version>
+                  <version>4.3.0</version>
                   <value>degree</value>
                 </configuration>
                 <configurationGroup name="display">
-                  <version>4.1.0</version>
+                  <version>4.3.0</version>
                   <configurationGroup name="default">
                     <configuration name="fields">
                       <value>degree</value>
@@ -124,7 +124,7 @@
               </configurationGroup>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>default:Highest Level of Education</value>
               </configuration>
               <configuration name="required" type="boolean">
@@ -138,16 +138,16 @@
               <displayName>The field 'prof_qualification'</displayName>
               <configuration name="formfield">
                 <displayName>The form field type</displayName>
-                <version>4.1.1</version>
+                <version>4.3.0</version>
                 <value>MAP</value>
               </configuration>
               <configurationGroup name="meta">
                 <configuration name="form" values="many">
-                  <version>4.1.1</version>
+                  <version>4.3.0</version>
                   <value>profession</value>
                 </configuration>
                 <configurationGroup name="display">
-                  <version>4.1.1</version>
+                  <version>4.3.0</version>
                   <configurationGroup name="default">
                     <configuration name="fields">
                       <value>profession</value>
@@ -157,7 +157,7 @@
               </configurationGroup>
               <configuration name="headers" type="delimited" locale="en_US">
                 <displayName>The headers for this field.</displayName>
-                <version>4.1.1</version>
+                <version>4.3.0</version>
                 <value>default:Professional Qualification</value>
               </configuration>
               <configuration name="required" type="boolean">

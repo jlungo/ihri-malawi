@@ -8,7 +8,7 @@
 		<description>Tracks Leave Information</description>
 		<creator>iHRIS Malawi</creator>
     	<email>ihrismalawi@gmail.com</email>
-		<version>4.1.0.2</version>
+		<version>4.3.0</version>
 		<path name='classes'>
 			<value>./lib</value>
 		</path>
@@ -51,7 +51,7 @@
 				<configurationGroup name="LeaveType">
 					<displayName>Leave Type</displayName>
 					<description>The Leave Type Form</description>
-					<version>4.1.0</version>
+					<version>4.3.0</version>
 					<configuration name="class" values="single">
 						<displayName>Class Name</displayName>
 						<description>The name of the class providing the form</description>

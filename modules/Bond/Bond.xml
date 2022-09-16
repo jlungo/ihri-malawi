@@ -6,10 +6,10 @@
     <className>iHRIS_Module_Bond</className>
     <category>Customised Modules</category>
     <description>A Bonding Period Tracking Module</description>
-    <version>4.1.2.1</version>
+    <version>4.3.0</version>
     <requirement name="Person">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <path name="classes">
       <value>./lib</value>
@@ -22,13 +22,13 @@
   <configurationGroup name="Bond" path="/I2CE">
     <displayName>Bonding Period</displayName>
     <configurationGroup name="invalid_formfield_message" path="/modules/forms/formfield_messages" locale="en_US">
-      <version>4.1.0.1</version>
+      <version>4.3.0</version>
       <configuration name="bond_date" path="bond/end_date/bad_date">
         <value>The end date must be after the start date.</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description">
-      <version>4.1.0</version>
+      <version>4.3.0</version>
       <configuration name="person_can_edit_child_form_bond" locale="en_US">
         <value>Can edit the bonding periods assigned to a person</value>
       </configuration>
@@ -39,12 +39,12 @@
         <value>Edit the sponsor list</value>
       </configuration>
       <configuration name="can_view_database_list_sponsor" locale="en_US">
-        <version>4.1.0</version>
+        <version>4.3.0</version>
         <value>View the sponsor list</value>
       </configuration>
     </configurationGroup>
     <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
-      <version>4.1.0</version>
+      <version>4.3.0</version>
       <configuration name="can_edit_database_list_sponsor" values="many">
         <value>can_edit_database_lists</value>
         <value>can_edit_employee_database_lists</value>
@@ -101,7 +101,7 @@
           <configuration name="storage" values="single">
             <displayName>Storage</displayName>
             <description>The form storage used by this form</description>
-            <version>4.1.0</version>
+            <version>4.3.0</version>
             <value>magicdata</value>
           </configuration>
         </configurationGroup>
@@ -132,7 +132,7 @@
             <configurationGroup name="sponsor">
               <configuration name="formfield">
                 <displayName>The form field type</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>MAP</value>
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
@@ -141,7 +141,7 @@
               </configuration>
               <configuration name="required" type="boolean">
                 <displayName>This field is required.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>true</value>
               </configuration>
             </configurationGroup>
@@ -153,7 +153,7 @@
               </configuration>
               <configuration name="default_eval">
                 <displayName>The default Value as an eval string</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>I2CE_Date::blank()</value>
               </configuration>
               <configuration name="headers" type="delimited" locale="en_US">
@@ -162,7 +162,7 @@
               </configuration>
               <configuration name="required" type="boolean">
                 <displayName>This field is required.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>true</value>
               </configuration>
             </configurationGroup>
@@ -183,7 +183,7 @@
               </configuration>
               <configuration name="required" type="boolean">
                 <displayName>This field is required.</displayName>
-                <version>4.1.0</version>
+                <version>4.3.0</version>
                 <value>true</value>
               </configuration>
  

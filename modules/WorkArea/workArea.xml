@@ -5,13 +5,13 @@
     <displayName>Work Areas</displayName>
     <description>Work Areas Data Entry Form</description>
     <category>CUSTOMISED Modules</category>
-    <version>4.1.1</version>
+    <version>4.3.0</version>
     <creator>iHRIS Tanzania</creator>
     <email>support@zalongwa.com</email>
   </metadata>
   <configurationGroup name="work-Area" path="/modules/forms/forms/workarea">
     <displayName>Work Area</displayName>
-    <version>4.1.0</version>
+    <version>4.3.0</version>
     <configuration name="class">
       <displayName>Class</displayName>
       <value>I2CE_SimpleList</value>

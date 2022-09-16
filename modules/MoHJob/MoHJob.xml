@@ -7,14 +7,14 @@
     <description>Customizes the default job form for MoH purposes, renames job to position</description>
     <creator>iHRIS Malawi</creator>
     <email>ihrismalawi@gmail.com</email>
-    <version>4.1.0.23</version>
+    <version>4.3.0</version>
     <requirement name="ihris-manage-Job">
-      <atLeast version="4.0"/>
-      <lessThan version="4.2"/>
+      <atLeast version="4.3"/>
+      <lessThan version="4.4"/>
     </requirement>
     <conflict name="customised-Job">
-      <atLeast version="4.0"/>
-      <lessThan version="4.2"/>
+      <atLeast version="4.3"/>
+      <lessThan version="4.4"/>
     </conflict>
     <path name="classes">
       <value>./lib</value>
@@ -49,7 +49,7 @@
     <configurationGroup name="forms" path="/modules/forms">
       <configurationGroup name="forms">
         <configurationGroup name="job">
-          <version>4.1.0.5</version>
+          <version>4.3.0</version>
           <displayName>Position</displayName>
           <description>The Position Form</description>
           <configuration name="class" values="single">
@@ -68,7 +68,7 @@
       <configurationGroup name="formClasses">
         <configurationGroup name="MoH_Job">
           <displayName>Configuration for the class 'MoH_Job'</displayName>
-          <version>4.1.0.1</version>
+          <version>4.3.0</version>
           <configuration name="extends">
             <displayName>The class this form extends</displayName>
             <value>iHRIS_ManageJob</value>

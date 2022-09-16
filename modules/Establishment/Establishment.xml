@@ -8,20 +8,20 @@
     <creator>Carl Leitner</creator>
     <email>cleitner@intrahealth.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.1.5.5</version>
+    <version>4.3.0</version>
     <path name="configs">
       <value>./configs</value>
     </path>
     <requirement name="ihris-common-Job">
-     <atLeast version="4.0" />
+     <atLeast version="4.3" />
     </requirement>
     <requirement name="station">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </requirement>
     <conflict name="establishment">
-      <atLeast version="4.1" />
-      <lessThan version="4.2" />
+      <atLeast version="4.3" />
+      <lessThan version="4.4" />
     </conflict>
     <path name="classes">
       <value>./lib</value>
