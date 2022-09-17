@@ -1,3 +1,6 @@
+*.idea
+.idea
+*.DS_Store
 .DS_Store
 pages/.htaccess
 pages/config.values.php
