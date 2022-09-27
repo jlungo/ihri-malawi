@@ -8,7 +8,7 @@
 		<creator>Intrahealth Informatics</creator>
 		<email>hris@capacityproject.org</email>
 		<link>https://launchpad.net/ihris-manage</link>
-		<version>4.3.0</version>
+		<version>4.3.1</version>
 		<path name="configs">
 			<value>./configs</value>
 		</path>
@@ -40,6 +40,7 @@
 		<enable name="custom_establishment"/> 
 		<enable name="customised-Import" /> 
 		<enable name="establishment-report" /> 
+                <enable name="establishment_period" />
 		<!--<enable name="CustomReports-full-stafft" />-->
 		<enable name="PersonContact" />
 		<enable name="name-Titles" />
