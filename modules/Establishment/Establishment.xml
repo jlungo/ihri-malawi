@@ -8,7 +8,7 @@
     <creator>Carl Leitner</creator>
     <email>cleitner@intrahealth.org</email>
     <link>https://launchpad.net/ihris-manage</link>
-    <version>4.3.0</version>
+    <version>4.3.0.5</version>
     <path name="configs">
       <value>./configs</value>
     </path>
@@ -19,10 +19,6 @@
       <atLeast version="4.3" />
       <lessThan version="4.4" />
     </requirement>
-    <conflict name="establishment">
-      <atLeast version="4.3" />
-      <lessThan version="4.4" />
-    </conflict>
     <path name="classes">
       <value>./lib</value>
     </path>
@@ -32,6 +28,7 @@
     <priority>350</priority>
   </metadata>
   <configurationGroup name="custom_establishment" path="/I2CE">
+    <version>4.3.0.5</version>
     <configurationGroup name="tasks" path="/I2CE/tasks/task_description" locale="en_US">
       <version>4.0.6.13</version>
       <configuration name="can_edit_database_list_establishment_type" locale="en_US">
@@ -60,7 +57,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="tasks_trickle_down" path="/I2CE/tasks/task_trickle_down/">
-      <version>4.0.6.13</version>
+      <version>4.3.0.5</version>
       <configuration name="establishment_can_access" values="many">
         <value>can_view_view_database_list_establishment_type</value>
         <value>can_view_view_database_list_establishment_period</value>
@@ -96,6 +93,7 @@
       </configuration>
     </configurationGroup>
     <configurationGroup name="forms" path="/modules/forms">
+      <version>4.3.0.5</version>
       <configurationGroup name="forms">
         <configurationGroup name="establishment">
           <displayName>Establishment</displayName>
@@ -160,6 +158,7 @@
       </configurationGroup>
       <!-- end of forms-->
       <configurationGroup name="formClasses">
+        <version>4.3.0.5</version>
         <configurationGroup name="iHRIS_EstablishmentPeriod">
           <displayName>Configuration for the class 'iHRIS_EstablishmentPeriod'</displayName>
           <version>4.0.6.13</version>
